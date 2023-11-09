@@ -199,7 +199,7 @@ li:hover img {
 }
 
 .container-info button:active {
-    /* button pressed */
+    /* Кнопка при нажатии */
     box-shadow: 0px 4px 4px 0px rgba(103, 56, 0, 0.25) inset;
 }
 
@@ -226,22 +226,30 @@ li:hover img {
 .container-2 {
     width: 100%;
     height: 762px;
-    padding-top: 215px;
-    margin: 0 135px;
+    padding-top: 20%;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
 }
 
 .container-2 h1 {
     margin-left: 456px;
+    margin: 0 auto;
+    width: max-content;
+    top: 0;
+    left: 50%;
     color: #000;
     font-family: 'Ukij';
     font-size: 47px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    top: 0;
 }
 
-.container-2 p {
+.first-p-container-2 {
+    margin-left: 135px;
+    margin-top: 72px;
+    width: 500px;
     text-align: left;
     color: #000;
     font-family: 'Lato';
@@ -253,17 +261,24 @@ li:hover img {
 
 .second-p-container-2 {
     margin-top: 24px;
+    margin-left: 135px;
+    color: #000;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
 }
 
 .slideshow {
-    position: relative;
+    position: absolute;
     width: 596px;
     height: 355px;
+    margin-top: 125px;
+    right: 135px;
     overflow: hidden;
     display: flex;
     align-items: center;
-    margin-left: 74px;
-    margin-top: 72px;
 }
 
 .photo-container {
@@ -297,4 +312,213 @@ li:hover img {
 
 .arrow-right {
     right: 0;
+}
+
+@media screen and (max-width: 1280px) {
+    .first-p-container-2 {
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .first-p-container-2 {
+        width: 260px;
+        margin-top: 430px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .first-p-container-2 {
+        width: 160px;
+        margin-top: 430px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .second-p-container-2 {
+        margin-top: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .second-p-container-2 {
+        margin-top: 24px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .container-2 {
+        padding-top: 40%; /* Уменьшение отступа для более узких экранов */
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container-2 {
+        padding-top: 50%; /* Уменьшение отступа для более узких экранов */
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .container-2 {
+        padding-top: 60%; /* Уменьшение отступа для более узких экранов */
+    }
+}
+
+.tick-info {
+    width: 1170px;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 57px;
+    margin-left: 135px;
+}
+
+.info-with-tick {
+    width: 270px;
+    height: 176px;
+    flex-shrink: 0;
+    margin-right: 30px;
+}
+
+.info-with-tick-4 {
+    width: 270px;
+    height: 176px;
+    flex-shrink: 0;
+    margin-left: 30px;
+}
+
+.info-with-tick p, .info-with-tick-4 p {
+    margin-left: 16px;
+    margin-bottom: 16px;
+    color: #000;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+.info-with-tick svg, .info-with-tick-4 svg {
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.text-tick-1 {
+    width: 175px;
+}
+
+.text-tick-2 {
+    width: 117px;
+}
+
+.text-tick-3 {
+    width: 212px;
+}
+
+.text-tick-4 {
+    width: 182px;
+}
+
+@media screen and (max-width: 1280px) {
+    .tick-info {
+        width: 1020px;
+    }
+    .info-with-tick {
+        width: 230px;
+    }
+    .info-with-tick-4 {
+        width: 230px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .tick-info {
+        width: 690px;
+    }
+    .info-with-tick {
+        width: 180px;
+    }
+    .info-with-tick-4 {
+        width: 180px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .tick-info {
+        width: 498px;
+    }
+    .info-with-tick {
+        width: 100px;
+    }
+    .info-with-tick-4 {
+        width: 100px;
+    }
+}
+
+/* Информация о времени */
+
+.container-2-1 {
+    margin-top: 20%;
+    width: 100%;
+    height: 262px;
+    background: var(--main-dark-blue, #034599);
+    position: relative;
+    box-sizing: border-box;
+}
+
+.text-container-2-1 {
+    padding-top: 40px;
+    text-align: center;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+.background {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.background-1 {
+    width: 270px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--main-light-blue, #02A1E3);
+    margin-left: 32%;
+}
+
+.background-2 {
+    width: 270px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--main-light-blue, #02A1E3);
+    margin-left: 30px;
+}
+
+.background-1 h4, .background-2 h4 {
+    margin-top: 24px;
+    margin-left: 24px;
+    color: #FFF;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}
+
+.background-1 p, .background-2 p {
+    margin-bottom: 24px;
+    margin-left: 24px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
 }
