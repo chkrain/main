@@ -1,0 +1,300 @@
+@font-face {
+    font-family: 'Lato';
+    src: url(../clinicWeb/fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Ukij';
+    src: url(../clinicWeb/fonts/UKIJInichkeb.ttf);
+}
+
+/* Хедер */
+
+.header {
+    width: 100%;
+    height: 82px;
+    position: fixed;
+    box-sizing: border-box;
+    background: #ECF4FF;
+    top: 0;
+    z-index: 100;
+}
+
+/* Логотип */
+
+.header-logo {
+    margin: 16px 0 15px 135px;
+    position: absolute;
+    width: 51.049px;
+    height: 51px;
+}
+
+/* Меню */
+
+.menu {
+    width: auto;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 56px;
+    margin: 26px 136px 26px 0;
+}
+
+.menu a {
+    color: #000;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}
+
+.menu img {
+    margin-left: 12px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    position: relative;
+}
+
+/* Выпадающее меню */
+
+.dropdown {
+    width: 296px;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    position: absolute;
+    top: 40px;
+    padding: 16px 32px;
+    border-radius: 10px;
+    background: #ECF4FF;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s ease;
+    align-items: flex-start;
+}
+
+.dropdown a {
+    color: #000;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 138.889% */
+}
+
+.left-column, .right-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-column {
+    margin-right: 32px;
+}
+
+.drop-1 {
+    width: 89px;
+    height: 25px;
+}
+
+.drop-2 {
+    width: 83px;
+    height: 25px;
+}
+
+.drop-3 {
+    width: 79px;
+    height: 25px;
+}
+
+.drop-4 {
+    width: 111px;
+    height: 50px;
+}
+
+.drop-1, .drop-2, .drop-3, .drop-4 {
+    margin: 8px 8px 16px 8px;
+}
+
+li:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+    top: 50px;
+}
+
+li:hover img {
+    transform: rotate(180deg);
+    transition: 0.3s ease;
+    flex-shrink: 0;
+}
+
+/* Первый слайд */
+
+.container-1 {
+    width: 100%;
+    height: 500px;
+    padding: 162px 136px 0 135px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.container-info {
+    width: 670px;
+    height: 500px;
+}
+
+.container-1 h1 {
+    color: #000;
+    font-family: 'Ukij';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    margin: 0;
+}
+
+.container-1 h2 {
+    margin-top: 24px;
+    text-align: left;
+    color: #000;
+    font-family: 'Lato';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 125% */
+}
+
+.container-1 p {
+    margin-top: 12px;
+    text-align: left;
+    color: #000;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+.container-info button {
+    width: 371px;
+    height: 64px;
+    margin-top: 150px;
+    display: inline-flex;
+    padding: 17px 53px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #FF8A1E;
+}
+
+.container-info button:hover {
+    /* Кнопка при наведении */
+    box-shadow: 0px 0px 20px 0px rgba(255, 138, 30, 0.70);
+}
+
+.container-info button:active {
+    /* button pressed */
+    box-shadow: 0px 4px 4px 0px rgba(103, 56, 0, 0.25) inset;
+}
+
+.main-btn p {
+    width: 265px;
+    height: 30px;
+    color: #FFF;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    white-space: nowrap;
+}
+
+.container-1 img {
+    width: 400px;
+    height: 500px;
+    margin-left: auto;
+}
+
+/* Второй слайд */
+
+.container-2 {
+    width: 100%;
+    height: 762px;
+    padding-top: 215px;
+    margin: 0 135px;
+}
+
+.container-2 h1 {
+    margin-left: 456px;
+    color: #000;
+    font-family: 'Ukij';
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    top: 0;
+}
+
+.container-2 p {
+    text-align: left;
+    color: #000;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+.second-p-container-2 {
+    margin-top: 24px;
+}
+
+.slideshow {
+    position: relative;
+    width: 596px;
+    height: 355px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin-left: 74px;
+    margin-top: 72px;
+}
+
+.photo-container {
+    display: flex;
+    width: 500px;
+    height: 355px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 48px;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+
+.arrow-left, .arrow-right {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.arrow-left {
+    left: 0;
+}
+
+.arrow-right {
+    right: 0;
+}
