@@ -50,7 +50,7 @@
     line-height: 30px; /* 150% */
 }
 
-.menu img {
+.menu svg {
     margin-left: 12px;
 }
 
@@ -127,7 +127,7 @@ li:hover .dropdown {
     top: 50px;
 }
 
-li:hover img {
+li:hover svg {
     transform: rotate(180deg);
     transition: 0.3s ease;
     flex-shrink: 0;
@@ -233,7 +233,6 @@ li:hover img {
 }
 
 .container-2 h1 {
-    margin-left: 456px;
     margin: 0 auto;
     width: max-content;
     top: 0;
@@ -522,3 +521,206 @@ li:hover img {
     font-weight: 400;
     line-height: 30px; /* 187.5% */
 }
+
+/* Услуги */
+
+.container-3 {
+    width: 100%;
+    padding-top: 120px;
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container-3 h2 {
+    width: max-content;
+    margin-top: 0;
+    left: 45%;
+    position: absolute;
+    color: #000;
+    font-family: 'Ukij';
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.container-3-background {
+    margin-top: 144px;
+    width: 100%;
+    background: var(--main-dark-blue, #034599);
+}
+
+.line-1, .line-2, .line-3 {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.line-1 {
+    margin-left: 11.6%;
+    margin-top: 40px;
+}
+
+.line-2 {
+    margin-left: 11.6%;
+    margin-top: 28px;
+}
+
+.line-3 {
+    margin-left: 31.5%;
+    margin-top: 28px;
+}
+
+.square-1, .square-2, .square-3, .square-4, .square-5,
+.square-6, .square-7, .square-8, .square-9, .square-10 {
+    width: 270px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--main-light-blue, #02A1E3);
+}
+
+.square-2, .square-3, .square-4,
+.square-6, .square-7, .square-8,
+.square-10 {
+    margin-left: 30px;
+}
+
+.square-1 p, .square-2 p, .square-3 p, .square-4 p, .square-5 p,
+.square-6 p, .square-7 p, .square-8 p, .square-9 p, .square-10 p {
+    text-align: left;
+    color: #FFF;
+    font-family: 'Lato';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 125% */
+}
+
+.square-1 p {
+    width: 122px;
+    height: 30px;
+}
+
+.square-2 p {
+    width: 146px;
+    height: 30px;
+}
+
+.square-3 p {
+    width: 89px;
+    height: 30px;
+}
+
+.square-4 p {
+    width: 139px;
+    height: 30px;
+}
+
+.square-5 p {
+    width: 47px;
+    height: 30px;
+}
+
+.square-6 p {
+    width: 160px;
+    height: 60px;
+}
+
+.square-7 p {
+    width: 143px;
+    height: 30px;
+}
+
+.square-8 p {
+    width: 174px;
+    height: 60px;
+}
+
+.square-9 p {
+    width: 95px;
+    height: 30px;
+}
+
+.square-10 p {
+    width: 143px;
+    height: 30px;
+}
+
+.square-1 p, .square-2 p, .square-3 p, .square-4 p, .square-5 p,
+.square-7 p, .square-9 p, .square-10 p {
+    margin-top: 45px;
+    margin-left: 32px;
+}
+
+.square-6 p, .square-8 p {
+    margin-top: 30px;
+    margin-left: 32px;
+}
+
+.square-1 svg, .square-2 svg, .square-3 svg, .square-4 svg, .square-5 svg,
+.square-6 svg, .square-7 svg, .square-8 svg, .square-9 svg, .square-10 svg {
+    width: 11.95px;
+    height: 11.95px;
+    flex-shrink: 0;
+    position: absolute;
+}
+
+.square-1 svg {
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+.square-2 svg {
+    margin-left: 51px;
+    margin-top: 10px;
+}
+
+.square-3 svg {
+    margin-left: 108px;
+    margin-top: 10px;
+}
+
+.square-4 svg {
+    margin-left: 58px;
+    margin-top: 10px;
+}
+
+.square-5 svg {
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.square-6 svg {
+    margin-left: 125px;
+}
+
+.square-7 svg {
+    margin-left: 61px;
+    margin-top: 10px;
+}
+
+.square-8 svg {
+    margin-left: 52px;
+}
+
+.square-9 svg {
+    margin-left: 94px;
+    margin-top: 10px;
+}
+
+.square-10 svg {
+    margin-left: 58px;
+    margin-top: 10px;
+}
+
+.square-1:hover svg, .square-2:hover svg, .square-3:hover svg, .square-4:hover svg,
+.square-5:hover svg, .square-6:hover svg, .square-7:hover svg, .square-8:hover svg,
+.square-9:hover svg, .square-10:hover svg {
+    transform: rotate(180deg);
+    transition: 0.3s ease;
+}
+
+
