@@ -213,6 +213,7 @@ li:hover svg {
 .container-info .main-btn p {
     width: 265px;
     height: 30px;
+    margin-top: 17px;
     color: #FFF;
     font-family: 'Lato';
     font-size: 20px;
@@ -235,7 +236,7 @@ li:hover svg {
     height: 762px;
     padding-top: 20%;
     margin: 0 auto;
-    /* position: relative; */
+    /* position: relative; Ошибка в кнопке на этом моменте */
     box-sizing: border-box;
 }
 
@@ -482,7 +483,7 @@ li:hover svg {
     padding-top: 40px;
     text-align: center;
     color: #FFF;
-    font-family: Lato;
+    font-family: 'Lato';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -524,10 +525,10 @@ li:hover svg {
 }
 
 .background-1 p, .background-2 p {
-    margin-bottom: 24px;
     margin-left: 24px;
+    margin-top: -12px;
     color: #FFF;
-    font-family: Lato;
+    font-family: 'Lato';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -883,6 +884,7 @@ li:hover svg {
 .square-1-doctor h4{
     margin-top: 16px;
     margin-left: 24px;
+    margin-right: 24px;
     color: #000;
     font-family: 'Lato';
     font-size: 16px;
@@ -903,3 +905,44 @@ li:hover svg {
 .square-1-doctor h4::-webkit-scrollbar-thumb {
     background-color: transparent;
 }
+
+.square-1-container-after a {
+    margin-top: 74px;
+    margin-left: 399px;
+    width: 371px;
+    height: 64px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #FF8A1E;
+}
+
+.square-1-container-after a p {
+    width: 265px;
+    height: 30px;
+    margin-top: 17px;
+    margin-left: 0;
+    color: #FFF;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}
+
+.square-1-container-after a:hover {
+    /* Кнопка при наведении */
+    box-shadow: 0px 0px 20px 0px rgba(255, 138, 30, 0.70);
+    background-color: #FFA84A;
+}
+
+.square-1-container-after a:active {
+    /* Кнопка при нажатии */
+    box-shadow: 0px 4px 4px 0px rgba(103, 56, 0, 0.25) inset;
+    background-color: #FF8A1E;
+}
+
+/* Кардиология */
+
