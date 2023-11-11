@@ -8,6 +8,10 @@
     src: url(../clinicWeb/fonts/UKIJInichkeb.ttf);
 }
 
+body {
+    background: #dfebfb;
+}
+
 /* Хедер */
 
 .header {
@@ -42,6 +46,7 @@
 }
 
 .menu a {
+    text-decoration: none;
     color: #000;
     font-family: 'Lato';
     font-size: 20px;
@@ -180,30 +185,32 @@ li:hover svg {
     line-height: 30px; /* 187.5% */
 }
 
-.container-info button {
+.container-info .main-btn {
     width: 371px;
     height: 64px;
+    text-decoration: none;
     margin-top: 150px;
     display: inline-flex;
-    padding: 17px 53px;
     justify-content: center;
     align-items: center;
-    gap: 10px;
     border-radius: 10px;
     background: #FF8A1E;
+    border: none;
 }
 
-.container-info button:hover {
+.main-btn:hover {
     /* Кнопка при наведении */
     box-shadow: 0px 0px 20px 0px rgba(255, 138, 30, 0.70);
+    background-color: #FFA84A;
 }
 
-.container-info button:active {
+.main-btn:active {
     /* Кнопка при нажатии */
     box-shadow: 0px 4px 4px 0px rgba(103, 56, 0, 0.25) inset;
+    background-color: #FF8A1E;
 }
 
-.main-btn p {
+.container-info .main-btn p {
     width: 265px;
     height: 30px;
     color: #FFF;
@@ -377,13 +384,18 @@ li:hover svg {
     height: 176px;
     flex-shrink: 0;
     margin-right: 30px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 6px 4px 25px 0px rgba(201, 221, 246, 0.20);
 }
 
 .info-with-tick-4 {
     width: 270px;
     height: 176px;
     flex-shrink: 0;
-    margin-left: 30px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 6px 4px 25px 0px rgba(201, 221, 246, 0.20);
 }
 
 .info-with-tick p, .info-with-tick-4 p {
@@ -534,7 +546,7 @@ li:hover svg {
     margin: 0 auto;
 }
 
-.container-3 h2 {
+.container-3 h3 {
     width: max-content;
     margin-top: 0;
     left: 45%;
@@ -550,6 +562,7 @@ li:hover svg {
 .container-3-background {
     margin-top: 144px;
     width: 100%;
+    height: 496px;
     background: var(--main-dark-blue, #034599);
 }
 
@@ -716,11 +729,177 @@ li:hover svg {
     margin-top: 10px;
 }
 
-.square-1:hover svg, .square-2:hover svg, .square-3:hover svg, .square-4:hover svg,
-.square-5:hover svg, .square-6:hover svg, .square-7:hover svg, .square-8:hover svg,
-.square-9:hover svg, .square-10:hover svg {
-    transform: rotate(180deg);
-    transition: 0.3s ease;
+/* Педиатрия */
+
+.square-1-container-after {
+    width: 1170px;
+    height: 1450px;
+    border-radius: 10px;
+    background: #ECF4FF;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    text-align: left;
+    position: absolute;
+    margin-top: -98px;
+    display: none;
+    opacity: 0;
+    z-index: 1;
+    animation: fadeIn 0.5s ease forwards;
 }
 
+@keyframes fadeIn {
+    to {
+        display: block;
+        opacity: 1;
+    }
+}
 
+.square-1-container-after h2 {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: #000;
+    font-family: 'Ukij';
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.ped {
+    margin-top: 45px;
+    margin-left: 32px;
+    color: #000;
+    font-family: 'Lato';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 125% */
+}
+
+.square-1-container-after svg {
+    top: 0;
+    margin-top: 45px;
+    right: 32px
+}
+
+.square-1-price-1 p, .square-1-price-2 p, .square-1-price-3 p {
+    color: #000;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+.square-1-price-1, .square-1-price-2, .square-1-price-3 {
+    width: 770px;
+    height: 30px;
+    margin-top: 12px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.square-1-price-1 {
+    margin-top: 60px;
+}
+
+.square-1-price-1-p-1, .square-1-price-2-p-1, .square-1-price-3-p-1 {
+    white-space: nowrap;
+    left: 0;
+}
+
+.square-1-price-1-p-2, .square-1-price-2-p-2, .square-1-price-3-p-2 {
+    right: 0;
+}
+
+.blue-stick {
+    margin-top: 12px;
+    margin-left: 200px;
+    width: 770px;
+    height: 2px;
+    flex-shrink: 0;
+    background: #034599;
+}
+
+.doc-nap {
+    margin-top: 120px;
+}
+
+.square-1-doctor {
+    width: 770px;
+    height: 627px;
+    margin-left: 200px;
+    margin-top: 72px;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.square-1-doctor-1, .square-1-doctor-2 {
+    width: 370px;
+    height: 627px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #034599;
+}
+
+.square-1-doctor-2 {
+    margin-left: 30px;
+}
+
+.square-1-doctor img {
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 322px;
+    height: 269px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.square-1-doctor-1 img {
+    background: url(../clinicWeb/images/doc_1.png), lightgray -20px -61.457px / 106.211% 169.517% no-repeat;
+}
+
+.square-1-doctor-2 img {
+    background: url(../clinicWeb/images/doc_2.png), lightgray -20px -61.457px / 106.211% 169.517% no-repeat;
+}
+
+.square-1-doctor h5 {
+    margin-top: 16px;
+    margin-left: 24px;
+    color: #000;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}
+
+.square-1-doctor h4{
+    margin-top: 16px;
+    margin-left: 24px;
+    color: #000;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    overflow-y: auto;
+    max-height: 180px;
+    /* scrollbar-width: thin;
+    scrollbar-color: transparent transparent; */
+    -ms-overflow-style: none;
+}
+
+.square-1-doctor h4::-webkit-scrollbar {
+    width: 5px;
+}
+
+.square-1-doctor h4::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}

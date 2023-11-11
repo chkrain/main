@@ -61,7 +61,7 @@
             <h2>Качественная медицина доступна каждому!</h2>
             <p>Высокопрофессиональные специалисты нашего центра готовы оказать пациентам комплекс медицинских услуг.</p>
             <!-- Кнопка -->
-            <button class="main-btn"><p>Записаться на консультацию</p></button>
+            <a class="main-btn" href="#"><p>Записаться на консультацию</p></a>
         </div>
         <!-- Фото -->
         <img src="../clinicWeb/images/rectPlusGirl.svg" alt="Photo">
@@ -72,7 +72,7 @@
         <!-- Фотографии -->
         <div class="slideshow">
             <div class="arrow-left" id="prev-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+                <svg class="arrow-left" id="prev-btn" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
                     <path d="M1.39876e-06 32L48 59.7128L48 4.28719L1.39876e-06 32Z" fill="#034599"/>
                 </svg>
             </div>
@@ -144,15 +144,55 @@
     <!-- Третий слайд -->
 
     <div class="container-3">
-        <h2>Услуги</h2>
+        <h3>Услуги</h3>
         <div class="container-3-background">
             <div class="line-1">
-                <div class="square-1">
+                <div class="square-1" id="mySquare">
                     <p>Педиатрия
                         <svg xmlns="http://www.w3.org/2000/svg" width="17" height="10" viewBox="0 0 17 10" fill="none">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M8.46021 9.89029L16.8997 1.45084L15.4854 0.0366226L8.4498 7.07227L1.41425 0.0367211L4.13654e-05 1.45093L8.44919 9.90008L8.45959 9.88968L8.46021 9.89029Z" fill="white"/>
                         </svg>
                     </p>
+                    <!-- Педиатрия всплывающее окно -->
+                    <div class="square-1-container-after" id="mySquareContainer">
+                        <h6 class="ped">Педиатрия</h6>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="10" viewBox="0 0 17 10" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.46021 0.0104981L16.8997 8.44995L15.4854 9.86416L8.4498 2.82852L1.41425 9.86407L4.13654e-05 8.44985L8.44919 0.000703303L8.45959 0.0111085L8.46021 0.0104981Z" fill="black"/>
+                        </svg>
+                        <h2>​Стоимость лечения​​</h2>
+                        <div class="square-1-price-1">
+                            <p class="square-1-price-1-p-1">Прием (осмотр, консультация) врача-педиатра первичный</p>
+                            <p class="square-1-price-1-p-2">1200 рублей</p>
+                        </div>
+                        <div class="blue-stick"></div>
+                        <div class="square-1-price-2">
+                            <p class="square-1-price-2-p-1">Прием (осмотр, консультация) врача-педиатра повторный</p>
+                            <p class="square-1-price-2-p-2">1000 рублей</p>
+                        </div>
+                        <div class="blue-stick"></div>
+                        <div class="square-1-price-3">
+                            <p class="square-1-price-3-p-1">Выезд врача-педиатра на дом</p>
+                            <p class="square-1-price-3-p-2">2500 рублей</p>
+                        </div>
+                        <h2 class="doc-nap">Врачи направления</h2>
+                        <div class="square-1-doctor">
+                            <div class="square-1-doctor-1">
+                                <img src="../clinicWeb/images/doc_1.png" alt="doctor-Olga">
+                                <h5>Титова Ольга<br>Сергеевна</h5>
+                                <h4>Образование: Алтайский Государственный медицинский институт им. Ленинского комсомола (врач). 
+                                    Базовое образование: Санкт-Петербургская государственная педиатрическая медицинская академия 
+                                    Федерального агентства по здравоохранению и социальному развитию, г. Санкт-Петербург (педиатрия)</h4>
+                            </div>
+                            <div class="square-1-doctor-2">
+                                <img src="../clinicWeb/images/doc_2.png" alt="doctor-Catherine">
+                                <h5>Полякова Екатерина<br>Александровна</h5>
+                                <h4>Базовое образование: 2011 г.- Кубанский государственный медицинский университет (педиатрия). 
+                                    Повышение квалификации: 2017 г.- Кубанский государственный медицинский университет (педиатрия)</h4>
+                            </div>
+                        </div>
+                        <a>Записаться на консультацию</a>
+                    </div>
+                    <!-- -------------------- -->
                 </div>
                 <div class="square-2">
                     <p>Кардиалогия
@@ -225,6 +265,44 @@
         </div>
     </div>
 
-    <script src="scriptSlide.js"></script>
+    <!-- Slide -->
+    <script>
+        // Slide 
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        const prevButton = document.getElementById('prev-btn');
+        const nextButton = document.getElementById('next-btn');
+
+        function showSlide(n) {
+            slides[currentSlide].style.display = 'none';
+            currentSlide = (n + slides.length) % slides.length;
+            slides[currentSlide].style.display = 'block';
+        }
+
+        prevButton.addEventListener('click', () => showSlide(currentSlide - 1));
+        nextButton.addEventListener('click', () => showSlide(currentSlide + 1));
+
+        showSlide(currentSlide);
+    </script>
+    <!-- Square -->
+    <script>
+        // Square
+        var square = document.getElementById("mySquare");
+        var squareContainer = document.getElementById("mySquareContainer");
+
+        square.addEventListener("click", function() {
+            squareContainer.style.display = "block";
+        });
+
+        document.addEventListener("click", function(event) {
+            if (event.target !== square && event.target !== squareContainer) {
+                squareContainer.style.animation = "fadeOut 0.3s ease forwards"; // добавляем анимацию исчезания
+                setTimeout(function() {
+                    squareContainer.style.display = "none";
+                    squareContainer.style.animation = ""; // сбрасываем анимацию для последующих появлений
+                }, 300); // время анимации
+            }
+        });
+    </script>
 </body>
-</html>
+</html> 
