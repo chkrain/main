@@ -235,7 +235,7 @@ li:hover svg {
     height: 762px;
     padding-top: 20%;
     margin: 0 auto;
-    position: relative;
+    /* position: relative; */
     box-sizing: border-box;
 }
 
