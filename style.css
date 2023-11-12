@@ -745,7 +745,7 @@ li:hover svg {
     margin-top: -98px;
     display: none;
     opacity: 0;
-    z-index: 1;
+    z-index: 5;
     animation: fadeIn 0.5s ease forwards;
 }
 
@@ -874,15 +874,24 @@ li:hover svg {
     margin-top: 16px;
     margin-left: 24px;
     color: #000;
-    font-family: Lato;
+    font-family: 'Lato';
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px; /* 150% */
 }
 
+.square-1-doctor-1 h5 {
+    width: 176px;
+    height: 60px;
+}
+
+.square-1-doctor-2 h5 {
+    width: 322px;
+    height: 60px;
+}
+
 .square-1-doctor h4{
-    margin-top: 16px;
     margin-left: 24px;
     margin-right: 24px;
     color: #000;
@@ -917,6 +926,7 @@ li:hover svg {
     gap: 10px;
     border-radius: 10px;
     background: #FF8A1E;
+    text-decoration: none;
 }
 
 .square-1-container-after a p {
@@ -945,4 +955,125 @@ li:hover svg {
 }
 
 /* Кардиология */
+
+.square-2-container-after {
+    width: 1170px;
+    height: 864px;
+    border-radius: 10px;
+    background: #ECF4FF;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    text-align: left;
+    position: absolute;
+    margin-top: -98px;
+    margin-left: -300px;
+    display: none;
+    opacity: 0;
+    z-index: 6;
+    animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        display: block;
+        opacity: 1;
+    }
+}
+
+.square-2-container-after h2 {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: #000;
+    font-family: 'Ukij';
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.kar {
+    margin-top: 45px;
+    margin-left: 32px;
+    color: #000;
+    font-family: 'Lato';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 125% */
+}
+
+.square-2-container-after svg {
+    top: 0;
+    margin-top: 45px;
+    right: 32px
+}
+
+.square-2-price-1 p, .square-2-price-2 p, .square-2-price-3 p, .square-2-price-4 p,
+.square-2-price-5 p, .square-2-price-6 p, .square-2-price-7 p, .square-2-price-8 p {
+    color: #000;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+.square-2-price-1, .square-2-price-2, .square-2-price-3, .square-2-price-4,
+.square-2-price-5, .square-2-price-6, .square-2-price-7, .square-2-price-8 {
+    width: 770px;
+    height: 30px;
+    margin-top: 12px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.square-2-price-1-p-1, .square-2-price-2-p-1, .square-2-price-3-p-1, .square-2-price-4-p-1,
+.square-2-price-5-p-1, .square-2-price-6-p-1, .square-2-price-7-p-1, .square-2-price-8-p-1 {
+    white-space: nowrap;
+}
+
+.square-2-container-after a {
+    margin-top: 74px;
+    margin-left: 399px;
+    width: 371px;
+    height: 64px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #FF8A1E;
+    text-decoration: none;
+}
+
+.square-2-container-after a p {
+    width: 265px;
+    height: 30px;
+    margin-top: 17px;
+    margin-left: 0;
+    color: #FFF;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}
+
+.square-2-container-after a:hover {
+    /* Кнопка при наведении */
+    box-shadow: 0px 0px 20px 0px rgba(255, 138, 30, 0.70);
+    background-color: #FFA84A;
+}
+
+.square-2-container-after a:active {
+    /* Кнопка при нажатии */
+    box-shadow: 0px 4px 4px 0px rgba(103, 56, 0, 0.25) inset;
+    background-color: #FF8A1E;
+}
+
+/* Терапия */
 
