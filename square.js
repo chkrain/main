@@ -6,6 +6,10 @@ var squareContainerPed = document.getElementById("myPediatricsContainer");
 var squareCard = document.getElementById("myCardiologySquare");
 var squareContainerCard = document.getElementById("myCardiologyContainer");
 
+// Объявление переменных для Терапии
+var squareTher = document.getElementById("myTherapySquare");
+var squareContainerTher = document.getElementById("myTherapyContainer");
+
 const mySquare = document.getElementById('mySquare');
 const container3Background = document.querySelector('.container-3-background');
 
@@ -25,6 +29,14 @@ document.addEventListener('click', function (event) {
         toggleSquareContainer(squareContainerCard);
     } else {
         hideSquareContainer(squareContainerCard);
+    }
+
+    // Square for Therapy
+    const isInsideMySquareTher = isInsideElement(event, squareTher);
+    if (isInsideMySquareTher) {
+        toggleSquareContainer(squareContainerTher);
+    } else {
+        hideSquareContainer(squareContainerTher);
     }
 
     // Square 1
