@@ -10,6 +10,18 @@ var squareContainerCard = document.getElementById("myCardiologyContainer");
 var squareTher = document.getElementById("myTherapySquare");
 var squareContainerTher = document.getElementById("myTherapyContainer");
 
+// Объявление переменных для Гинекологии
+var squareGyn = document.getElementById("myGynecologySquare");
+var squareContainerGyn = document.getElementById("myGynecologyContainer");
+
+// Объявление переменных для УЗИ
+var squareUzi = document.getElementById("myUziSquare");
+var squareContainerUzi = document.getElementById("myUziContainer");
+
+// Объявление переменных для Больничных Листов
+var squareBL = document.getElementById("myBLSquare");
+var squareContainerBL = document.getElementById("myBLContainer");
+
 const mySquare = document.getElementById('mySquare');
 const container3Background = document.querySelector('.container-3-background');
 
@@ -37,6 +49,30 @@ document.addEventListener('click', function (event) {
         toggleSquareContainer(squareContainerTher);
     } else {
         hideSquareContainer(squareContainerTher);
+    }
+
+    // Square for Gynecology
+    const isInsideMySquareGyn = isInsideElement(event, squareGyn);
+    if (isInsideMySquareGyn) {
+        toggleSquareContainer(squareContainerGyn);
+    } else {
+        hideSquareContainer(squareContainerGyn);
+    }
+
+    // Square for UZI
+    const isInsideMySquareUzi = isInsideElement(event, squareUzi);
+    if (isInsideMySquareUzi) {
+        toggleSquareContainer(squareContainerUzi);
+    } else {
+        hideSquareContainer(squareContainerUzi);
+    }
+
+    // Square for BL
+    const isInsideMySquareBL = isInsideElement(event, squareBL);
+    if (isInsideMySquareBL) {
+        toggleSquareContainer(squareContainerBL);
+    } else {
+        hideSquareContainer(squareContainerBL);
     }
 
     // Square 1
