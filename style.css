@@ -602,8 +602,8 @@ li:hover svg {
     margin-left: 30px;
 }
 
-.square-1 p, .square-2 p, .square-3 p, .square-4 p, .square-5 p,
-.square-6 p, .square-7 p, .square-8 p, .square-9 p, .square-10 p {
+.sq-1-p, .sq-2-p, .sq-3-p, .sq-4-p, .sq-5-p,
+.sq-6-p, .sq-7-p, .sq-8-p, .sq-9-p, .sq-10-p {
     text-align: left;
     color: #FFF;
     font-family: 'Lato';
@@ -613,63 +613,56 @@ li:hover svg {
     line-height: 30px; /* 125% */
 }
 
-.square-1 p {
+.sq-1-p {
     width: 122px;
     height: 30px;
 }
 
-.square-2 p {
+.sq-2-p {
     width: 146px;
     height: 30px;
 }
-
-.square-3 p {
+.sq-3-p {
     width: 89px;
     height: 30px;
 }
-
-.square-4 p {
+.sq-4-p {
     width: 139px;
     height: 30px;
 }
-
-.square-5 p {
+.sq-5-p {
     width: 47px;
     height: 30px;
 }
-
-.square-6 p {
+.sq-6-p {
     width: 160px;
     height: 60px;
 }
-
-.square-7 p {
+.sq-7-p {
     width: 143px;
     height: 30px;
 }
-
-.square-8 p {
+.sq-8-p {
     width: 174px;
     height: 60px;
 }
-
-.square-9 p {
+.sq-9-p {
     width: 95px;
     height: 30px;
 }
 
-.square-10 p {
+.sq-10-p {
     width: 143px;
     height: 30px;
 }
 
-.square-1 p, .square-2 p, .square-3 p, .square-4 p, .square-5 p,
-.square-7 p, .square-9 p, .square-10 p {
+.sq-1-p, .sq-2-p, .sq-3-p, .sq-4-p, .sq-5-p,
+.sq-7-p, .sq-9-p, .sq-10-p {
     margin-top: 45px;
     margin-left: 32px;
 }
 
-.square-6 p, .square-8 p {
+.sq-6-p, .sq-8-p {
     margin-top: 30px;
     margin-left: 32px;
 }
@@ -806,15 +799,6 @@ li:hover svg {
 
 .square-1-price-1 {
     margin-top: 60px;
-}
-
-.square-1-price-1-p-1, .square-1-price-2-p-1, .square-1-price-3-p-1 {
-    white-space: nowrap;
-    left: 0;
-}
-
-.square-1-price-1-p-2, .square-1-price-2-p-2, .square-1-price-3-p-2 {
-    right: 0;
 }
 
 .blue-stick {
@@ -1031,11 +1015,6 @@ li:hover svg {
     align-items: center;
 }
 
-.square-2-price-1-p-1, .square-2-price-2-p-1, .square-2-price-3-p-1, .square-2-price-4-p-1,
-.square-2-price-5-p-1, .square-2-price-6-p-1, .square-2-price-7-p-1, .square-2-price-8-p-1 {
-    white-space: nowrap;
-}
-
 .square-2-container-after a {
     margin-top: 74px;
     margin-left: 399px;
@@ -1152,16 +1131,6 @@ li:hover svg {
 
 .square-3-price-1 {
     margin-top: 60px;
-}
-
-.square-3-price-1-p-1, .square-3-price-2-p-1, .square-3-price-3-p-1 {
-    white-space: nowrap;
-    left: 0;
-}
-
-.square-3-price-1-p-2, .square-3-price-2-p-2, .square-3-price-3-p-2 {
-    white-space: nowrap;
-    margin-right: 5px;
 }
 
 .blue-stick {
@@ -1382,20 +1351,6 @@ li:hover svg {
 
 .square-4-price-1 {
     margin-top: 60px;
-}
-
-.square-4-price-1-p-1, .square-4-price-2-p-1, .square-4-price-3-p-1, .square-4-price-4-p-1, .square-4-price-5-p-1,
-.square-4-price-6-p-1, .square-4-price-7-p-1, .square-4-price-8-p-1, .square-4-price-9-p-1, .square-4-price-10-p-1,
-.square-4-price-11-p-1, .square-4-price-12-p-1, .square-4-price-13-p-1, .square-4-price-14-p-1, .square-4-price-15-p-1,
-.square-4-price-16-p-1, .square-4-price-17-p-1, .square-4-price-18-p-1, .square-4-price-19-p-1, .square-4-price-20-p-1 {
-    white-space: nowrap;
-}
-
-.square-4-price-1-p-2, .square-4-price-2-p-2, .square-4-price-3-p-2, .square-4-price-4-p-2, .square-4-price-5-p-2,
-.square-4-price-6-p-2, .square-4-price-7-p-2, .square-4-price-8-p-2, .square-4-price-9-p-2, .square-4-price-10-p-2,
-.square-4-price-11-p-2, .square-4-price-12-p-2, .square-4-price-13-p-2, .square-4-price-14-p-2, .square-4-price-15-p-2,
-.square-4-price-16-p-2, .square-4-price-17-p-2, .square-4-price-18-p-2, .square-4-price-19-p-2, .square-4-price-20-p-2 {
-    margin-right: -35px;
 }
 
 .blue-stick {
@@ -1619,35 +1574,15 @@ li:hover svg {
 .square-5-price-8, .square-5-price-21, .square-5-price-26 {
     width: 770px;
     height: 60px;
-    margin-top: -20px;
-    padding-bottom: 12px;
     margin-left: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: left;
 }
 
 .square-5-price-1 {
     margin-top: 60px;
-}
-
-.square-5-price-1-p-1, .square-5-price-2-p-1, .square-5-price-3-p-1, .square-5-price-4-p-1, .square-5-price-5-p-1,
-.square-5-price-6-p-1, .square-5-price-7-p-1, .square-5-price-8-p-1, .square-5-price-9-p-1, .square-5-price-10-p-1,
-.square-5-price-11-p-1, .square-5-price-12-p-1, .square-5-price-13-p-1, .square-5-price-14-p-1, .square-5-price-15-p-1,
-.square-5-price-16-p-1, .square-5-price-17-p-1, .square-5-price-18-p-1, .square-5-price-19-p-1, .square-5-price-20-p-1, 
-.square-5-price-21-p-1, .square-5-price-22-p-1, .square-5-price-23-p-1, .square-5-price-24-p-1, .square-5-price-25-p-1,
-.square-5-price-26-p-1 {
-    white-space: nowrap;
-    left: 0;
-}
-
-.square-5-price-1-p-2, .square-5-price-2-p-2, .square-5-price-3-p-2, .square-5-price-4-p-2, .square-5-price-5-p-2,
-.square-5-price-6-p-2, .square-5-price-7-p-2, .square-5-price-8-p-2, .square-5-price-9-p-2, .square-5-price-10-p-2,
-.square-5-price-11-p-2, .square-5-price-12-p-2, .square-5-price-13-p-2, .square-5-price-14-p-2, .square-5-price-15-p-2,
-.square-5-price-16-p-2, .square-5-price-17-p-2, .square-5-price-18-p-2, .square-5-price-19-p-2, .square-5-price-20-p-2, 
-.square-5-price-21-p-2, .square-5-price-22-p-2, .square-5-price-23-p-2, .square-5-price-24-p-2, .square-5-price-25-p-2,
-.square-5-price-26-p-2 {
-    white-space: nowrap;
 }
 
 .blue-stick {
@@ -1847,7 +1782,6 @@ li:hover svg {
     font-style: normal;
     font-weight: 400;
     line-height: 30px; /* 187.5% */
-    white-space: nowrap;
 }
 
 .square-6-container-after a {
@@ -1888,3 +1822,828 @@ li:hover svg {
     box-shadow: 0px 4px 4px 0px rgba(103, 56, 0, 0.25) inset;
     background-color: #FF8A1E;
 }
+
+/* Неврология */
+
+.square-7-container-after {
+    width: 1170px;
+    height: 1450px;
+    border-radius: 10px;
+    background: #ECF4FF;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    text-align: left;
+    position: absolute;
+    margin-top: -98px;
+    margin-left: -600px;
+    display: none;
+    opacity: 0;
+    z-index: 5;
+    animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        display: block;
+        opacity: 1;
+    }
+}
+
+.square-7-container-after h2 {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: #000;
+    font-family: 'Ukij';
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nev {
+    margin-top: 45px;
+    margin-left: 32px;
+    color: #000;
+    font-family: 'Lato';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 125% */
+}
+
+.square-7-container-after svg {
+    top: 0;
+    margin-top: 45px;
+    right: 32px
+}
+
+.square-7-price-1 p, .square-7-price-2 p, .square-7-price-3 p {
+    color: #000;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+.square-7-price-1, .square-7-price-2, .square-7-price-3 {
+    width: 770px;
+    height: 30px;
+    margin-top: 12px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.square-7-price-1 {
+    margin-top: 60px;
+}
+
+.blue-stick {
+    margin-top: 12px;
+    margin-left: 200px;
+    width: 770px;
+    height: 2px;
+    flex-shrink: 0;
+    background: #034599;
+}
+
+.doc-nap {
+    margin-top: 120px;
+}
+
+.square-7-doctor {
+    width: 370px;
+    height: 627px;
+    margin-left: 400px;
+    margin-top: 72px;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.square-7-doctor-1 {
+    width: 370px;
+    height: 627px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #034599;
+}
+
+.square-7-doctor img {
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 322px;
+    height: 269px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.square-7-doctor-1 img {
+    background: url(../clinicWeb/images/doc_7.png), lightgray -20px -61.457px / 106.211% 169.517% no-repeat;
+}
+
+.square-7-doctor h5 {
+    margin-top: 16px;
+    margin-left: 24px;
+    color: #000;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}
+
+.square-7-doctor-1 h5 {
+    width: 176px;
+    height: 60px;
+}
+
+.square-7-doctor h4{
+    margin-left: 24px;
+    margin-right: 24px;
+    color: #000;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    overflow-y: auto;
+    max-height: 180px;
+    -ms-overflow-style: none;
+}
+
+.square-7-doctor h4::-webkit-scrollbar {
+    width: 5px;
+}
+
+.square-7-doctor h4::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.square-7-container-after a {
+    margin-top: 74px;
+    margin-left: 399px;
+    width: 371px;
+    height: 64px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #FF8A1E;
+    text-decoration: none;
+}
+
+.square-7-container-after a p {
+    width: 265px;
+    height: 30px;
+    margin-top: 17px;
+    margin-left: 0;
+    color: #FFF;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}
+
+.square-7-container-after a:hover {
+    /* Кнопка при наведении */
+    box-shadow: 0px 0px 20px 0px rgba(255, 138, 30, 0.70);
+    background-color: #FFA84A;
+}
+
+.square-7-container-after a:active {
+    /* Кнопка при нажатии */
+    box-shadow: 0px 4px 4px 0px rgba(103, 56, 0, 0.25) inset;
+    background-color: #FF8A1E;
+}
+
+/* Лабораторная диагностика */
+
+.square-8-container-after {
+    width: 1170px;
+    height: 1940px;
+    border-radius: 10px;
+    background: #ECF4FF;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    text-align: left;
+    position: absolute;
+    margin-top: -114px;
+    margin-left: -900px;
+    display: none;
+    opacity: 0;
+    z-index: 5;
+    animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        display: block;
+        opacity: 1;
+    }
+}
+
+.square-8-container-after h2 {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: #000;
+    font-family: 'Ukij';
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.lab {
+    margin-top: 45px;
+    margin-left: 32px;
+    color: #000;
+    font-family: 'Lato';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 125% */
+}
+
+.square-8-container-after svg {
+    top: 0;
+    margin-top: 45px;
+    right: 32px
+}
+
+.square-8-price-1 p, .square-8-price-2 p, .square-8-price-3 p,
+.square-8-price-4 p, .square-8-price-5 p, .square-8-price-6 p,
+.square-8-price-7 p, .square-8-price-8 p, .square-8-price-9 p,
+.square-8-price-10 p, .square-8-price-11 p {
+    color: #000;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+.square-8-price-1, .square-8-price-2, .square-8-price-3,
+.square-8-price-4, .square-8-price-5, .square-8-price-6, 
+.square-8-price-9,.square-8-price-10, .square-8-price-11 {
+    width: 770px;
+    height: 30px;
+    margin-top: 12px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.square-8-price-7, .square-8-price-8 {
+    width: 770px;
+    height: 60px;
+    margin-top: 12px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.square-8-price-1 { 
+    margin-top: 60px;
+}
+
+.blue-stick {
+    margin-top: 12px;
+    margin-left: 200px;
+    width: 770px;
+    height: 2px;
+    flex-shrink: 0;
+    background: #034599;
+}
+
+.sq-8-price-par {
+    width: 769px;
+    height: 90px;
+    margin-top: 72px;
+    margin-left: 200px;
+    color: #000;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+.doc-nap {
+    margin-top: 120px;
+}
+
+.square-8-doctor {
+    width: 370px;
+    height: 447px;
+    margin-left: 400px;
+    margin-top: 72px;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.square-8-doctor-1 {
+    width: 370px;
+    height: 447px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #034599;
+}
+
+.square-8-doctor img {
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 322px;
+    height: 269px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.square-8-doctor-1 img {
+    background: url(../clinicWeb/images/doc_8.png), lightgray -20px -61.457px / 106.211% 169.517% no-repeat;
+}
+
+.square-8-doctor h5 {
+    margin-top: 16px;
+    margin-left: 24px;
+    color: #000;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}
+
+.square-8-doctor-1 h5 {
+    width: 176px;
+    height: 60px;
+}
+
+.square-8-doctor h4{
+    margin-left: 24px;
+    margin-right: 24px;
+    color: #000;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    overflow-y: auto;
+    max-height: 180px;
+    -ms-overflow-style: none;
+}
+
+.square-8-doctor h4::-webkit-scrollbar {
+    width: 5px;
+}
+
+.square-8-doctor h4::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.square-8-container-after a {
+    margin-top: 74px;
+    margin-left: 399px;
+    width: 371px;
+    height: 64px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #FF8A1E;
+    text-decoration: none;
+}
+
+.square-8-container-after a p {
+    width: 265px;
+    height: 30px;
+    margin-top: 17px;
+    margin-left: 0;
+    color: #FFF;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}
+
+.square-8-container-after a:hover {
+    /* Кнопка при наведении */
+    box-shadow: 0px 0px 20px 0px rgba(255, 138, 30, 0.70);
+    background-color: #FFA84A;
+}
+
+.square-8-container-after a:active {
+    /* Кнопка при нажатии */
+    box-shadow: 0px 4px 4px 0px rgba(103, 56, 0, 0.25) inset;
+    background-color: #FF8A1E;
+}
+
+/* Логопед */
+
+.square-9-container-after {
+    width: 1170px;
+    height: 1338px;
+    border-radius: 10px;
+    background: #ECF4FF;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    text-align: left;
+    position: absolute;
+    margin-top: -98px;
+    margin-left: -300px;
+    display: none;
+    opacity: 0;
+    z-index: 5;
+    animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        display: block;
+        opacity: 1;
+    }
+}
+
+.square-9-container-after h2 {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: #000;
+    font-family: 'Ukij';
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.log {
+    margin-top: 45px;
+    margin-left: 32px;
+    color: #000;
+    font-family: 'Lato';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 125% */
+}
+
+.square-9-container-after svg {
+    top: 0;
+    margin-top: 45px;
+    right: 32px
+}
+
+.square-9-price-1 p {
+    color: #000;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+.square-9-price-1 {
+    width: 770px;
+    height: 30px;
+    margin-top: 72px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blue-stick {
+    margin-top: 12px;
+    margin-left: 200px;
+    width: 770px;
+    height: 2px;
+    flex-shrink: 0;
+    background: #034599;
+}
+
+.doc-nap {
+    margin-top: 120px;
+}
+
+.square-9-doctor {
+    width: 370px;
+    height: 627px;
+    margin-left: 400px;
+    margin-top: 72px;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.square-9-doctor-1 {
+    width: 370px;
+    height: 627px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #034599;
+}
+
+.square-9-doctor img {
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 322px;
+    height: 269px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.square-9-doctor-1 img {
+    background: url(../clinicWeb/images/doc_9.png), lightgray -20px -61.457px / 106.211% 169.517% no-repeat;
+}
+
+.square-9-doctor h5 {
+    margin-top: 16px;
+    margin-left: 24px;
+    color: #000;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}
+
+.square-9-doctor-1 h5 {
+    width: 176px;
+    height: 60px;
+}
+
+.square-9-doctor h4{
+    margin-left: 24px;
+    margin-right: 24px;
+    color: #000;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    overflow-y: auto;
+    max-height: 180px;
+    -ms-overflow-style: none;
+}
+
+.square-9-doctor h4::-webkit-scrollbar {
+    width: 5px;
+}
+
+.square-9-doctor h4::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.square-9-container-after a {
+    margin-top: 74px;
+    margin-left: 399px;
+    width: 371px;
+    height: 64px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #FF8A1E;
+    text-decoration: none;
+}
+
+.square-9-container-after a p {
+    width: 265px;
+    height: 30px;
+    margin-top: 17px;
+    margin-left: 0;
+    color: #FFF;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}
+
+.square-9-container-after a:hover {
+    /* Кнопка при наведении */
+    box-shadow: 0px 0px 20px 0px rgba(255, 138, 30, 0.70);
+    background-color: #FFA84A;
+}
+
+.square-9-container-after a:active {
+    /* Кнопка при нажатии */
+    box-shadow: 0px 4px 4px 0px rgba(103, 56, 0, 0.25) inset;
+    background-color: #FF8A1E;
+}
+
+/* Психология */
+
+.square-10-container-after {
+    width: 1170px;
+    height: 1368px;
+    border-radius: 10px;
+    background: #ECF4FF;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    text-align: left;
+    position: absolute;
+    margin-top: -98px;
+    margin-left: -600px;
+    display: none;
+    opacity: 0;
+    z-index: 5;
+    animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        display: block;
+        opacity: 1;
+    }
+}
+
+.square-10-container-after h2 {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: #000;
+    font-family: 'Ukij';
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.psi {
+    margin-top: 45px;
+    margin-left: 32px;
+    color: #000;
+    font-family: 'Lato';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 125% */
+}
+
+.square-10-container-after svg {
+    top: 0;
+    margin-top: 45px;
+    right: 32px
+}
+
+.square-10-price-1 p {
+    color: #000;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+.square-10-price-1 {
+    width: 770px;
+    height: 60px;
+    margin-top: 72px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blue-stick {
+    margin-top: 12px;
+    margin-left: 200px;
+    width: 770px;
+    height: 2px;
+    flex-shrink: 0;
+    background: #034599;
+}
+
+.doc-nap {
+    margin-top: 120px;
+}
+
+.square-10-doctor {
+    width: 370px;
+    height: 627px;
+    margin-left: 400px;
+    margin-top: 72px;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.square-10-doctor-1 {
+    width: 370px;
+    height: 627px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #034599;
+}
+
+.square-10-doctor img {
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 322px;
+    height: 269px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.square-10-doctor-1 img {
+    background: url(../clinicWeb/images/doc_9.png), lightgray -20px -61.457px / 106.211% 169.517% no-repeat;
+}
+
+.square-10-doctor h5 {
+    margin-top: 16px;
+    margin-left: 24px;
+    color: #000;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}
+
+.square-10-doctor-1 h5 {
+    width: 176px;
+    height: 60px;
+}
+
+.square-10-doctor h4{
+    margin-left: 24px;
+    margin-right: 24px;
+    color: #000;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    overflow-y: auto;
+    max-height: 180px;
+    -ms-overflow-style: none;
+}
+
+.square-10-doctor h4::-webkit-scrollbar {
+    width: 5px;
+}
+
+.square-10-doctor h4::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.square-10-container-after a {
+    margin-top: 74px;
+    margin-left: 399px;
+    width: 371px;
+    height: 64px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #FF8A1E;
+    text-decoration: none;
+}
+
+.square-10-container-after a p {
+    width: 265px;
+    height: 30px;
+    margin-top: 17px;
+    margin-left: 0;
+    color: #FFF;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}
+
+.square-10-container-after a:hover {
+    /* Кнопка при наведении */
+    box-shadow: 0px 0px 20px 0px rgba(255, 138, 30, 0.70);
+    background-color: #FFA84A;
+}
+
+.square-10-container-after a:active {
+    /* Кнопка при нажатии */
+    box-shadow: 0px 4px 4px 0px rgba(103, 56, 0, 0.25) inset;
+    background-color: #FF8A1E;
+}
+

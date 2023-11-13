@@ -22,6 +22,22 @@ var squareContainerUzi = document.getElementById("myUziContainer");
 var squareBL = document.getElementById("myBLSquare");
 var squareContainerBL = document.getElementById("myBLContainer");
 
+// Объявление переменных для Неврологии
+var squareNev = document.getElementById("myNevSquare");
+var squareContainerNev = document.getElementById("myNevContainer");
+
+// Объявление переменных для Лабораторной Диагностики
+var squareLab = document.getElementById("myLabSquare");
+var squareContainerLab = document.getElementById("myLabContainer");
+
+// Объявление переменных для Логопеда
+var squareLog = document.getElementById("myLogSquare");
+var squareContainerLog = document.getElementById("myLogContainer");
+
+// Объявление переменных для Психолога
+var squarePsi = document.getElementById("myPsiSquare");
+var squareContainerPsi = document.getElementById("myPsiContainer");
+
 const mySquare = document.getElementById('mySquare');
 const container3Background = document.querySelector('.container-3-background');
 
@@ -73,6 +89,38 @@ document.addEventListener('click', function (event) {
         toggleSquareContainer(squareContainerBL);
     } else {
         hideSquareContainer(squareContainerBL);
+    }
+
+    // Square for Neurology
+    const isInsideMySquareNev = isInsideElement(event, squareNev);
+    if (isInsideMySquareNev) {
+        toggleSquareContainer(squareContainerNev);
+    } else {
+        hideSquareContainer(squareContainerNev);
+    }
+
+    // Square for Laboratory Diagnostics
+    const isInsideMySquareLab = isInsideElement(event, squareLab);
+    if (isInsideMySquareLab) {
+        toggleSquareContainer(squareContainerLab);
+    } else {
+        hideSquareContainer(squareContainerLab);
+    }
+
+    // Square for Speech therapist
+    const isInsideMySquareLog = isInsideElement(event, squareLog);
+    if (isInsideMySquareLog) {
+        toggleSquareContainer(squareContainerLog);
+    } else {
+        hideSquareContainer(squareContainerLog);
+    }
+
+    // Square for Psychology
+    const isInsideMySquarePsi = isInsideElement(event, squarePsi);
+    if (isInsideMySquarePsi) {
+        toggleSquareContainer(squareContainerPsi);
+    } else {
+        hideSquareContainer(squareContainerPsi);
     }
 
     // Square 1
