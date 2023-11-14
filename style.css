@@ -52,7 +52,8 @@ body {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
+    /* 150% */
 }
 
 .menu svg {
@@ -90,10 +91,12 @@ li {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 25px; /* 138.889% */
+    line-height: 25px;
+    /* 138.889% */
 }
 
-.left-column, .right-column {
+.left-column,
+.right-column {
     display: flex;
     flex-direction: column;
 }
@@ -122,7 +125,10 @@ li {
     height: 50px;
 }
 
-.drop-1, .drop-2, .drop-3, .drop-4 {
+.drop-1,
+.drop-2,
+.drop-3,
+.drop-4 {
     margin: 8px 8px 16px 8px;
 }
 
@@ -159,7 +165,7 @@ li:hover svg {
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal; 
+    line-height: normal;
     margin: 0;
 }
 
@@ -171,7 +177,8 @@ li:hover svg {
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 125% */
+    line-height: 30px;
+    /* 125% */
 }
 
 .container-1 p {
@@ -182,7 +189,8 @@ li:hover svg {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
 }
 
 .container-info .main-btn {
@@ -219,7 +227,8 @@ li:hover svg {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
+    /* 150% */
     white-space: nowrap;
 }
 
@@ -263,7 +272,8 @@ li:hover svg {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
 }
 
 .second-p-container-2 {
@@ -274,7 +284,8 @@ li:hover svg {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
 }
 
 .slideshow {
@@ -303,7 +314,8 @@ li:hover svg {
     /* object-fit: cover; */
 }
 
-.arrow-left, .arrow-right {
+.arrow-left,
+.arrow-right {
     background: none;
     border: none;
     cursor: pointer;
@@ -355,19 +367,22 @@ li:hover svg {
 
 @media screen and (max-width: 1280px) {
     .container-2 {
-        padding-top: 40%; /* Уменьшение отступа для более узких экранов */
+        padding-top: 40%;
+        /* Уменьшение отступа для более узких экранов */
     }
 }
 
 @media screen and (max-width: 1024px) {
     .container-2 {
-        padding-top: 50%; /* Уменьшение отступа для более узких экранов */
+        padding-top: 50%;
+        /* Уменьшение отступа для более узких экранов */
     }
 }
 
 @media screen and (max-width: 769px) {
     .container-2 {
-        padding-top: 60%; /* Уменьшение отступа для более узких экранов */
+        padding-top: 60%;
+        /* Уменьшение отступа для более узких экранов */
     }
 }
 
@@ -399,7 +414,8 @@ li:hover svg {
     box-shadow: 6px 4px 25px 0px rgba(201, 221, 246, 0.20);
 }
 
-.info-with-tick p, .info-with-tick-4 p {
+.info-with-tick p,
+.info-with-tick-4 p {
     margin-left: 16px;
     margin-bottom: 16px;
     color: #000;
@@ -407,10 +423,12 @@ li:hover svg {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
 }
 
-.info-with-tick svg, .info-with-tick-4 svg {
+.info-with-tick svg,
+.info-with-tick-4 svg {
     margin-top: 16px;
     margin-left: 16px;
 }
@@ -435,9 +453,11 @@ li:hover svg {
     .tick-info {
         width: 1020px;
     }
+
     .info-with-tick {
         width: 230px;
     }
+
     .info-with-tick-4 {
         width: 230px;
     }
@@ -447,9 +467,11 @@ li:hover svg {
     .tick-info {
         width: 690px;
     }
+
     .info-with-tick {
         width: 180px;
     }
+
     .info-with-tick-4 {
         width: 180px;
     }
@@ -460,9 +482,11 @@ li:hover svg {
     .tick-info {
         width: 498px;
     }
+
     .info-with-tick {
         width: 100px;
     }
+
     .info-with-tick-4 {
         width: 100px;
     }
@@ -487,7 +511,8 @@ li:hover svg {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
 }
 
 .background {
@@ -513,7 +538,8 @@ li:hover svg {
     margin-left: 30px;
 }
 
-.background-1 h4, .background-2 h4 {
+.background-1 h4,
+.background-2 h4 {
     margin-top: 24px;
     margin-left: 24px;
     color: #FFF;
@@ -521,10 +547,12 @@ li:hover svg {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
+    /* 150% */
 }
 
-.background-1 p, .background-2 p {
+.background-1 p,
+.background-2 p {
     margin-left: 24px;
     margin-top: -12px;
     color: #FFF;
@@ -532,7 +560,8 @@ li:hover svg {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
 }
 
 /* Услуги */
@@ -567,7 +596,9 @@ li:hover svg {
     background: var(--main-dark-blue, #034599);
 }
 
-.line-1, .line-2, .line-3 {
+.line-1,
+.line-2,
+.line-3 {
     display: flex;
     box-sizing: border-box;
 }
@@ -587,8 +618,16 @@ li:hover svg {
     margin-top: 28px;
 }
 
-.square-1, .square-2, .square-3, .square-4, .square-5,
-.square-6, .square-7, .square-8, .square-9, .square-10 {
+.square-1,
+.square-2,
+.square-3,
+.square-4,
+.square-5,
+.square-6,
+.square-7,
+.square-8,
+.square-9,
+.square-10 {
     width: 270px;
     height: 120px;
     flex-shrink: 0;
@@ -596,21 +635,34 @@ li:hover svg {
     background: var(--main-light-blue, #02A1E3);
 }
 
-.square-2, .square-3, .square-4,
-.square-6, .square-7, .square-8,
+.square-2,
+.square-3,
+.square-4,
+.square-6,
+.square-7,
+.square-8,
 .square-10 {
     margin-left: 30px;
 }
 
-.sq-1-p, .sq-2-p, .sq-3-p, .sq-4-p, .sq-5-p,
-.sq-6-p, .sq-7-p, .sq-8-p, .sq-9-p, .sq-10-p {
+.sq-1-p,
+.sq-2-p,
+.sq-3-p,
+.sq-4-p,
+.sq-5-p,
+.sq-6-p,
+.sq-7-p,
+.sq-8-p,
+.sq-9-p,
+.sq-10-p {
     text-align: left;
     color: #FFF;
     font-family: 'Lato';
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 125% */
+    line-height: 30px;
+    /* 125% */
 }
 
 .sq-1-p {
@@ -622,30 +674,37 @@ li:hover svg {
     width: 146px;
     height: 30px;
 }
+
 .sq-3-p {
     width: 89px;
     height: 30px;
 }
+
 .sq-4-p {
     width: 139px;
     height: 30px;
 }
+
 .sq-5-p {
     width: 47px;
     height: 30px;
 }
+
 .sq-6-p {
     width: 160px;
     height: 60px;
 }
+
 .sq-7-p {
     width: 143px;
     height: 30px;
 }
+
 .sq-8-p {
     width: 174px;
     height: 60px;
 }
+
 .sq-9-p {
     width: 95px;
     height: 30px;
@@ -656,19 +715,34 @@ li:hover svg {
     height: 30px;
 }
 
-.sq-1-p, .sq-2-p, .sq-3-p, .sq-4-p, .sq-5-p,
-.sq-7-p, .sq-9-p, .sq-10-p {
+.sq-1-p,
+.sq-2-p,
+.sq-3-p,
+.sq-4-p,
+.sq-5-p,
+.sq-7-p,
+.sq-9-p,
+.sq-10-p {
     margin-top: 45px;
     margin-left: 32px;
 }
 
-.sq-6-p, .sq-8-p {
+.sq-6-p,
+.sq-8-p {
     margin-top: 30px;
     margin-left: 32px;
 }
 
-.square-1 svg, .square-2 svg, .square-3 svg, .square-4 svg, .square-5 svg,
-.square-6 svg, .square-7 svg, .square-8 svg, .square-9 svg, .square-10 svg {
+.square-1 svg,
+.square-2 svg,
+.square-3 svg,
+.square-4 svg,
+.square-5 svg,
+.square-6 svg,
+.square-7 svg,
+.square-8 svg,
+.square-9 svg,
+.square-10 svg {
     width: 11.95px;
     height: 11.95px;
     flex-shrink: 0;
@@ -727,11 +801,11 @@ li:hover svg {
 
 .square-1-container-after {
     width: 1170px;
-    height: 1450px;
+    height: auto;
+    padding-bottom: 30px;
     border-radius: 10px;
     background: #ECF4FF;
     display: flex;
-    position: relative;
     box-sizing: border-box;
     text-align: left;
     position: absolute;
@@ -769,7 +843,8 @@ li:hover svg {
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 125% */
+    line-height: 30px;
+    /* 125% */
 }
 
 .square-1-container-after svg {
@@ -778,16 +853,21 @@ li:hover svg {
     right: 32px
 }
 
-.square-1-price-1 p, .square-1-price-2 p, .square-1-price-3 p {
+.square-1-price-1 p,
+.square-1-price-2 p,
+.square-1-price-3 p {
     color: #000;
     font-family: 'Lato';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
 }
 
-.square-1-price-1, .square-1-price-2, .square-1-price-3 {
+.square-1-price-1,
+.square-1-price-2,
+.square-1-price-3 {
     width: 770px;
     height: 30px;
     margin-top: 12px;
@@ -824,7 +904,8 @@ li:hover svg {
     box-sizing: border-box;
 }
 
-.square-1-doctor-1, .square-1-doctor-2 {
+.square-1-doctor-1,
+.square-1-doctor-2 {
     width: 370px;
     height: 627px;
     flex-shrink: 0;
@@ -862,7 +943,8 @@ li:hover svg {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
+    /* 150% */
 }
 
 .square-1-doctor-1 h5 {
@@ -875,7 +957,7 @@ li:hover svg {
     height: 60px;
 }
 
-.square-1-doctor h4{
+.square-1-doctor h4 {
     margin-left: 24px;
     margin-right: 24px;
     color: #000;
@@ -883,7 +965,8 @@ li:hover svg {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
     overflow-y: auto;
     max-height: 180px;
     /* scrollbar-width: thin;
@@ -923,7 +1006,8 @@ li:hover svg {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
+    /* 150% */
 }
 
 .square-1-container-after a:hover {
@@ -942,7 +1026,8 @@ li:hover svg {
 
 .square-2-container-after {
     width: 1170px;
-    height: 864px;
+    height: auto;
+    padding-bottom: 30px;
     border-radius: 10px;
     background: #ECF4FF;
     display: flex;
@@ -985,7 +1070,8 @@ li:hover svg {
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 125% */
+    line-height: 30px;
+    /* 125% */
 }
 
 .square-2-container-after svg {
@@ -994,18 +1080,31 @@ li:hover svg {
     right: 32px
 }
 
-.square-2-price-1 p, .square-2-price-2 p, .square-2-price-3 p, .square-2-price-4 p,
-.square-2-price-5 p, .square-2-price-6 p, .square-2-price-7 p, .square-2-price-8 p {
+.square-2-price-1 p,
+.square-2-price-2 p,
+.square-2-price-3 p,
+.square-2-price-4 p,
+.square-2-price-5 p,
+.square-2-price-6 p,
+.square-2-price-7 p,
+.square-2-price-8 p {
     color: #000;
     font-family: 'Lato';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
 }
 
-.square-2-price-1, .square-2-price-2, .square-2-price-3, .square-2-price-4,
-.square-2-price-5, .square-2-price-6, .square-2-price-7, .square-2-price-8 {
+.square-2-price-1,
+.square-2-price-2,
+.square-2-price-3,
+.square-2-price-4,
+.square-2-price-5,
+.square-2-price-6,
+.square-2-price-7,
+.square-2-price-8 {
     width: 770px;
     height: 30px;
     margin-top: 12px;
@@ -1039,7 +1138,8 @@ li:hover svg {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
+    /* 150% */
 }
 
 .square-2-container-after a:hover {
@@ -1058,7 +1158,8 @@ li:hover svg {
 
 .square-3-container-after {
     width: 1170px;
-    height: 1450px;
+    height: auto;
+    padding-bottom: 30px;
     border-radius: 10px;
     background: #ECF4FF;
     display: flex;
@@ -1101,7 +1202,8 @@ li:hover svg {
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 125% */
+    line-height: 30px;
+    /* 125% */
 }
 
 .square-3-container-after svg {
@@ -1110,16 +1212,21 @@ li:hover svg {
     right: 32px
 }
 
-.square-3-price-1 p, .square-3-price-2 p, .square-3-price-3 p {
+.square-3-price-1 p,
+.square-3-price-2 p,
+.square-3-price-3 p {
     color: #000;
     font-family: 'Lato';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
 }
 
-.square-3-price-1, .square-3-price-2, .square-3-price-3 {
+.square-3-price-1,
+.square-3-price-2,
+.square-3-price-3 {
     width: 770px;
     height: 30px;
     margin-top: 12px;
@@ -1156,7 +1263,8 @@ li:hover svg {
     box-sizing: border-box;
 }
 
-.square-3-doctor-1, .square-3-doctor-2 {
+.square-3-doctor-1,
+.square-3-doctor-2 {
     width: 370px;
     height: 627px;
     flex-shrink: 0;
@@ -1194,7 +1302,8 @@ li:hover svg {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
+    /* 150% */
 }
 
 .square-3-doctor-1 h5 {
@@ -1207,7 +1316,7 @@ li:hover svg {
     height: 60px;
 }
 
-.square-3-doctor h4{
+.square-3-doctor h4 {
     margin-left: 24px;
     margin-right: 24px;
     color: #000;
@@ -1215,7 +1324,8 @@ li:hover svg {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
     overflow-y: auto;
     max-height: 180px;
     -ms-overflow-style: none;
@@ -1253,7 +1363,8 @@ li:hover svg {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
+    /* 150% */
 }
 
 .square-3-container-after a:hover {
@@ -1272,7 +1383,8 @@ li:hover svg {
 
 .square-4-container-after {
     width: 1170px;
-    height: 2402px;
+    height: auto;
+    padding-bottom: 30px;
     border-radius: 10px;
     background: #ECF4FF;
     display: flex;
@@ -1315,7 +1427,8 @@ li:hover svg {
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 125% */
+    line-height: 30px;
+    /* 125% */
 }
 
 .square-4-container-after svg {
@@ -1324,22 +1437,55 @@ li:hover svg {
     right: 32px
 }
 
-.square-4-price-1 p, .square-4-price-2 p, .square-4-price-3 p, .square-4-price-4 p, .square-4-price-5 p,
-.square-4-price-6 p, .square-4-price-7 p, .square-4-price-8 p, .square-4-price-9 p, .square-4-price-10 p,
-.square-4-price-11 p, .square-4-price-12 p, .square-4-price-13 p, .square-4-price-14 p, .square-4-price-15 p,
-.square-4-price-16 p, .square-4-price-17 p, .square-4-price-18 p, .square-4-price-19 p, .square-4-price-20 p {
+.square-4-price-1 p,
+.square-4-price-2 p,
+.square-4-price-3 p,
+.square-4-price-4 p,
+.square-4-price-5 p,
+.square-4-price-6 p,
+.square-4-price-7 p,
+.square-4-price-8 p,
+.square-4-price-9 p,
+.square-4-price-10 p,
+.square-4-price-11 p,
+.square-4-price-12 p,
+.square-4-price-13 p,
+.square-4-price-14 p,
+.square-4-price-15 p,
+.square-4-price-16 p,
+.square-4-price-17 p,
+.square-4-price-18 p,
+.square-4-price-19 p,
+.square-4-price-20 p {
     color: #000;
     font-family: 'Lato';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
 }
 
-.square-4-price-1, .square-4-price-2, .square-4-price-3, .square-4-price-4, .square-4-price-5,
-.square-4-price-6, .square-4-price-7, .square-4-price-8, .square-4-price-9, .square-4-price-10,
-.square-4-price-11, .square-4-price-12, .square-4-price-13, .square-4-price-14, .square-4-price-15,
-.square-4-price-16, .square-4-price-17, .square-4-price-18, .square-4-price-19, .square-4-price-20 {
+.square-4-price-1,
+.square-4-price-2,
+.square-4-price-3,
+.square-4-price-4,
+.square-4-price-5,
+.square-4-price-6,
+.square-4-price-7,
+.square-4-price-8,
+.square-4-price-9,
+.square-4-price-10,
+.square-4-price-11,
+.square-4-price-12,
+.square-4-price-13,
+.square-4-price-14,
+.square-4-price-15,
+.square-4-price-16,
+.square-4-price-17,
+.square-4-price-18,
+.square-4-price-19,
+.square-4-price-20 {
     width: 770px;
     height: 30px;
     margin-top: 12px;
@@ -1376,7 +1522,8 @@ li:hover svg {
     box-sizing: border-box;
 }
 
-.square-4-doctor-1, .square-4-doctor-2 {
+.square-4-doctor-1,
+.square-4-doctor-2 {
     width: 370px;
     height: 627px;
     flex-shrink: 0;
@@ -1414,7 +1561,8 @@ li:hover svg {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
+    /* 150% */
 }
 
 .square-4-doctor-1 h5 {
@@ -1427,7 +1575,7 @@ li:hover svg {
     height: 60px;
 }
 
-.square-4-doctor h4{
+.square-4-doctor h4 {
     margin-left: 24px;
     margin-right: 24px;
     color: #000;
@@ -1435,7 +1583,8 @@ li:hover svg {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
     overflow-y: auto;
     max-height: 180px;
     -ms-overflow-style: none;
@@ -1473,7 +1622,8 @@ li:hover svg {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
+    /* 150% */
 }
 
 .square-4-container-after a:hover {
@@ -1492,7 +1642,8 @@ li:hover svg {
 
 .square-5-container-after {
     width: 1170px;
-    height: 2828px;
+    height: auto;
+    padding-bottom: 30px;
     border-radius: 10px;
     background: #ECF4FF;
     display: flex;
@@ -1534,7 +1685,8 @@ li:hover svg {
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 125% */
+    line-height: 30px;
+    /* 125% */
 }
 
 .square-5-container-after svg {
@@ -1543,25 +1695,64 @@ li:hover svg {
     right: 32px
 }
 
-.square-5-price-1 p, .square-5-price-2 p, .square-5-price-3 p, .square-5-price-4 p, .square-5-price-5 p,
-.square-5-price-6 p, .square-5-price-7 p, .square-5-price-8 p, .square-5-price-9 p, .square-5-price-10 p,
-.square-5-price-11 p, .square-5-price-12 p, .square-5-price-13 p, .square-5-price-14 p, .square-5-price-15 p,
-.square-5-price-16 p, .square-5-price-17 p, .square-5-price-18 p, .square-5-price-19 p, .square-5-price-20 p,
-.square-5-price-21 p, .square-5-price-22 p, .square-5-price-23 p, .square-5-price-24 p, .square-5-price-25 p,
+.square-5-price-1 p,
+.square-5-price-2 p,
+.square-5-price-3 p,
+.square-5-price-4 p,
+.square-5-price-5 p,
+.square-5-price-6 p,
+.square-5-price-7 p,
+.square-5-price-8 p,
+.square-5-price-9 p,
+.square-5-price-10 p,
+.square-5-price-11 p,
+.square-5-price-12 p,
+.square-5-price-13 p,
+.square-5-price-14 p,
+.square-5-price-15 p,
+.square-5-price-16 p,
+.square-5-price-17 p,
+.square-5-price-18 p,
+.square-5-price-19 p,
+.square-5-price-20 p,
+.square-5-price-21 p,
+.square-5-price-22 p,
+.square-5-price-23 p,
+.square-5-price-24 p,
+.square-5-price-25 p,
 .square-5-price-26 p {
     color: #000;
     font-family: 'Lato';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
 }
 
-.square-5-price-1, .square-5-price-2, .square-5-price-3, .square-5-price-4, .square-5-price-5,
-.square-5-price-6, .square-5-price-7, .square-5-price-9, .square-5-price-10, .square-5-price-11, 
-.square-5-price-12, .square-5-price-13, .square-5-price-14, .square-5-price-15, .square-5-price-16, 
-.square-5-price-17, .square-5-price-18, .square-5-price-19, .square-5-price-20, 
-.square-5-price-22, .square-5-price-23, .square-5-price-24, .square-5-price-25 {
+.square-5-price-1,
+.square-5-price-2,
+.square-5-price-3,
+.square-5-price-4,
+.square-5-price-5,
+.square-5-price-6,
+.square-5-price-7,
+.square-5-price-9,
+.square-5-price-10,
+.square-5-price-11,
+.square-5-price-12,
+.square-5-price-13,
+.square-5-price-14,
+.square-5-price-15,
+.square-5-price-16,
+.square-5-price-17,
+.square-5-price-18,
+.square-5-price-19,
+.square-5-price-20,
+.square-5-price-22,
+.square-5-price-23,
+.square-5-price-24,
+.square-5-price-25 {
     width: 770px;
     height: 30px;
     margin-left: 200px;
@@ -1571,7 +1762,9 @@ li:hover svg {
     text-align: left;
 }
 
-.square-5-price-8, .square-5-price-21, .square-5-price-26 {
+.square-5-price-8,
+.square-5-price-21,
+.square-5-price-26 {
     width: 770px;
     height: 60px;
     margin-left: 200px;
@@ -1608,7 +1801,8 @@ li:hover svg {
     box-sizing: border-box;
 }
 
-.square-5-doctor-1, .square-5-doctor-2 {
+.square-5-doctor-1,
+.square-5-doctor-2 {
     width: 370px;
     height: 627px;
     flex-shrink: 0;
@@ -1646,7 +1840,8 @@ li:hover svg {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
+    /* 150% */
 }
 
 .square-5-doctor-1 h5 {
@@ -1659,7 +1854,7 @@ li:hover svg {
     height: 60px;
 }
 
-.square-5-doctor h4{
+.square-5-doctor h4 {
     margin-left: 24px;
     margin-right: 24px;
     color: #000;
@@ -1667,7 +1862,8 @@ li:hover svg {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
     overflow-y: auto;
     max-height: 180px;
     -ms-overflow-style: none;
@@ -1705,7 +1901,8 @@ li:hover svg {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
+    /* 150% */
 }
 
 .square-5-container-after a:hover {
@@ -1724,7 +1921,8 @@ li:hover svg {
 
 .square-6-container-after {
     width: 1170px;
-    height: 473px;
+    height: auto;
+    padding-bottom: 30px;
     border-radius: 10px;
     background: #ECF4FF;
     display: flex;
@@ -1757,7 +1955,8 @@ li:hover svg {
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 125% */
+    line-height: 30px;
+    /* 125% */
 }
 
 .square-6-container-after svg {
@@ -1781,7 +1980,8 @@ li:hover svg {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
 }
 
 .square-6-container-after a {
@@ -1808,7 +2008,8 @@ li:hover svg {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
+    /* 150% */
 }
 
 .square-6-container-after a:hover {
@@ -1827,7 +2028,8 @@ li:hover svg {
 
 .square-7-container-after {
     width: 1170px;
-    height: 1450px;
+    height: auto;
+    padding-bottom: 30px;
     border-radius: 10px;
     background: #ECF4FF;
     display: flex;
@@ -1870,7 +2072,8 @@ li:hover svg {
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 125% */
+    line-height: 30px;
+    /* 125% */
 }
 
 .square-7-container-after svg {
@@ -1879,16 +2082,21 @@ li:hover svg {
     right: 32px
 }
 
-.square-7-price-1 p, .square-7-price-2 p, .square-7-price-3 p {
+.square-7-price-1 p,
+.square-7-price-2 p,
+.square-7-price-3 p {
     color: #000;
     font-family: 'Lato';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
 }
 
-.square-7-price-1, .square-7-price-2, .square-7-price-3 {
+.square-7-price-1,
+.square-7-price-2,
+.square-7-price-3 {
     width: 770px;
     height: 30px;
     margin-top: 12px;
@@ -1955,7 +2163,8 @@ li:hover svg {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
+    /* 150% */
 }
 
 .square-7-doctor-1 h5 {
@@ -1963,7 +2172,7 @@ li:hover svg {
     height: 60px;
 }
 
-.square-7-doctor h4{
+.square-7-doctor h4 {
     margin-left: 24px;
     margin-right: 24px;
     color: #000;
@@ -1971,7 +2180,8 @@ li:hover svg {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
     overflow-y: auto;
     max-height: 180px;
     -ms-overflow-style: none;
@@ -2009,7 +2219,8 @@ li:hover svg {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
+    /* 150% */
 }
 
 .square-7-container-after a:hover {
@@ -2028,7 +2239,8 @@ li:hover svg {
 
 .square-8-container-after {
     width: 1170px;
-    height: 1940px;
+    height: auto;
+    padding-bottom: 30px;
     border-radius: 10px;
     background: #ECF4FF;
     display: flex;
@@ -2071,7 +2283,8 @@ li:hover svg {
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 125% */
+    line-height: 30px;
+    /* 125% */
 }
 
 .square-8-container-after svg {
@@ -2080,21 +2293,35 @@ li:hover svg {
     right: 32px
 }
 
-.square-8-price-1 p, .square-8-price-2 p, .square-8-price-3 p,
-.square-8-price-4 p, .square-8-price-5 p, .square-8-price-6 p,
-.square-8-price-7 p, .square-8-price-8 p, .square-8-price-9 p,
-.square-8-price-10 p, .square-8-price-11 p {
+.square-8-price-1 p,
+.square-8-price-2 p,
+.square-8-price-3 p,
+.square-8-price-4 p,
+.square-8-price-5 p,
+.square-8-price-6 p,
+.square-8-price-7 p,
+.square-8-price-8 p,
+.square-8-price-9 p,
+.square-8-price-10 p,
+.square-8-price-11 p {
     color: #000;
     font-family: 'Lato';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
 }
 
-.square-8-price-1, .square-8-price-2, .square-8-price-3,
-.square-8-price-4, .square-8-price-5, .square-8-price-6, 
-.square-8-price-9,.square-8-price-10, .square-8-price-11 {
+.square-8-price-1,
+.square-8-price-2,
+.square-8-price-3,
+.square-8-price-4,
+.square-8-price-5,
+.square-8-price-6,
+.square-8-price-9,
+.square-8-price-10,
+.square-8-price-11 {
     width: 770px;
     height: 30px;
     margin-top: 12px;
@@ -2104,7 +2331,8 @@ li:hover svg {
     align-items: center;
 }
 
-.square-8-price-7, .square-8-price-8 {
+.square-8-price-7,
+.square-8-price-8 {
     width: 770px;
     height: 60px;
     margin-top: 12px;
@@ -2114,7 +2342,7 @@ li:hover svg {
     align-items: center;
 }
 
-.square-8-price-1 { 
+.square-8-price-1 {
     margin-top: 60px;
 }
 
@@ -2137,7 +2365,8 @@ li:hover svg {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
 }
 
 .doc-nap {
@@ -2184,7 +2413,8 @@ li:hover svg {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
+    /* 150% */
 }
 
 .square-8-doctor-1 h5 {
@@ -2192,7 +2422,7 @@ li:hover svg {
     height: 60px;
 }
 
-.square-8-doctor h4{
+.square-8-doctor h4 {
     margin-left: 24px;
     margin-right: 24px;
     color: #000;
@@ -2200,7 +2430,8 @@ li:hover svg {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
     overflow-y: auto;
     max-height: 180px;
     -ms-overflow-style: none;
@@ -2238,7 +2469,8 @@ li:hover svg {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
+    /* 150% */
 }
 
 .square-8-container-after a:hover {
@@ -2257,7 +2489,8 @@ li:hover svg {
 
 .square-9-container-after {
     width: 1170px;
-    height: 1338px;
+    height: auto;
+    padding-bottom: 30px;
     border-radius: 10px;
     background: #ECF4FF;
     display: flex;
@@ -2300,7 +2533,8 @@ li:hover svg {
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 125% */
+    line-height: 30px;
+    /* 125% */
 }
 
 .square-9-container-after svg {
@@ -2315,7 +2549,8 @@ li:hover svg {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
 }
 
 .square-9-price-1 {
@@ -2381,7 +2616,8 @@ li:hover svg {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
+    /* 150% */
 }
 
 .square-9-doctor-1 h5 {
@@ -2389,7 +2625,7 @@ li:hover svg {
     height: 60px;
 }
 
-.square-9-doctor h4{
+.square-9-doctor h4 {
     margin-left: 24px;
     margin-right: 24px;
     color: #000;
@@ -2397,7 +2633,8 @@ li:hover svg {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
     overflow-y: auto;
     max-height: 180px;
     -ms-overflow-style: none;
@@ -2435,7 +2672,8 @@ li:hover svg {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
+    /* 150% */
 }
 
 .square-9-container-after a:hover {
@@ -2454,7 +2692,8 @@ li:hover svg {
 
 .square-10-container-after {
     width: 1170px;
-    height: 1368px;
+    height: auto;
+    padding-bottom: 30px;
     border-radius: 10px;
     background: #ECF4FF;
     display: flex;
@@ -2497,7 +2736,8 @@ li:hover svg {
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 125% */
+    line-height: 30px;
+    /* 125% */
 }
 
 .square-10-container-after svg {
@@ -2512,7 +2752,8 @@ li:hover svg {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
 }
 
 .square-10-price-1 {
@@ -2578,7 +2819,8 @@ li:hover svg {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
+    /* 150% */
 }
 
 .square-10-doctor-1 h5 {
@@ -2586,7 +2828,7 @@ li:hover svg {
     height: 60px;
 }
 
-.square-10-doctor h4{
+.square-10-doctor h4 {
     margin-left: 24px;
     margin-right: 24px;
     color: #000;
@@ -2594,7 +2836,8 @@ li:hover svg {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
     overflow-y: auto;
     max-height: 180px;
     -ms-overflow-style: none;
@@ -2632,7 +2875,8 @@ li:hover svg {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
+    /* 150% */
 }
 
 .square-10-container-after a:hover {
