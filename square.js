@@ -37,7 +37,7 @@ function hideSquareContainer(container) {
       return container.style.display === 'block';
     });
 
-    // Если нет открытых окон, установите исходную высоту container-3-background
+    // Если нет открытых окон, устанавливаем исходную высоту container-3-background
     if (!anyOpenSquares) {
       container3Background.style.height = '496px';
     }
