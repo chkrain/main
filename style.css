@@ -255,7 +255,6 @@ li:hover svg {
     height: 762px;
     padding-top: 20%;
     margin: 0 auto;
-    /* position: relative; Ошибка в кнопке на этом моменте */
     box-sizing: border-box;
 }
 
@@ -336,11 +335,12 @@ li:hover svg {
 }
 
 .arrow-left {
-    left: 0;
+    left: 1px;
 }
 
 .arrow-right {
-    right: 0;
+    right: 1px;
+    
 }
 
 .arrow-left:hover {
@@ -3047,3 +3047,92 @@ li:hover svg {
 }
 
 /* Контакты */
+
+.container-6 {
+    height: 439px;
+    margin: 190px 135px 0 135px;
+    position: relative;
+}
+
+.container-6 h2 {
+    text-align: center;
+    padding-bottom: 40px;
+    color: #000;
+    font-family: 'Ukij';
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.container-6 p,
+.cont-6-blue {
+    margin-left: 0;
+    color: #000;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+.cont-6-square {
+    display: flex;
+}
+
+.cont-6-blue h5 {
+    margin: 0;
+    color: #FFF;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+
+}
+.cont-6-blue p {
+    margin: 0;
+    color: #FFF;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+.cont-6-blue {
+    width: 270px;
+    height: 106px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--main-light-blue, #02A1E3);
+    margin-right: 30px;
+}
+
+
+.map {
+    position: absolute;
+    top: 132px;
+    right: 0;
+    width: 570px;
+    height: 320px;
+}
+
+/* Запись на консультацию */
+
+.container-7 {
+    height: 671px;
+    margin-top: 120px;
+    position: relative;
+}
+
+.container-7 h2 {
+    text-align: center;
+    padding-bottom: 40px;
+    color: #000;
+    font-family: 'Ukij';
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
