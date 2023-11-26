@@ -8,6 +8,8 @@
     src: url(../clinicWeb/fonts/UKIJInichkeb.ttf);
 }
 
+
+
 body {
     background: #dfebfb;
 }
@@ -340,7 +342,7 @@ li:hover svg {
 
 .arrow-right {
     right: 1px;
-    
+
 }
 
 .arrow-left:hover {
@@ -361,59 +363,6 @@ li:hover svg {
 .arrow-right:active {
     transform: scale(0.95);
     transform: translateX(0);
-}
-
-@media screen and (max-width: 1280px) {
-    .first-p-container-2 {
-        width: 360px;
-    }
-}
-
-@media screen and (max-width: 920px) {
-    .first-p-container-2 {
-        width: 260px;
-        margin-top: 430px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .first-p-container-2 {
-        width: 160px;
-        margin-top: 430px;
-    }
-}
-
-@media screen and (max-width: 920px) {
-    .second-p-container-2 {
-        margin-top: 24px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .second-p-container-2 {
-        margin-top: 24px;
-    }
-}
-
-@media screen and (max-width: 1280px) {
-    .container-2 {
-        padding-top: 40%;
-        /* Уменьшение отступа для более узких экранов */
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .container-2 {
-        padding-top: 50%;
-        /* Уменьшение отступа для более узких экранов */
-    }
-}
-
-@media screen and (max-width: 769px) {
-    .container-2 {
-        padding-top: 60%;
-        /* Уменьшение отступа для более узких экранов */
-    }
 }
 
 .tick-info {
@@ -479,48 +428,6 @@ li:hover svg {
     width: 182px;
 }
 
-@media screen and (max-width: 1280px) {
-    .tick-info {
-        width: 1020px;
-    }
-
-    .info-with-tick {
-        width: 230px;
-    }
-
-    .info-with-tick-4 {
-        width: 230px;
-    }
-}
-
-@media screen and (max-width: 960px) {
-    .tick-info {
-        width: 690px;
-    }
-
-    .info-with-tick {
-        width: 180px;
-    }
-
-    .info-with-tick-4 {
-        width: 180px;
-    }
-}
-
-
-@media screen and (max-width: 768px) {
-    .tick-info {
-        width: 498px;
-    }
-
-    .info-with-tick {
-        width: 100px;
-    }
-
-    .info-with-tick-4 {
-        width: 100px;
-    }
-}
 
 /* Информация о времени */
 
@@ -2895,7 +2802,8 @@ li:hover svg {
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 125% */
+    line-height: 30px;
+    /* 125% */
 }
 
 .slider-with-svg {
@@ -2908,7 +2816,9 @@ li:hover svg {
     justify-content: center;
 }
 
-.c-4-pensioner, .c-4-military, .c-4-children {
+.c-4-pensioner,
+.c-4-military,
+.c-4-children {
     width: 770px;
     height: 400px;
     box-sizing: border-box;
@@ -3032,7 +2942,8 @@ li:hover svg {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
+    /* 150% */
 }
 
 .reviews p {
@@ -3044,7 +2955,8 @@ li:hover svg {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
 }
 
 /* Контакты */
@@ -3074,11 +2986,17 @@ li:hover svg {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
 }
 
 .cont-6-square {
     display: flex;
+}
+
+.telegram {
+    text-decoration: none;
+    transform: translateX(-30px);
 }
 
 .cont-6-blue {
@@ -3098,18 +3016,21 @@ li:hover svg {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
+    /* 150% */
 
 }
+
 .cont-6-blue p {
     margin-top: -21px;
-    margin-left: 23px;  
+    margin-left: 23px;
     color: #FFF;
     font-family: 'Lato';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */ 
+    line-height: 30px;
+    /* 187.5% */
 }
 
 .map {
@@ -3146,7 +3067,8 @@ li:hover svg {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
+    /* 150% */
 }
 
 .cont-7-blue-back {
@@ -3164,7 +3086,9 @@ li:hover svg {
     padding-left: 28.125%;
 }
 
-.select-a-service, .choose-a-doctor, .choose-a-time {
+.select-a-service,
+.choose-a-doctor,
+.choose-a-time {
     width: 630px;
     height: 72px;
     flex-shrink: 0;
@@ -3175,15 +3099,20 @@ li:hover svg {
     align-items: center;
 }
 
-.select-a-service, .choose-a-time {
+.select-a-service,
+.choose-a-time {
     margin-bottom: 40px;
 }
 
-.select-a-service svg, .choose-a-doctor svg, .choose-a-time svg {
+.select-a-service svg,
+.choose-a-doctor svg,
+.choose-a-time svg {
     padding-right: 21px;
 }
 
-.select-a-service p, .choose-a-doctor p, .choose-a-time p {
+.select-a-service p,
+.choose-a-doctor p,
+.choose-a-time p {
     padding-left: 30px;
 }
 
@@ -3257,14 +3186,17 @@ li:hover svg {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
+    /* 150% */
 }
 
 .footer .col-7-1 {
     padding-left: 51%;
 }
 
-.footer .col-7-1, .col-7-2, .col-7-3 {
+.footer .col-7-1,
+.col-7-2,
+.col-7-3 {
     padding-top: 38px;
 }
 
