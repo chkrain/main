@@ -15,7 +15,7 @@
     <div class="header">
         <!--Логотип-->
         <nav class="header-logo">
-            <a href="#">
+            <a href="index.html#start">
                 <img src="../clinicWeb/images/logo.svg" alt="Logo">
             </a>
         </nav>
@@ -31,32 +31,32 @@
                 </a>
                 <div class="dropdown">
                     <div class="left-column">
-                        <a class="drop-1" href="#about">О клинике</a>
-                        <a class="drop-2" href="#">Лицензии</a>
+                        <a class="drop-1" href="index.html#about">О клинике</a>
+                        <a class="drop-2" href="#licenses">Лицензии</a>
                     </div>
                     <div class="right-column">
-                        <a class="drop-3" href="#">Вакансии</a>
-                        <a class="drop-4" href="#">Правовая информация</a>
+                        <a class="drop-3" href="#vacancies">Вакансии</a>
+                        <a class="drop-4" href="#legalInformation">Правовая информация</a>
                     </div>
                 </div>
             </li>
             <li>
-                <a href="#">Услуги</a>
+                <a href="index.html#services">Услуги</a>
             </li>
             <li>
-                <a href="#">Льготы</a>
+                <a href="index.html#privileges">Льготы</a>
             </li>
             <li>
-                <a href="#">Отзывы</a>
+                <a href="index.html#reviews">Отзывы</a>
             </li>
             <li>
-                <a href="#">Контакты</a>
+                <a href="index.html#contacts">Контакты</a>
             </li>
         </ul>
     </div>
 
-    <div class="container-1">
-        <h2 id="vacancies">Вакансии</h2>
+    <div class="container-1" id="vacancies">
+        <h2>Вакансии</h2>
         <p>Мы предлагаем:<br>
             &#149; Достойную оплату вашего труда, профессиональный рост<br>
             &#149; Комфортные условия труда<br>
@@ -65,8 +65,8 @@
             Мы заинтересованы в специалистах следующих специальностей: гинеколог, детский кардиолог, врач УЗД.</p>
     </div>
 
-    <div class="container-2">
-        <h2 id="legalInformation">Правовая Информация</h2>
+    <div class="container-2" id="legalInformation">
+        <h2>Правовая Информация</h2>
         <p>ПАМЯТКА ПАЦИЕНТА
             Уважаемый пациент!
             Ваша безопасность во время нахождения в
@@ -124,8 +124,8 @@
             - Доверенность законных представителей</p>
     </div>
 
-    <div class="container-3">
-        <h2 id="licenses">Лицензии</h2>
+    <div class="container-3" id="licenses">
+        <h2>Лицензии</h2>
         <p>Выписка из реестра лицензий по состоянию на 11:25 16.05.2023 г.<br>
             1. Статус лицензии: действует;<br>
             2. Регистрационный номер лицензии: Л041-01126-23/00393144;<br>
@@ -164,43 +164,36 @@
             Министр здравоохранения Краснодарского края Е.Ф. Филиппов</p>
     </div>
 
+    <!-- Футер -->
+    <div class="footer">
+        <nav class="footer-logo">
+            <a href="index.html#start">
+                <img src="../clinicWeb/images/logo.svg" alt="Logo">
+            </a>
+        </nav>
+        <ul class="col-7-1">
+            <li><a href="index.html#about">О клинике</a></li>
+            <li><a href="index.html#services">Услуги</a></li>
+            <li><a href="index.html#privileges">Льготы</a></li>
+        </ul>
+        <ul class="col-7-2">
+            <li><a href="index.html#reviews">Отзывы</a></li>
+            <li><a href="index.html#contacts">Контакты</a></li>
+            <li><a href="#licenses">Лицензии</a></li>
+        </ul>
+        <ul class="col-7-3">
+            <li><a href="#vacancies">Вакансии</a></li>
+            <li><a href="#legalInformation">Правовая информация</a></li>
+        </ul>
+    </div>
 
-    <script>
-        // Обработчик события клика на все ссылки
-        document.querySelectorAll('a').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
 
-                // Получаем идентификатор якоря из атрибута href
-                const targetId = this.getAttribute('href').substring(1);
 
-                // Находим элемент с соответствующим идентификатором
-                const targetElement = document.getElementById(targetId);
+    <!-- Скролл по сайту -->
+    <script src="scroll_on_page.js"></script>
+    <!-- Скролл url -->
+    <script src="anchor.js"></script>
 
-                // Прокручиваем до элемента
-                if (targetElement) {
-                    targetElement.scrollIntoView({ behavior: 'smooth' });
-                }
-            });
-        });
-    </script>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            // Проверяем, есть ли якорь в URL
-            if (window.location.hash) {
-                // Используем якорь из URL для скролла
-                const targetId = window.location.hash.substring(1);
-                const targetElement = document.getElementById(targetId);
-
-                if (targetElement) {
-                    setTimeout(function () {
-                        targetElement.scrollIntoView({ behavior: 'smooth' });
-                    }, 0);
-                }
-            }
-        });
-    </script>
 
 </body>
 

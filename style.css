@@ -3109,9 +3109,8 @@ li:hover svg {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px; /* 187.5% */ 
 }
-
 
 .map {
     position: absolute;
@@ -3267,4 +3266,14 @@ li:hover svg {
 
 .footer .col-7-1, .col-7-2, .col-7-3 {
     padding-top: 38px;
+}
+
+.footer a:hover {
+    transform: scale(1.05);
+    transform: translateY(-2px);
+}
+
+.footer a:active {
+    transform: scale(0.95);
+    transform: translateY(0);
 }
