@@ -3059,7 +3059,8 @@ li:hover svg {
     line-height: normal;
 }
 
-.container-7 p, .container-7 h6 {
+.container-7 p {
+    padding-top: 64px;
     color: #FFF;
     font-family: 'Lato';
     font-size: 16px;
@@ -3068,8 +3069,13 @@ li:hover svg {
     line-height: 30px; /* 187.5% */
 }
 
-.container-7 p {
-    padding-top: 64px;
+.container-7 h6 {
+    color: #FFF;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
 }
 
 .cont-7-blue-back {
