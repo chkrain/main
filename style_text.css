@@ -9,7 +9,7 @@
 }
 
 body {
-    background: #dfebfb;
+    background: #ECF4FF;
 }
 
 h2 {
@@ -179,22 +179,22 @@ li:hover svg {
 /* Вакансии */
 
 .container-1 {
-    height: 301px;
-    margin: 10% 235px 0 235px;
+    min-height: 301px;
+    margin: 120px 235px 0 235px;
 }
 
 /* Правовая информация */
 
 .container-2 {
-    height: 1290px;
-    margin: 10% 235px 0 235px;
+    min-height: 1290px;
+    margin: 120px 235px 0 235px;
 }
 
 /* Лицензии */
 
 .container-3 {
-    height: 1080px;
-    margin: 20% 235px 0 235px;
+    min-height: 1080px;
+    margin: 120px 235px 0 235px;
 }
 
 /* Футер футер футер Футер футер футер Футер футер футер  */
