@@ -8,10 +8,9 @@
     src: url(../clinicWeb/fonts/UKIJInichkeb.ttf);
 }
 
-
-
 body {
     background: #dfebfb;
+    position: relative;
 }
 
 /* Хедер */
@@ -29,7 +28,7 @@ body {
 /* Логотип */
 
 .header-logo {
-    margin: 16px 0 15px 135px;
+    padding: 16px 0 15px 9.375%;
     position: absolute;
     width: 51.049px;
     height: 51px;
@@ -39,12 +38,12 @@ body {
 
 .menu {
     width: auto;
-    height: 30px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 56px;
-    margin: 26px 136px 26px 0;
+    gap: 3.89%;
+    padding-right: 9.375%;
+    padding-top: 0.5%;
 }
 
 .menu a {
@@ -159,19 +158,21 @@ li:hover svg {
 /* Первый слайд */
 
 .container-1 {
-    width: 100%;
     height: 500px;
-    padding: 162px 136px 0 135px;
+    padding-top: 162px;
+    padding-left: 9.375%;
     display: flex;
-    box-sizing: border-box;
 }
 
-.container-info {
-    width: 670px;
+.container-1 img {
+    width: 400px;
     height: 500px;
+    position: absolute;
+    right: 0;
+    padding-right: 135px;
 }
 
-.container-1 h1 {
+.container-1 h2 {
     color: #000;
     font-family: 'Ukij';
     font-size: 64px;
@@ -179,11 +180,10 @@ li:hover svg {
     font-weight: 700;
     line-height: normal;
     margin: 0;
+    padding-right: 6.875%;
 }
 
-.container-1 h2 {
-    margin-top: 24px;
-    text-align: left;
+.container-1 h3 {
     color: #000;
     font-family: 'Lato';
     font-size: 24px;
@@ -194,18 +194,17 @@ li:hover svg {
 }
 
 .container-1 p {
-    margin-top: 12px;
-    text-align: left;
     color: #000;
     font-family: 'Lato';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+    max-width: 570px;
     /* 187.5% */
 }
 
-.container-info .main-btn {
+.container-1 a {
     width: 371px;
     height: 64px;
     text-decoration: none;
@@ -218,19 +217,17 @@ li:hover svg {
     border: none;
 }
 
-.main-btn:hover {
-    /* Кнопка при наведении */
+.container-1 a:hover {
     box-shadow: 0px 0px 20px 0px rgba(255, 138, 30, 0.70);
     background-color: #FFA84A;
 }
 
-.main-btn:active {
-    /* Кнопка при нажатии */
+.container-1 a:active {
     box-shadow: 0px 4px 4px 0px rgba(103, 56, 0, 0.25) inset;
     background-color: #FF8A1E;
 }
 
-.container-info .main-btn p {
+.container-1 a p {
     width: 265px;
     height: 30px;
     margin-top: 17px;
@@ -241,22 +238,15 @@ li:hover svg {
     font-weight: 400;
     line-height: 30px;
     /* 150% */
-    white-space: nowrap;
-}
-
-.container-1 img {
-    width: 400px;
-    height: 500px;
-    margin-left: auto;
 }
 
 /* Второй слайд */
 
 .container-2 {
-    width: 100%;
     height: 762px;
-    padding-top: 20%;
-    margin: 0 auto;
+    padding-top: 140px;
+    padding-left: 9.375%;
+    padding-right: 9.375%;
     box-sizing: border-box;
 }
 
@@ -271,25 +261,11 @@ li:hover svg {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    padding-bottom: 3.5%;
 }
 
-.first-p-container-2 {
-    margin-left: 135px;
-    margin-top: 72px;
-    width: 500px;
+.container-2 p {
     text-align: left;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 187.5% */
-}
-
-.second-p-container-2 {
-    margin-top: 24px;
-    margin-left: 135px;
     color: #000;
     font-family: 'Lato';
     font-size: 16px;
@@ -303,8 +279,8 @@ li:hover svg {
     position: absolute;
     width: 596px;
     height: 355px;
-    margin-top: 125px;
-    right: 135px;
+    margin-top: 135px;
+    right: 9.375%;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -366,18 +342,17 @@ li:hover svg {
 }
 
 .tick-info {
-    width: 1170px;
+    height: 176px;
     display: flex;
     position: relative;
     box-sizing: border-box;
-    margin-top: 57px;
-    margin-left: 135px;
+    margin-top: 8%;
 }
 
 .info-with-tick {
     width: 270px;
     height: 176px;
-    flex-shrink: 0;
+    flex-grow: 1;
     margin-right: 30px;
     border-radius: 10px;
     background: #FFF;
@@ -387,23 +362,10 @@ li:hover svg {
 .info-with-tick-4 {
     width: 270px;
     height: 176px;
-    flex-shrink: 0;
+    flex-grow: 1;
     border-radius: 10px;
     background: #FFF;
     box-shadow: 6px 4px 25px 0px rgba(201, 221, 246, 0.20);
-}
-
-.info-with-tick p,
-.info-with-tick-4 p {
-    margin-left: 16px;
-    margin-bottom: 16px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 187.5% */
 }
 
 .info-with-tick svg,
@@ -412,35 +374,26 @@ li:hover svg {
     margin-left: 16px;
 }
 
-.text-tick-1 {
-    width: 175px;
+.tick-info p {
+    text-align: left;
+    max-width: 212px;
+    padding-left: 16px;
 }
-
-.text-tick-2 {
-    width: 117px;
-}
-
-.text-tick-3 {
-    width: 212px;
-}
-
-.text-tick-4 {
-    width: 182px;
-}
-
 
 /* Информация о времени */
 
 .container-2-1 {
-    margin-top: 20%;
-    width: 100%;
+    margin-top: 18%;
     height: 262px;
+    display: flex;
+    justify-content: center;
     background: var(--main-dark-blue, #034599);
     position: relative;
     box-sizing: border-box;
 }
 
 .text-container-2-1 {
+    position: absolute;
     padding-top: 40px;
     text-align: center;
     color: #FFF;
@@ -453,6 +406,8 @@ li:hover svg {
 }
 
 .background {
+    margin-top: 102px;
+    width: 570px;
     display: flex;
     box-sizing: border-box;
 }
@@ -463,7 +418,6 @@ li:hover svg {
     flex-shrink: 0;
     border-radius: 10px;
     background: var(--main-light-blue, #02A1E3);
-    margin-left: 32%;
 }
 
 .background-2 {
@@ -471,8 +425,8 @@ li:hover svg {
     height: 120px;
     flex-shrink: 0;
     border-radius: 10px;
-    background: var(--main-light-blue, #02A1E3);
     margin-left: 30px;
+    background: var(--main-light-blue, #02A1E3);
 }
 
 .background-1 h4,
@@ -504,20 +458,22 @@ li:hover svg {
 /* Услуги */
 
 .container-3 {
-    width: 100%;
-    padding-top: 120px;
+    height: 615px;
+    padding-top: 100px;
     display: flex;
     box-sizing: border-box;
-    position: relative;
     text-align: center;
-    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-3 a{
+    text-decoration: none;
 }
 
 .container-3 h3 {
-    width: max-content;
-    margin-top: 0;
-    left: 45%;
     position: absolute;
+    margin-top: -420px;
     color: #000;
     font-family: 'Ukij';
     font-size: 47px;
@@ -526,11 +482,14 @@ li:hover svg {
     line-height: normal;
 }
 
+
 .container-3-background {
     margin-top: 144px;
     width: 100%;
     height: 496px;
     background: var(--main-dark-blue, #034599);
+    display: flex;
+    justify-content: center;
 }
 
 .container-3-background .blue-stick {
@@ -541,26 +500,35 @@ li:hover svg {
     background: #034599;
 }
 
+.container-3-background p {
+    max-width: 174px;
+    text-align: left;
+    color: #FFF;
+    font-family: 'Lato';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
 .line-1,
 .line-2,
 .line-3 {
+    position: absolute;
     display: flex;
     box-sizing: border-box;
 }
 
 .line-1 {
-    margin-left: 11.6%;
     margin-top: 40px;
 }
 
 .line-2 {
-    margin-left: 11.6%;
-    margin-top: 28px;
+    margin-top: 188px;
 }
 
 .line-3 {
-    margin-left: 31.5%;
-    margin-top: 28px;
+    margin-top: 336px;
 }
 
 .square-1,
@@ -571,7 +539,6 @@ li:hover svg {
 .square-6,
 .square-7,
 .square-8,
-.square-9,
 .square-10 {
     width: 270px;
     height: 120px;
@@ -591,74 +558,10 @@ li:hover svg {
     margin-left: 30px;
 }
 
-.sq-1-p,
-.sq-2-p,
-.sq-3-p,
-.sq-4-p,
-.sq-5-p,
-.sq-6-p,
-.sq-7-p,
-.sq-8-p,
-.sq-9-p,
-.sq-10-p {
-    text-align: left;
-    color: #FFF;
-    font-family: 'Lato';
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 125% */
-}
-
-.sq-1-p {
-    width: 122px;
-    height: 30px;
-}
-
-.sq-2-p {
-    width: 146px;
-    height: 30px;
-}
-
-.sq-3-p {
-    width: 89px;
-    height: 30px;
-}
-
-.sq-4-p {
-    width: 139px;
-    height: 30px;
-}
-
-.sq-5-p {
-    width: 47px;
-    height: 30px;
-}
-
-.sq-6-p {
-    width: 160px;
-    height: 60px;
-}
-
-.sq-7-p {
-    width: 143px;
-    height: 30px;
-}
-
-.sq-8-p {
-    width: 174px;
-    height: 60px;
-}
-
-.sq-9-p {
-    width: 95px;
-    height: 30px;
-}
-
-.sq-10-p {
-    width: 143px;
-    height: 30px;
+@media screen and (min-width: 1600px) {
+    .container-3 h3 {
+        font-size: 72px;
+    }
 }
 
 .sq-1-p,
@@ -741,2031 +644,6 @@ li:hover svg {
 .square-10 svg {
     margin-left: 58px;
     margin-top: 10px;
-}
-
-/* Педиатрия */
-
-.square-1-container-after {
-    width: 1170px;
-    height: auto;
-    padding-bottom: 30px;
-    border-radius: 10px;
-    background: #ECF4FF;
-    display: flex;
-    box-sizing: border-box;
-    text-align: left;
-    position: absolute;
-    margin-top: -98px;
-    display: none;
-    opacity: 0;
-    z-index: 5;
-    animation: fadeIn 0.5s ease forwards;
-}
-
-@keyframes fadeIn {
-    to {
-        display: block;
-        opacity: 1;
-    }
-}
-
-.square-1-container-after h2 {
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    color: #000;
-    font-family: 'Ukij';
-    font-size: 47px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.ped {
-    margin-top: 45px;
-    margin-left: 32px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 125% */
-}
-
-.square-1-container-after svg {
-    top: 0;
-    margin-top: 45px;
-    right: 32px
-}
-
-.square-1-price-1 p,
-.square-1-price-2 p,
-.square-1-price-3 p {
-    color: #000;
-    font-family: 'Lato';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 187.5% */
-}
-
-.square-1-price-1,
-.square-1-price-2,
-.square-1-price-3 {
-    width: 770px;
-    height: 30px;
-    margin-top: 12px;
-    margin-left: 200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.square-1-price-1 {
-    margin-top: 60px;
-}
-
-.doc-nap {
-    margin-top: 120px;
-}
-
-.square-1-doctor {
-    width: 770px;
-    height: 627px;
-    margin-left: 200px;
-    margin-top: 72px;
-    display: flex;
-    position: relative;
-    box-sizing: border-box;
-}
-
-.square-1-doctor-1,
-.square-1-doctor-2 {
-    width: 370px;
-    height: 627px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    border: 2px solid #034599;
-}
-
-.square-1-doctor-2 {
-    margin-left: 30px;
-}
-
-.square-1-doctor img {
-    margin-top: 24px;
-    margin-left: 24px;
-    width: 322px;
-    height: 269px;
-    flex-shrink: 0;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.square-1-doctor-1 img {
-    background: url(../clinicWeb/images/doc_1.png), lightgray -20px -61.457px / 106.211% 169.517% no-repeat;
-}
-
-.square-1-doctor-2 img {
-    background: url(../clinicWeb/images/doc_2.png), lightgray -20px -61.457px / 106.211% 169.517% no-repeat;
-}
-
-.square-1-doctor h5 {
-    margin-top: 16px;
-    margin-left: 24px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 150% */
-}
-
-.square-1-doctor-1 h5 {
-    width: 176px;
-    height: 60px;
-}
-
-.square-1-doctor-2 h5 {
-    width: 322px;
-    height: 60px;
-}
-
-.square-1-doctor h4 {
-    margin-left: 24px;
-    margin-right: 24px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 187.5% */
-    overflow-y: auto;
-    max-height: 180px;
-    /* scrollbar-width: thin;
-    scrollbar-color: transparent transparent; */
-    -ms-overflow-style: none;
-}
-
-.square-1-doctor h4::-webkit-scrollbar {
-    width: 5px;
-}
-
-.square-1-doctor h4::-webkit-scrollbar-thumb {
-    background-color: transparent;
-}
-
-.square-1-container-after a {
-    margin-top: 74px;
-    margin-left: 399px;
-    width: 371px;
-    height: 64px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 10px;
-    background: #FF8A1E;
-    text-decoration: none;
-}
-
-.square-1-container-after a p {
-    width: 265px;
-    height: 30px;
-    margin-top: 17px;
-    margin-left: 0;
-    color: #FFF;
-    font-family: 'Lato';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 150% */
-}
-
-.square-1-container-after a:hover {
-    /* Кнопка при наведении */
-    box-shadow: 0px 0px 20px 0px rgba(255, 138, 30, 0.70);
-    background-color: #FFA84A;
-}
-
-.square-1-container-after a:active {
-    /* Кнопка при нажатии */
-    box-shadow: 0px 4px 4px 0px rgba(103, 56, 0, 0.25) inset;
-    background-color: #FF8A1E;
-}
-
-/* Кардиология */
-
-.square-2-container-after {
-    width: 1170px;
-    height: auto;
-    padding-bottom: 30px;
-    border-radius: 10px;
-    background: #ECF4FF;
-    display: flex;
-    position: relative;
-    box-sizing: border-box;
-    text-align: left;
-    position: absolute;
-    margin-top: -98px;
-    margin-left: -300px;
-    display: none;
-    opacity: 0;
-    z-index: 6;
-    animation: fadeIn 0.5s ease forwards;
-}
-
-@keyframes fadeIn {
-    to {
-        display: block;
-        opacity: 1;
-    }
-}
-
-.square-2-container-after h2 {
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    color: #000;
-    font-family: 'Ukij';
-    font-size: 47px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.kar {
-    margin-top: 45px;
-    margin-left: 32px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 125% */
-}
-
-.square-2-container-after svg {
-    top: 0;
-    margin-top: 45px;
-    right: 32px
-}
-
-.square-2-price-1 p,
-.square-2-price-2 p,
-.square-2-price-3 p,
-.square-2-price-4 p,
-.square-2-price-5 p,
-.square-2-price-6 p,
-.square-2-price-7 p,
-.square-2-price-8 p {
-    color: #000;
-    font-family: 'Lato';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 187.5% */
-}
-
-.square-2-price-1,
-.square-2-price-2,
-.square-2-price-3,
-.square-2-price-4,
-.square-2-price-5,
-.square-2-price-6,
-.square-2-price-7,
-.square-2-price-8 {
-    width: 770px;
-    height: 30px;
-    margin-top: 12px;
-    margin-left: 200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.square-2-container-after a {
-    margin-top: 74px;
-    margin-left: 399px;
-    width: 371px;
-    height: 64px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 10px;
-    background: #FF8A1E;
-    text-decoration: none;
-}
-
-.square-2-container-after a p {
-    width: 265px;
-    height: 30px;
-    margin-top: 17px;
-    margin-left: 0;
-    color: #FFF;
-    font-family: 'Lato';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 150% */
-}
-
-.square-2-container-after a:hover {
-    /* Кнопка при наведении */
-    box-shadow: 0px 0px 20px 0px rgba(255, 138, 30, 0.70);
-    background-color: #FFA84A;
-}
-
-.square-2-container-after a:active {
-    /* Кнопка при нажатии */
-    box-shadow: 0px 4px 4px 0px rgba(103, 56, 0, 0.25) inset;
-    background-color: #FF8A1E;
-}
-
-/* Терапия */
-
-.square-3-container-after {
-    width: 1170px;
-    height: auto;
-    padding-bottom: 30px;
-    border-radius: 10px;
-    background: #ECF4FF;
-    display: flex;
-    position: relative;
-    box-sizing: border-box;
-    text-align: left;
-    position: absolute;
-    margin-top: -98px;
-    margin-left: -600px;
-    display: none;
-    opacity: 0;
-    z-index: 7;
-    animation: fadeIn 0.5s ease forwards;
-}
-
-@keyframes fadeIn {
-    to {
-        display: block;
-        opacity: 1;
-    }
-}
-
-.square-3-container-after h2 {
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    color: #000;
-    font-family: 'Ukij';
-    font-size: 47px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.ter {
-    margin-top: 45px;
-    margin-left: 32px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 125% */
-}
-
-.square-3-container-after svg {
-    top: 0;
-    margin-top: 45px;
-    right: 32px
-}
-
-.square-3-price-1 p,
-.square-3-price-2 p,
-.square-3-price-3 p {
-    color: #000;
-    font-family: 'Lato';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 187.5% */
-}
-
-.square-3-price-1,
-.square-3-price-2,
-.square-3-price-3 {
-    width: 770px;
-    height: 30px;
-    margin-top: 12px;
-    margin-left: 200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.square-3-price-1 {
-    margin-top: 60px;
-}
-
-.doc-nap {
-    margin-top: 120px;
-}
-
-.square-3-doctor {
-    width: 770px;
-    height: 627px;
-    margin-left: 200px;
-    margin-top: 72px;
-    display: flex;
-    position: relative;
-    box-sizing: border-box;
-}
-
-.square-3-doctor-1,
-.square-3-doctor-2 {
-    width: 370px;
-    height: 627px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    border: 2px solid #034599;
-}
-
-.square-3-doctor-2 {
-    margin-left: 30px;
-}
-
-.square-3-doctor img {
-    margin-top: 24px;
-    margin-left: 24px;
-    width: 322px;
-    height: 269px;
-    flex-shrink: 0;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.square-3-doctor-1 img {
-    background: url(../clinicWeb/images/doc_3.png), lightgray -20px -61.457px / 106.211% 169.517% no-repeat;
-}
-
-.square-3-doctor-2 img {
-    background: url(../clinicWeb/images/doc_4.png), lightgray -20px -61.457px / 106.211% 169.517% no-repeat;
-}
-
-.square-3-doctor h5 {
-    margin-top: 16px;
-    margin-left: 24px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 150% */
-}
-
-.square-3-doctor-1 h5 {
-    width: 176px;
-    height: 60px;
-}
-
-.square-3-doctor-2 h5 {
-    width: 322px;
-    height: 60px;
-}
-
-.square-3-doctor h4 {
-    margin-left: 24px;
-    margin-right: 24px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 187.5% */
-    overflow-y: auto;
-    max-height: 180px;
-    -ms-overflow-style: none;
-}
-
-.square-3-doctor h4::-webkit-scrollbar {
-    width: 5px;
-}
-
-.square-3-doctor h4::-webkit-scrollbar-thumb {
-    background-color: transparent;
-}
-
-.square-3-container-after a {
-    margin-top: 74px;
-    margin-left: 399px;
-    width: 371px;
-    height: 64px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 10px;
-    background: #FF8A1E;
-    text-decoration: none;
-}
-
-.square-3-container-after a p {
-    width: 265px;
-    height: 30px;
-    margin-top: 17px;
-    margin-left: 0;
-    color: #FFF;
-    font-family: 'Lato';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 150% */
-}
-
-.square-3-container-after a:hover {
-    /* Кнопка при наведении */
-    box-shadow: 0px 0px 20px 0px rgba(255, 138, 30, 0.70);
-    background-color: #FFA84A;
-}
-
-.square-3-container-after a:active {
-    /* Кнопка при нажатии */
-    box-shadow: 0px 4px 4px 0px rgba(103, 56, 0, 0.25) inset;
-    background-color: #FF8A1E;
-}
-
-/* Гинекология */
-
-.square-4-container-after {
-    width: 1170px;
-    height: auto;
-    padding-bottom: 30px;
-    border-radius: 10px;
-    background: #ECF4FF;
-    display: flex;
-    position: relative;
-    box-sizing: border-box;
-    text-align: left;
-    position: absolute;
-    margin-top: -98px;
-    margin-left: -900px;
-    display: none;
-    opacity: 0;
-    z-index: 8;
-    animation: fadeIn 0.5s ease forwards;
-}
-
-@keyframes fadeIn {
-    to {
-        display: block;
-        opacity: 1;
-    }
-}
-
-.square-4-container-after h2 {
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    color: #000;
-    font-family: 'Ukij';
-    font-size: 47px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.gin {
-    margin-top: 45px;
-    margin-left: 32px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 125% */
-}
-
-.square-4-container-after svg {
-    top: 0;
-    margin-top: 45px;
-    right: 32px
-}
-
-.square-4-price-1 p,
-.square-4-price-2 p,
-.square-4-price-3 p,
-.square-4-price-4 p,
-.square-4-price-5 p,
-.square-4-price-6 p,
-.square-4-price-7 p,
-.square-4-price-8 p,
-.square-4-price-9 p,
-.square-4-price-10 p,
-.square-4-price-11 p,
-.square-4-price-12 p,
-.square-4-price-13 p,
-.square-4-price-14 p,
-.square-4-price-15 p,
-.square-4-price-16 p,
-.square-4-price-17 p,
-.square-4-price-18 p,
-.square-4-price-19 p,
-.square-4-price-20 p {
-    color: #000;
-    font-family: 'Lato';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 187.5% */
-}
-
-.square-4-price-1,
-.square-4-price-2,
-.square-4-price-3,
-.square-4-price-4,
-.square-4-price-5,
-.square-4-price-6,
-.square-4-price-7,
-.square-4-price-8,
-.square-4-price-9,
-.square-4-price-10,
-.square-4-price-11,
-.square-4-price-12,
-.square-4-price-13,
-.square-4-price-14,
-.square-4-price-15,
-.square-4-price-16,
-.square-4-price-17,
-.square-4-price-18,
-.square-4-price-19,
-.square-4-price-20 {
-    width: 770px;
-    height: 30px;
-    margin-top: 12px;
-    margin-left: 200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.square-4-price-1 {
-    margin-top: 60px;
-}
-
-.doc-nap {
-    margin-top: 120px;
-}
-
-.square-4-doctor {
-    width: 770px;
-    height: 627px;
-    margin-left: 200px;
-    margin-top: 72px;
-    display: flex;
-    position: relative;
-    box-sizing: border-box;
-}
-
-.square-4-doctor-1,
-.square-4-doctor-2 {
-    width: 370px;
-    height: 627px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    border: 2px solid #034599;
-}
-
-.square-4-doctor-2 {
-    margin-left: 30px;
-}
-
-.square-4-doctor img {
-    margin-top: 24px;
-    margin-left: 24px;
-    width: 322px;
-    height: 269px;
-    flex-shrink: 0;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.square-4-doctor-1 img {
-    background: url(../clinicWeb/images/doc_5.png), lightgray -20px -61.457px / 106.211% 169.517% no-repeat;
-}
-
-.square-4-doctor-2 img {
-    background: url(../clinicWeb/images/doc_6.png), lightgray -20px -61.457px / 106.211% 169.517% no-repeat;
-}
-
-.square-4-doctor h5 {
-    margin-top: 16px;
-    margin-left: 24px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 150% */
-}
-
-.square-4-doctor-1 h5 {
-    width: 176px;
-    height: 60px;
-}
-
-.square-4-doctor-2 h5 {
-    width: 322px;
-    height: 60px;
-}
-
-.square-4-doctor h4 {
-    margin-left: 24px;
-    margin-right: 24px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 187.5% */
-    overflow-y: auto;
-    max-height: 180px;
-    -ms-overflow-style: none;
-}
-
-.square-4-doctor h4::-webkit-scrollbar {
-    width: 5px;
-}
-
-.square-4-doctor h4::-webkit-scrollbar-thumb {
-    background-color: transparent;
-}
-
-.square-4-container-after a {
-    margin-top: 74px;
-    margin-left: 399px;
-    width: 371px;
-    height: 64px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 10px;
-    background: #FF8A1E;
-    text-decoration: none;
-}
-
-.square-4-container-after a p {
-    width: 265px;
-    height: 30px;
-    margin-top: 17px;
-    margin-left: 0;
-    color: #FFF;
-    font-family: 'Lato';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 150% */
-}
-
-.square-4-container-after a:hover {
-    /* Кнопка при наведении */
-    box-shadow: 0px 0px 20px 0px rgba(255, 138, 30, 0.70);
-    background-color: #FFA84A;
-}
-
-.square-4-container-after a:active {
-    /* Кнопка при нажатии */
-    box-shadow: 0px 4px 4px 0px rgba(103, 56, 0, 0.25) inset;
-    background-color: #FF8A1E;
-}
-
-/* УЗИ */
-
-.square-5-container-after {
-    width: 1170px;
-    height: auto;
-    padding-bottom: 30px;
-    border-radius: 10px;
-    background: #ECF4FF;
-    display: flex;
-    position: relative;
-    box-sizing: border-box;
-    text-align: left;
-    position: absolute;
-    margin-top: -246px;
-    display: none;
-    opacity: 0;
-    z-index: 9;
-    animation: fadeIn 0.5s ease forwards;
-}
-
-@keyframes fadeIn {
-    to {
-        display: block;
-        opacity: 1;
-    }
-}
-
-.square-5-container-after h2 {
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    color: #000;
-    font-family: 'Ukij';
-    font-size: 47px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.uzi {
-    margin-top: 45px;
-    margin-left: 32px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 125% */
-}
-
-.square-5-container-after svg {
-    top: 0;
-    margin-top: 45px;
-    right: 32px
-}
-
-.square-5-price-1 p,
-.square-5-price-2 p,
-.square-5-price-3 p,
-.square-5-price-4 p,
-.square-5-price-5 p,
-.square-5-price-6 p,
-.square-5-price-7 p,
-.square-5-price-8 p,
-.square-5-price-9 p,
-.square-5-price-10 p,
-.square-5-price-11 p,
-.square-5-price-12 p,
-.square-5-price-13 p,
-.square-5-price-14 p,
-.square-5-price-15 p,
-.square-5-price-16 p,
-.square-5-price-17 p,
-.square-5-price-18 p,
-.square-5-price-19 p,
-.square-5-price-20 p,
-.square-5-price-21 p,
-.square-5-price-22 p,
-.square-5-price-23 p,
-.square-5-price-24 p,
-.square-5-price-25 p,
-.square-5-price-26 p {
-    max-width: 600px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 187.5% */
-}
-
-.square-5-price-1,
-.square-5-price-2,
-.square-5-price-3,
-.square-5-price-4,
-.square-5-price-5,
-.square-5-price-6,
-.square-5-price-7,
-.square-5-price-9,
-.square-5-price-10,
-.square-5-price-11,
-.square-5-price-12,
-.square-5-price-13,
-.square-5-price-14,
-.square-5-price-15,
-.square-5-price-16,
-.square-5-price-17,
-.square-5-price-18,
-.square-5-price-19,
-.square-5-price-20,
-.square-5-price-22,
-.square-5-price-23,
-.square-5-price-24,
-.square-5-price-25 {
-    width: 770px;
-    height: 30px;
-    margin-left: 200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: left;
-}
-
-.square-5-price-8,
-.square-5-price-21,
-.square-5-price-26 {
-    width: 770px;
-    height: 60px;
-    margin-left: 200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: left;
-}
-
-.square-5-price-1 {
-    margin-top: 60px;
-}
-
-.doc-nap {
-    margin-top: 120px;
-}
-
-.square-5-doctor {
-    width: 770px;
-    height: 627px;
-    margin-left: 200px;
-    margin-top: 72px;
-    display: flex;
-    position: relative;
-    box-sizing: border-box;
-}
-
-.square-5-doctor-1,
-.square-5-doctor-2 {
-    width: 370px;
-    height: 627px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    border: 2px solid #034599;
-}
-
-.square-5-doctor-2 {
-    margin-left: 30px;
-}
-
-.square-5-doctor img {
-    margin-top: 24px;
-    margin-left: 24px;
-    width: 322px;
-    height: 269px;
-    flex-shrink: 0;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.square-5-doctor-1 img {
-    background: url(../clinicWeb/images/doc_3.png), lightgray -20px -61.457px / 106.211% 169.517% no-repeat;
-}
-
-.square-5-doctor-2 img {
-    background: url(../clinicWeb/images/doc_2.png), lightgray -20px -61.457px / 106.211% 169.517% no-repeat;
-}
-
-.square-5-doctor h5 {
-    margin-top: 16px;
-    margin-left: 24px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 150% */
-}
-
-.square-5-doctor-1 h5 {
-    width: 176px;
-    height: 60px;
-}
-
-.square-5-doctor-2 h5 {
-    width: 322px;
-    height: 60px;
-}
-
-.square-5-doctor h4 {
-    margin-left: 24px;
-    margin-right: 24px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 187.5% */
-    overflow-y: auto;
-    max-height: 180px;
-    -ms-overflow-style: none;
-}
-
-.square-5-doctor h4::-webkit-scrollbar {
-    width: 5px;
-}
-
-.square-5-doctor h4::-webkit-scrollbar-thumb {
-    background-color: transparent;
-}
-
-.square-5-container-after a {
-    margin-top: 74px;
-    margin-left: 399px;
-    width: 371px;
-    height: 64px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 10px;
-    background: #FF8A1E;
-    text-decoration: none;
-}
-
-.square-5-container-after a p {
-    width: 265px;
-    height: 30px;
-    margin-top: 17px;
-    margin-left: 0;
-    color: #FFF;
-    font-family: 'Lato';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 150% */
-}
-
-.square-5-container-after a:hover {
-    /* Кнопка при наведении */
-    box-shadow: 0px 0px 20px 0px rgba(255, 138, 30, 0.70);
-    background-color: #FFA84A;
-}
-
-.square-5-container-after a:active {
-    /* Кнопка при нажатии */
-    box-shadow: 0px 4px 4px 0px rgba(103, 56, 0, 0.25) inset;
-    background-color: #FF8A1E;
-}
-
-/* Больничные листы */
-
-.square-6-container-after {
-    width: 1170px;
-    height: auto;
-    padding-bottom: 30px;
-    border-radius: 10px;
-    background: #ECF4FF;
-    display: flex;
-    position: relative;
-    box-sizing: border-box;
-    text-align: left;
-    position: absolute;
-    margin-top: -262px;
-    margin-left: -300px;
-    display: none;
-    opacity: 0;
-    z-index: 10;
-    animation: fadeIn 0.5s ease forwards;
-}
-
-@keyframes fadeIn {
-    to {
-        display: block;
-        opacity: 1;
-    }
-}
-
-.BL {
-    width: 168px;
-    height: 60px;
-    margin-top: 45px;
-    margin-left: 32px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 125% */
-}
-
-.square-6-container-after svg {
-    top: 0;
-    margin-top: 45px;
-    right: 32px
-}
-
-.BL-cont {
-    width: 770px;
-    height: 120px;
-    margin-left: 200px;
-    display: flex;
-    box-sizing: border-box;
-    align-items: center;
-}
-
-.BL-cont p {
-    color: #000;
-    font-family: 'Lato';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 187.5% */
-}
-
-.square-6-container-after a {
-    margin-top: 74px;
-    margin-left: 399px;
-    width: 371px;
-    height: 64px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 10px;
-    background: #FF8A1E;
-    text-decoration: none;
-}
-
-.square-6-container-after a p {
-    width: 265px;
-    height: 30px;
-    margin-top: 17px;
-    margin-left: 0;
-    color: #FFF;
-    font-family: 'Lato';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 150% */
-}
-
-.square-6-container-after a:hover {
-    /* Кнопка при наведении */
-    box-shadow: 0px 0px 20px 0px rgba(255, 138, 30, 0.70);
-    background-color: #FFA84A;
-}
-
-.square-6-container-after a:active {
-    /* Кнопка при нажатии */
-    box-shadow: 0px 4px 4px 0px rgba(103, 56, 0, 0.25) inset;
-    background-color: #FF8A1E;
-}
-
-/* Неврология */
-
-.square-7-container-after {
-    width: 1170px;
-    height: auto;
-    padding-bottom: 30px;
-    border-radius: 10px;
-    background: #ECF4FF;
-    display: flex;
-    position: relative;
-    box-sizing: border-box;
-    text-align: left;
-    position: absolute;
-    margin-top: -246px;
-    margin-left: -600px;
-    display: none;
-    opacity: 0;
-    z-index: 11;
-    animation: fadeIn 0.5s ease forwards;
-}
-
-@keyframes fadeIn {
-    to {
-        display: block;
-        opacity: 1;
-    }
-}
-
-.square-7-container-after h2 {
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    color: #000;
-    font-family: 'Ukij';
-    font-size: 47px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.nev {
-    margin-top: 45px;
-    margin-left: 32px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 125% */
-}
-
-.square-7-container-after svg {
-    top: 0;
-    margin-top: 45px;
-    right: 32px
-}
-
-.square-7-price-1 p,
-.square-7-price-2 p,
-.square-7-price-3 p {
-    color: #000;
-    font-family: 'Lato';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 187.5% */
-}
-
-.square-7-price-1,
-.square-7-price-2,
-.square-7-price-3 {
-    width: 770px;
-    height: 30px;
-    margin-top: 12px;
-    margin-left: 200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.square-7-price-1 {
-    margin-top: 60px;
-}
-
-.doc-nap {
-    margin-top: 120px;
-}
-
-.square-7-doctor {
-    width: 370px;
-    height: 627px;
-    margin-left: 400px;
-    margin-top: 72px;
-    display: flex;
-    position: relative;
-    box-sizing: border-box;
-}
-
-.square-7-doctor-1 {
-    width: 370px;
-    height: 627px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    border: 2px solid #034599;
-}
-
-.square-7-doctor img {
-    margin-top: 24px;
-    margin-left: 24px;
-    width: 322px;
-    height: 269px;
-    flex-shrink: 0;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.square-7-doctor-1 img {
-    background: url(../clinicWeb/images/doc_7.png), lightgray -20px -61.457px / 106.211% 169.517% no-repeat;
-}
-
-.square-7-doctor h5 {
-    margin-top: 16px;
-    margin-left: 24px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 150% */
-}
-
-.square-7-doctor-1 h5 {
-    width: 176px;
-    height: 60px;
-}
-
-.square-7-doctor h4 {
-    margin-left: 24px;
-    margin-right: 24px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 187.5% */
-    overflow-y: auto;
-    max-height: 180px;
-    -ms-overflow-style: none;
-}
-
-.square-7-doctor h4::-webkit-scrollbar {
-    width: 5px;
-}
-
-.square-7-doctor h4::-webkit-scrollbar-thumb {
-    background-color: transparent;
-}
-
-.square-7-container-after a {
-    margin-top: 74px;
-    margin-left: 399px;
-    width: 371px;
-    height: 64px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 10px;
-    background: #FF8A1E;
-    text-decoration: none;
-}
-
-.square-7-container-after a p {
-    width: 265px;
-    height: 30px;
-    margin-top: 17px;
-    margin-left: 0;
-    color: #FFF;
-    font-family: 'Lato';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 150% */
-}
-
-.square-7-container-after a:hover {
-    /* Кнопка при наведении */
-    box-shadow: 0px 0px 20px 0px rgba(255, 138, 30, 0.70);
-    background-color: #FFA84A;
-}
-
-.square-7-container-after a:active {
-    /* Кнопка при нажатии */
-    box-shadow: 0px 4px 4px 0px rgba(103, 56, 0, 0.25) inset;
-    background-color: #FF8A1E;
-}
-
-/* Лабораторная диагностика */
-
-.square-8-container-after {
-    width: 1170px;
-    height: auto;
-    padding-bottom: 30px;
-    border-radius: 10px;
-    background: #ECF4FF;
-    display: flex;
-    position: relative;
-    box-sizing: border-box;
-    text-align: left;
-    position: absolute;
-    margin-top: -262px;
-    margin-left: -900px;
-    display: none;
-    opacity: 0;
-    z-index: 12;
-    animation: fadeIn 0.5s ease forwards;
-}
-
-@keyframes fadeIn {
-    to {
-        display: block;
-        opacity: 1;
-    }
-}
-
-.square-8-container-after h2 {
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    color: #000;
-    font-family: 'Ukij';
-    font-size: 47px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.lab {
-    margin-top: 45px;
-    margin-left: 32px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 125% */
-}
-
-.square-8-container-after svg {
-    top: 0;
-    margin-top: 45px;
-    right: 32px
-}
-
-.square-8-price-1 p,
-.square-8-price-2 p,
-.square-8-price-3 p,
-.square-8-price-4 p,
-.square-8-price-5 p,
-.square-8-price-6 p,
-.square-8-price-7 p,
-.square-8-price-8 p,
-.square-8-price-9 p,
-.square-8-price-10 p,
-.square-8-price-11 p {
-    max-width: 600px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 187.5% */
-}
-
-.square-8-price-1,
-.square-8-price-2,
-.square-8-price-3,
-.square-8-price-4,
-.square-8-price-5,
-.square-8-price-6,
-.square-8-price-9,
-.square-8-price-10,
-.square-8-price-11 {
-    width: 770px;
-    height: 30px;
-    margin-top: 12px;
-    margin-left: 200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.square-8-price-7,
-.square-8-price-8 {
-    width: 770px;
-    height: 60px;
-    margin-top: 12px;
-    margin-left: 200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.square-8-price-1 {
-    margin-top: 60px;
-}
-
-.sq-8-price-par {
-    width: 769px;
-    height: 90px;
-    margin-top: 72px;
-    margin-left: 200px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 187.5% */
-}
-
-.doc-nap {
-    margin-top: 120px;
-}
-
-.square-8-doctor {
-    width: 370px;
-    height: 447px;
-    margin-left: 400px;
-    margin-top: 72px;
-    display: flex;
-    position: relative;
-    box-sizing: border-box;
-}
-
-.square-8-doctor-1 {
-    width: 370px;
-    height: 447px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    border: 2px solid #034599;
-}
-
-.square-8-doctor img {
-    margin-top: 24px;
-    margin-left: 24px;
-    width: 322px;
-    height: 269px;
-    flex-shrink: 0;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.square-8-doctor-1 img {
-    background: url(../clinicWeb/images/doc_8.png), lightgray -20px -61.457px / 106.211% 169.517% no-repeat;
-}
-
-.square-8-doctor h5 {
-    margin-top: 16px;
-    margin-left: 24px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 150% */
-}
-
-.square-8-doctor-1 h5 {
-    width: 176px;
-    height: 60px;
-}
-
-.square-8-doctor h4 {
-    margin-left: 24px;
-    margin-right: 24px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 187.5% */
-    overflow-y: auto;
-    max-height: 180px;
-    -ms-overflow-style: none;
-}
-
-.square-8-doctor h4::-webkit-scrollbar {
-    width: 5px;
-}
-
-.square-8-doctor h4::-webkit-scrollbar-thumb {
-    background-color: transparent;
-}
-
-.square-8-container-after a {
-    margin-top: 74px;
-    margin-left: 399px;
-    width: 371px;
-    height: 64px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 10px;
-    background: #FF8A1E;
-    text-decoration: none;
-}
-
-.square-8-container-after a p {
-    width: 265px;
-    height: 30px;
-    margin-top: 17px;
-    margin-left: 0;
-    color: #FFF;
-    font-family: 'Lato';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 150% */
-}
-
-.square-8-container-after a:hover {
-    /* Кнопка при наведении */
-    box-shadow: 0px 0px 20px 0px rgba(255, 138, 30, 0.70);
-    background-color: #FFA84A;
-}
-
-.square-8-container-after a:active {
-    /* Кнопка при нажатии */
-    box-shadow: 0px 4px 4px 0px rgba(103, 56, 0, 0.25) inset;
-    background-color: #FF8A1E;
-}
-
-/* Логопед */
-
-.square-9-container-after {
-    width: 1170px;
-    height: auto;
-    padding-bottom: 30px;
-    border-radius: 10px;
-    background: #ECF4FF;
-    display: flex;
-    position: relative;
-    box-sizing: border-box;
-    text-align: left;
-    position: absolute;
-    margin-top: -394px;
-    margin-left: -300px;
-    display: none;
-    opacity: 0;
-    z-index: 13;
-    animation: fadeIn 0.5s ease forwards;
-}
-
-@keyframes fadeIn {
-    to {
-        display: block;
-        opacity: 1;
-    }
-}
-
-.square-9-container-after h2 {
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    color: #000;
-    font-family: 'Ukij';
-    font-size: 47px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.log {
-    margin-top: 45px;
-    margin-left: 32px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 125% */
-}
-
-.square-9-container-after svg {
-    top: 0;
-    margin-top: 45px;
-    right: 32px
-}
-
-.square-9-price-1 p {
-    color: #000;
-    font-family: 'Lato';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 187.5% */
-}
-
-.square-9-price-1 {
-    width: 770px;
-    height: 30px;
-    margin-top: 72px;
-    margin-left: 200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.doc-nap {
-    margin-top: 120px;
-}
-
-.square-9-doctor {
-    width: 370px;
-    height: 627px;
-    margin-left: 400px;
-    margin-top: 72px;
-    display: flex;
-    position: relative;
-    box-sizing: border-box;
-}
-
-.square-9-doctor-1 {
-    width: 370px;
-    height: 627px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    border: 2px solid #034599;
-}
-
-.square-9-doctor img {
-    margin-top: 24px;
-    margin-left: 24px;
-    width: 322px;
-    height: 269px;
-    flex-shrink: 0;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.square-9-doctor-1 img {
-    background: url(../clinicWeb/images/doc_9.png), lightgray -20px -61.457px / 106.211% 169.517% no-repeat;
-}
-
-.square-9-doctor h5 {
-    margin-top: 16px;
-    margin-left: 24px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 150% */
-}
-
-.square-9-doctor-1 h5 {
-    width: 176px;
-    height: 60px;
-}
-
-.square-9-doctor h4 {
-    margin-left: 24px;
-    margin-right: 24px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 187.5% */
-    overflow-y: auto;
-    max-height: 180px;
-    -ms-overflow-style: none;
-}
-
-.square-9-doctor h4::-webkit-scrollbar {
-    width: 5px;
-}
-
-.square-9-doctor h4::-webkit-scrollbar-thumb {
-    background-color: transparent;
-}
-
-.square-9-container-after a {
-    margin-top: 74px;
-    margin-left: 399px;
-    width: 371px;
-    height: 64px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 10px;
-    background: #FF8A1E;
-    text-decoration: none;
-}
-
-.square-9-container-after a p {
-    width: 265px;
-    height: 30px;
-    margin-top: 17px;
-    margin-left: 0;
-    color: #FFF;
-    font-family: 'Lato';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 150% */
-}
-
-.square-9-container-after a:hover {
-    /* Кнопка при наведении */
-    box-shadow: 0px 0px 20px 0px rgba(255, 138, 30, 0.70);
-    background-color: #FFA84A;
-}
-
-.square-9-container-after a:active {
-    /* Кнопка при нажатии */
-    box-shadow: 0px 4px 4px 0px rgba(103, 56, 0, 0.25) inset;
-    background-color: #FF8A1E;
-}
-
-/* Психология */
-
-.square-10-container-after {
-    width: 1170px;
-    height: auto;
-    padding-bottom: 30px;
-    border-radius: 10px;
-    background: #ECF4FF;
-    display: flex;
-    position: relative;
-    box-sizing: border-box;
-    text-align: left;
-    position: absolute;
-    margin-top: -394px;
-    margin-left: -600px;
-    display: none;
-    opacity: 0;
-    z-index: 14;
-    animation: fadeIn 0.5s ease forwards;
-}
-
-@keyframes fadeIn {
-    to {
-        display: block;
-        opacity: 1;
-    }
-}
-
-.square-10-container-after h2 {
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    color: #000;
-    font-family: 'Ukij';
-    font-size: 47px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.psi {
-    margin-top: 45px;
-    margin-left: 32px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 125% */
-}
-
-.square-10-container-after svg {
-    top: 0;
-    margin-top: 45px;
-    right: 32px
-}
-
-.square-10-price-1 p {
-    max-width: 470px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 187.5% */
-}
-
-.square-10-price-1 {
-    width: 770px;
-    height: 60px;
-    margin-top: 72px;
-    margin-left: 200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.doc-nap {
-    margin-top: 120px;
-}
-
-.square-10-doctor {
-    width: 370px;
-    height: 627px;
-    margin-left: 400px;
-    margin-top: 72px;
-    display: flex;
-    position: relative;
-    box-sizing: border-box;
-}
-
-.square-10-doctor-1 {
-    width: 370px;
-    height: 627px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    border: 2px solid #034599;
-}
-
-.square-10-doctor img {
-    margin-top: 24px;
-    margin-left: 24px;
-    width: 322px;
-    height: 269px;
-    flex-shrink: 0;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.square-10-doctor-1 img {
-    background: url(../clinicWeb/images/doc_9.png), lightgray -20px -61.457px / 106.211% 169.517% no-repeat;
-}
-
-.square-10-doctor h5 {
-    margin-top: 16px;
-    margin-left: 24px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 150% */
-}
-
-.square-10-doctor-1 h5 {
-    width: 176px;
-    height: 60px;
-}
-
-.square-10-doctor h4 {
-    margin-left: 24px;
-    margin-right: 24px;
-    color: #000;
-    font-family: 'Lato';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 187.5% */
-    overflow-y: auto;
-    max-height: 180px;
-    -ms-overflow-style: none;
-}
-
-.square-10-doctor h4::-webkit-scrollbar {
-    width: 5px;
-}
-
-.square-10-doctor h4::-webkit-scrollbar-thumb {
-    background-color: transparent;
-}
-
-.square-10-container-after a {
-    margin-top: 74px;
-    margin-left: 399px;
-    width: 371px;
-    height: 64px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 10px;
-    background: #FF8A1E;
-    text-decoration: none;
-}
-
-.square-10-container-after a p {
-    width: 265px;
-    height: 30px;
-    margin-top: 17px;
-    margin-left: 0;
-    color: #FFF;
-    font-family: 'Lato';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 150% */
-}
-
-.square-10-container-after a:hover {
-    /* Кнопка при наведении */
-    box-shadow: 0px 0px 20px 0px rgba(255, 138, 30, 0.70);
-    background-color: #FFA84A;
-}
-
-.square-10-container-after a:active {
-    /* Кнопка при нажатии */
-    box-shadow: 0px 4px 4px 0px rgba(103, 56, 0, 0.25) inset;
-    background-color: #FF8A1E;
 }
 
 /* Четвертый слайд Четвертый слайд Четвертый слайд Четвертый слайд Четвертый слайд*/
@@ -3051,6 +929,7 @@ li:hover svg {
 }
 
 .container-7 h2 {
+    padding-bottom: 48px;
     color: #000;
     font-family: 'Ukij';
     font-size: 47px;
@@ -3066,7 +945,8 @@ li:hover svg {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
 }
 
 .container-7 h6 {
@@ -3075,7 +955,8 @@ li:hover svg {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
 }
 
 .cont-7-blue-back {

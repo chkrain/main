@@ -1,5 +1,5 @@
 // Объявление переменных и массива для квадратов
-const squareIds = ["myPediatrics", "myCardiology", "myTherapy", "myGynecology", "myUzi", "myBL", "myNev", "myLab", "myLog", "myPsi"];
+const squareIds = ["myPediatrics", "myCardiology", "myTherapy", "myGynecology", "myUzi", "myBL", "myNev", "myLab", "myPsi"];
 const squares = squareIds.map(id => ({
   square: document.getElementById(`${id}Square`),
   container: document.getElementById(`${id}Container`)
@@ -58,7 +58,6 @@ function updateContainer3BackgroundHeight(squareId) {
     myBLContainer: 536, 
     myNevContainer: 1530,
     myLabContainer: 2020,
-    myLogContainer: 1418,
     myPsiContainer: 1448
   };
 
