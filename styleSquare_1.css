@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Lato';
-    src: url(../clinicWeb/fonts/Lato-Regular.ttf);
+    src: url(fonts/Lato-Regular.ttf);
 }
 
 @font-face {
     font-family: 'Ukij';
-    src: url(../clinicWeb/fonts/UKIJInichkeb.ttf);
+    src: url(fonts/UKIJInichkeb.ttf);
 }
 
 body {

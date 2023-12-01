@@ -1,0 +1,193 @@
+/* Шрифты */
+
+@font-face {
+    font-family: 'Lato';
+    src: url(fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Ukij';
+    src: url(fonts/UKIJInichkeb.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Source+Sans+3:wght@300;400&display=swap');
+
+/* ---------- */
+
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background: #ECF4FF;
+}
+
+h2 {
+    color: #000;
+    font-family: Ukij;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+h4 {
+    color: #000;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+h6 {
+    min-width: 256px;
+    display: flex;
+    text-align: left;
+    color: #000;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Информация */
+
+.container {
+    width: 288px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head {
+    width: 256px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 24px;
+    align-items: center;
+}
+
+.head h4 {
+    margin: 0;
+}
+
+.container h2 {
+    margin: 0;
+    padding-top: 24px;
+}
+
+.container ul {
+    list-style-type: none;
+    width: 256px;
+    padding: 0;
+}
+
+.container ul h4 {
+    text-align: left;
+}
+
+.container ul span {
+    display: flex;
+    justify-content: right;
+    color: #000;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.doc {
+    width: 256px;
+    height: 516px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #034599;
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+}
+
+.med {
+    width: 256px;
+    height: 347px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #034599;
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+}
+
+.doc img, .med img {
+    width: 224px;
+    height: 187px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    padding-top: 16px;
+    padding-left: 16px;
+}
+
+.doc p, .med p {
+    color: #000;
+    text-align: left;
+    padding-left: 16px;
+}
+
+.doc h4, .med h4{
+    text-align: left;
+    width: 224px;
+    max-height: 200px;
+    padding-left: 16px;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+}
+
+.doc h4::-webkit-scrollbar {
+    width: 5px;
+}
+
+.doc h4::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+/* Кнопка */
+
+.btn {
+    margin-top: 34px;
+    margin-bottom: 24px;
+    display: inline-flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #FF8A1E;
+    text-decoration: none;
+}
+
+.btn span {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

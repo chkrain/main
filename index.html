@@ -4,11 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Наша Раевская Клиника</title>
-    <link rel="stylesheet" href="style.css">
-    <link type="image/x-icon" rel="shortcut icon" href="../clinicWeb/images/logo.svg">
     <meta name="description" content="Комплексное лечение и диагностика | Современное оборудование и материалы | Выдача больничных листов | 
     Ваше здоровье – это наша ответственность">
+    <title>Наша Раевская Клиника</title>
+    <link rel="stylesheet" href="style.css">
+    <link type="image/x-icon" rel="shortcut icon" href="images/logo.svg">
+    <script>
+        function loadHTML(url) {
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', url, true);
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    document.body.innerHTML = xhr.responseText;
+                }
+            };
+            xhr.send();
+        }
+
+        function loadStylesheet(href) {
+            var link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = href;
+            document.head.appendChild(link);
+        }
+
+        function checkWidth() {
+            if (window.innerWidth <= 768) {
+                loadStylesheet('mobile.css');
+                loadHTML('mobile.html');
+            } else if (window.innerWidth > 768) {
+                loadStylesheet('style.css');
+                loadHTML('index.html');
+            }
+        }
+
+        // Проверка ширины окна при загрузке страницы
+        checkWidth();
+
+        // Обработчик события изменения размера окна
+        window.addEventListener('resize', function () {
+            checkWidth();
+        });
+    </script>
 </head>
 
 <body>
@@ -18,7 +56,7 @@
         <!--Логотип-->
         <nav class="header-logo">
             <a href="#start">
-                <img src="../clinicWeb/images/logo.svg" alt="Logo">
+                <img src="images/logo.svg" alt="Logo">
             </a>
         </nav>
         <!--Кнопки-->
@@ -67,7 +105,7 @@
                 <p>Записаться на консультацию</p>
             </a>
         </div>
-        <img src="../clinicWeb/images/rectPlusGirl.svg" alt="Photo">
+        <img src="images/rectPlusGirl.svg" alt="Photo">
     </div>
 
     <!-- Второй слайд -->
@@ -81,13 +119,13 @@
                 </svg>
             </div>
             <div class="photo-container">
-                <img src="../clinicWeb/images/clinicPhotoFirst.png" alt="photo-1" class="slide">
-                <img src="../clinicWeb/images/clinicPhotoSecond.png" alt="photo-2" class="slide">
-                <img src="../clinicWeb/images/clinicPhotoThird.png" alt="photo-3" class="slide">
-                <img src="../clinicWeb/images/clinicPhotoFourth.png" alt="photo-4" class="slide">
-                <img src="../clinicWeb/images/clinicPhotoFifth.png" alt="photo-5" class="slide">
-                <img src="../clinicWeb/images/clinicPhotoSixth.png" alt="photo-6" class="slide">
-                <img src="../clinicWeb/images/clinicPhotoSeventh.png" alt="photo-7" class="slide">
+                <img src="images/clinicPhotoFirst.png" alt="photo-1" class="slide">
+                <img src="images/clinicPhotoSecond.png" alt="photo-2" class="slide">
+                <img src="images/clinicPhotoThird.png" alt="photo-3" class="slide">
+                <img src="images/clinicPhotoFourth.png" alt="photo-4" class="slide">
+                <img src="images/clinicPhotoFifth.png" alt="photo-5" class="slide">
+                <img src="images/clinicPhotoSixth.png" alt="photo-6" class="slide">
+                <img src="images/clinicPhotoSeventh.png" alt="photo-7" class="slide">
             </div>
             <div class="arrow-right" id="next-btn">
                 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
@@ -472,7 +510,7 @@
     <div class="footer">
         <nav class="footer-logo">
             <a href="#start">
-                <img src="../clinicWeb/images/logo.svg" alt="Logo">
+                <img src="images/logo.svg" alt="Logo">
             </a>
         </nav>
         <ul class="col-7-1">

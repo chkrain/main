@@ -1,0 +1,376 @@
+/* Шрифты */
+
+@font-face {
+    font-family: 'Lato';
+    src: url(fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Ukij';
+    src: url(fonts/UKIJInichkeb.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Source+Sans+3:wght@300;400&display=swap');
+
+/* ---------- */
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background: #ECF4FF;
+}
+
+h1 {
+    color: #000;
+    font-family: Ukij;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+h2 {
+    color: #000;
+    font-family: Ukij;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h3 {
+    color: #000;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+p {
+    color: #FFF;
+    text-align: right;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+h4 {
+    color: #000;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Хедер */
+
+.header {
+    top: 0px;
+    width: 100%;
+    height: 53px;
+    position: fixed;
+    background: #ECF4FF;
+    display: flex;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo {
+    padding-left: 16px;
+}
+
+.header-btn {
+    width: auto;
+    height: auto;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 44px;
+}
+
+.black {
+    position: absolute;
+}
+
+/* Первый контейнер */
+
+.container-1 {
+    max-width: 288px;
+    padding-top: 69px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+}
+
+.img {
+    margin-bottom: 16px;
+}
+
+.container-1 a {
+    margin-top: 16px;
+    display: inline-flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #FF8A1E;
+    text-decoration: none;
+}
+
+.container-1 a span {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Второй контейнер */
+
+.container-2 {
+    max-width: 288px;
+    padding-top: 56px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+}
+
+.container-2 ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-2 ul h4 {
+    max-width: 210px;
+}
+
+.container-2 div {
+    width: 288px;
+    height: 83px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container-2 div svg {
+    padding-right: 12px;
+}
+
+.container-2 .blue {
+    width: 100vw;
+    height: 185px;
+    padding-top: 16px;
+    background: #034599;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-2 .blue h4 {
+    color: #FFF;
+    max-width: 288px;
+    margin: 0;
+    padding-bottom: 16px;
+}
+
+.container-2 .blue .blue-container {
+    width: 288px;
+    height: 103px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-2 .light-blue {
+    width: 136px;
+    height: 103px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #02A1E3;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+}
+
+.light-blue p,
+h4 {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.light-blue p {
+    width: 73px;
+    padding-top: 8px;
+    padding-left: 12px;
+}
+
+.light-blue h4 {
+    padding-top: 12px;
+    padding-left: 12px;
+}
+
+/* Контейнер третий */
+
+.container-3 {
+    max-width: 288px;
+    padding-top: 56px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+}
+
+.container-3 ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-3 div {
+    width: 288px;
+    height: 74px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #02A1E3;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.container-3 h4 {
+    color: #FFF;
+    padding-top: 24px;
+    padding-left: 16px;
+}
+
+.container-3 svg {
+    margin-top: 28px;
+    margin-right: 16px;
+}
+
+
+/* Четвертый контейнер */
+
+.discount {
+    width: 288px;
+    height: 262px;
+}
+
+.discount div {
+    width: 288px;
+    height: 262px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #034599;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discount div h4 {
+    padding-top: 16px;
+    padding-left: 24px;
+    width: 240px;
+}
+
+.discount div img {
+    padding-top: 36px;
+    display: flex;
+    padding-left: 87px;
+}
+
+.discount .pensioner svg {
+    display: flex;
+    padding-top: 48px;
+    padding-left: 124px;
+}
+
+.discount .military svg {
+    display: flex;
+    padding-top: 23px;
+    padding-left: 124px;
+}
+
+.discount .children svg {
+    display: flex;
+    padding-top: 23px;
+    padding-left: 124px;
+}
+
+
+.container-4 .container {
+    display: none;
+}
+
+.container-4 .container.active {
+    display: block;
+}
+
+.csvg {
+    width: 112px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin-left: 88px;
+    margin-top: -45px;
+}
+
+/* Отзывы */
+
+.container-5 {
+    padding-top: 56px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-5 ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    width: 95vw;
+}
+
+.container-5 ul::-webkit-scrollbar {
+    display: none;
+}
+
+.container-5 ul li {
+    width: 231px;
+    height: 273px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 6px 4px 25px 0px rgba(201, 221, 246, 0.20);
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.container-5 li h3, h4 {
+    padding-left: 16px;
+}

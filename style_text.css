@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Lato';
-    src: url(../clinicWeb/fonts/Lato-Regular.ttf);
+    src: url(fonts/Lato-Regular.ttf);
 }
 
 @font-face {
     font-family: 'Ukij';
-    src: url(../clinicWeb/fonts/UKIJInichkeb.ttf);
+    src: url(fonts/UKIJInichkeb.ttf);
 }
 
 body {
@@ -32,7 +32,6 @@ p {
     line-height: 30px; /* 187.5% */
 }
 
-
 /* Хедер */
 
 .header {
@@ -48,7 +47,7 @@ p {
 /* Логотип */
 
 .header-logo {
-    margin: 16px 0 15px 135px;
+    padding: 16px 0 15px 9.375%;
     position: absolute;
     width: 51.049px;
     height: 51px;
@@ -58,12 +57,12 @@ p {
 
 .menu {
     width: auto;
-    height: 30px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 56px;
-    margin: 26px 136px 26px 0;
+    gap: 3.89%;
+    padding-right: 9.375%;
+    padding-top: 0.5%;
 }
 
 .menu a {
@@ -79,6 +78,40 @@ p {
 
 .menu svg {
     margin-left: 12px;
+}
+
+@media screen and (max-width: 1280px){
+    .menu {
+        padding-right: 7.8%;
+        padding-top: 0.6%;
+        gap: 3.29%;
+    }
+
+    .menu a {
+        font-size: 18px;
+    }
+
+    .menu svg {
+        margin-left: 8px;
+        width: 14px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .menu {
+        padding-right: 6.8%;
+        padding-top: 1.5%;
+        gap: 2.69%;
+    }
+
+    .menu a {
+        font-size: 16px;
+    }
+
+    .menu svg {
+        margin-left: 4px;
+        width: 12px;
+    }
 }
 
 li {
@@ -124,6 +157,18 @@ li {
     font-weight: 400;
     line-height: 25px;
     /* 138.889% */
+}
+
+@media screen and (max-width: 1280px){
+    .dropdown a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .dropdown a {
+        font-size: 14px;
+    }
 }
 
 .left-column,
