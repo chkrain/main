@@ -1,4 +1,5 @@
 /* Шрифты */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Source+Sans+3:wght@300;400&display=swap');
 
 @font-face {
     font-family: 'Lato';
@@ -10,7 +11,6 @@
     src: url(fonts/UKIJInichkeb.ttf);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Source+Sans+3:wght@300;400&display=swap');
 
 /* ---------- */
 
@@ -124,6 +124,7 @@ a {
         background: #ECF4FF;
         top: 0;
         z-index: 100;
+        transition: 0.3s ease;
     }
 
     .header-desctop .header-logo {
@@ -310,9 +311,15 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0;
 }
 
-.container-2 ul h4 {
+.img-2 {
+    position: absolute;
+    opacity: 0;
+}
+
+.container-2 .arr h4 {
     max-width: 210px;
 }
 
@@ -342,6 +349,7 @@ a {
     width: 100vw;
     height: 185px;
     padding-top: 16px;
+    margin-top: 16px;
     background: #034599;
     display: flex;
     flex-direction: column;
@@ -389,6 +397,63 @@ h4 {
 .light-blue h4 {
     padding-top: 12px;
     padding-left: 12px;
+}
+
+@media screen and (min-width: 768px) {
+    .container-2 {
+        max-width: 606px;
+    }
+
+    .container-2 .not-arr {
+        flex-direction: column;
+    }
+
+    .not-arr .img-1 {
+        position: absolute; 
+        opacity: 0;
+    }
+
+    .not-arr h4 {
+        margin-top: 16px;
+        width: 524px;
+    }
+
+    .not-arr .img-2 {
+        position: relative; 
+        opacity: 1;
+        transition: all 0.3s ease   ;
+    }
+
+    .container-2 .arr {
+        width: 606px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .container-2 .arr h4 {
+        max-width: 212px;
+    }
+
+    .container-2 .arr li {
+        margin-top: 32px;
+    }
+
+    .container-2 ul li div {
+        height: 176px;
+        background: #FFF;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .container-2 svg {
+        width: 52px;
+        height: 68px;
+        padding: 0;
+        margin: 0;
+        justify-content: left;
+        margin-top: 16px;
+    }
 }
 
 /* Контейнер третий */
@@ -447,6 +512,11 @@ h4 {
         transition: 0.2s ease;
     }
 
+    .container-3 h2 {
+        padding-left: 150px;
+    }
+
+
     .ul-wrapper {
         display: flex;
         justify-content: space-between;
@@ -485,10 +555,18 @@ h4 {
     width: 240px;
 }
 
-.discount div img {
+.discount div .mHeart {
     padding-top: 36px;
     display: flex;
     padding-left: 87px;
+}
+
+.discount div .mChil {
+    padding-top: 33px;
+}
+
+.discount div .mMil {
+    padding-top: 33px;
 }
 
 .discount .pensioner svg {

@@ -20,7 +20,7 @@ body {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    background: #ECF4FF;
+    background: var(--main-dark-blue, #034599);
 }
 
 h2 {
@@ -66,6 +66,14 @@ a {
     text-decoration: none;
 }
 
+.blue-stick {
+    width: 576px;
+    height: 2px;
+    background: #034599;
+    position: absolute;
+    opacity: 0;
+}
+
 /* Информация */
 
 .container {
@@ -73,6 +81,10 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 10px;
+    background: #ECF4FF;
+    padding: 0 16px;
+    margin: 16px 0;
 }
 
 .head {
@@ -112,6 +124,16 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: 25px;
+    flex-shrink: 0;
+}
+
+/*  doc  */
+
+
+.doc-nap {
+    width: 256px;
+    display: flex;
+    flex-direction: column;
 }
 
 .doc {
@@ -136,7 +158,8 @@ a {
     margin-top: 32px;
 }
 
-.doc img, .med img {
+.doc img,
+.med img {
     width: 224px;
     height: 187px;
     flex-shrink: 0;
@@ -145,13 +168,16 @@ a {
     padding-left: 16px;
 }
 
-.doc p, .med p {
+.doc p,
+.med p {
     color: #000;
     text-align: left;
     padding-left: 16px;
+    max-width: 224px;
 }
 
-.doc h4, .med h4{
+.doc h4,
+.med h4 {
     text-align: left;
     width: 224px;
     max-height: 200px;
@@ -166,6 +192,50 @@ a {
 
 .doc h4::-webkit-scrollbar-thumb {
     background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {    
+    .head {
+        width: 576px;
+        transition: all 0.3s ease;
+    }
+
+    .container {
+        width: 576px;
+        padding: 0 32px;
+        margin: 32px 0;
+    }
+
+    .container ul {
+        width: 576px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container ul h4 {
+        margin: 0;
+    }
+
+    .container li {
+        display: flex;
+        height: auto;
+        justify-content: space-between;
+        margin-top: 12px;
+        transition: all 0.3s ease;
+    }
+
+    .blue-stick {
+        position: relative;
+        opacity: 1;
+        transition: all 1s ease;
+    }
+
+    .doc-nap {
+        width: 576px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
 /* Кнопка */
