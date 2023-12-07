@@ -60,40 +60,6 @@ body {
     margin-left: 12px;
 }
 
-@media screen and (max-width: 1280px){
-    .menu {
-        padding-right: 7.8%;
-        padding-top: 0.6%;
-        gap: 3.29%;
-    }
-
-    .menu a {
-        font-size: 18px;
-    }
-
-    .menu svg {
-        margin-left: 8px;
-        width: 14px;
-    }
-}
-
-@media screen and (max-width: 1024px){
-    .menu {
-        padding-right: 6.8%;
-        padding-top: 1.5%;
-        gap: 2.69%;
-    }
-
-    .menu a {
-        font-size: 16px;
-    }
-
-    .menu svg {
-        margin-left: 4px;
-        width: 12px;
-    }
-}
-
 li {
     display: flex;
     align-items: center;
@@ -116,10 +82,8 @@ li {
 .dropdown {
     width: auto;
     height: auto;
-    box-sizing: border-box;
     display: flex;
     position: absolute;
-    top: 40px;
     padding: 16px 32px;
     border-radius: 10px;
     background: #ECF4FF;
@@ -137,18 +101,6 @@ li {
     font-weight: 400;
     line-height: 25px;
     /* 138.889% */
-}
-
-@media screen and (max-width: 1280px){
-    .dropdown a {
-        font-size: 16px;
-    }
-}
-
-@media screen and (max-width: 1024px){
-    .dropdown a {
-        font-size: 14px;
-    }
 }
 
 .left-column,

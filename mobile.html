@@ -12,9 +12,9 @@
 </head>
 
 <body>
-    <!-- Хедер -->
+    <!-- Хедер мобилки -->
     <div class="header">
-        <a href="#"><img src="images/mobileLogo.svg" alt="Logo" class="logo"></a>
+        <a href="#start"><img src="images/mobileLogo.svg" alt="Logo" class="logo"></a>
         <div class="header-btn">
             <div class="black">
                 <a href="m_menu.html"><img src="images/menu.svg" alt="menu" class="menu"></a>
@@ -22,13 +22,75 @@
         </div>
     </div>
 
+    <!-- Хедер компы -->
+
+    <div class="header-desctop">
+        <!--Логотип-->
+        <nav class="header-logo">
+            <a href="#start">
+                <img src="images/logo.svg" alt="Logo">
+            </a>
+        </nav>
+        <!--Кнопки-->
+        <ul>
+            <li>
+                <a href="#">О нас
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="10" viewBox="0 0 17 10" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.46021 9.88916L16.8997 1.44971L15.4854 0.0354935L8.4498 7.07114L1.41425 0.0355919L4.13654e-05 1.44981L8.44919 9.89895L8.45959 9.88855L8.46021 9.88916Z"
+                            fill="black" />
+                    </svg>
+                </a>
+                <div class="dropdown">
+                    <div class="left-column">
+                        <a class="drop-1" href="#about">О клинике</a>
+                        <a class="drop-2" href="text.html#licenses">Лицензии</a>
+                    </div>
+                    <div class="right-column">
+                        <a class="drop-3" href="text.html#vacancies">Вакансии</a>
+                        <a class="drop-4" href="text.html#legalInformation">Правовая информация</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="#services">Услуги</a>
+            </li>
+            <li>
+                <a href="#privileges">Льготы</a>
+            </li>
+            <li>
+                <a href="#reviews">Отзывы</a>
+            </li>
+            <li>
+                <a href="#contacts">Контакты</a>
+            </li>
+        </ul>
+    </div>
+
     <!-- Первый контейнер -->
     <div class="container-1" id="start">
-        <h1>НАША РАЕВСКАЯ КЛИНИКА</h1>
-        <h3>Качественная медицина доступна каждому!</h3>
+        <ul>
+            <li>
+                <h1>НАША РАЕВСКАЯ КЛИНИКА</h1>
+            </li>
+            <li>
+                <h3>Качественная медицина доступна каждому!</h3>
+            </li>
+            <li>
+                <h4>Высокопрофессиональные специалисты нашего центра готовы оказать пациентам комплекс медицинских
+                    услуг.</h4>
+            </li>
+            <li> <a href="">
+                    <span>Записаться на консультацию</span>
+                </a>
+            </li>
+        </ul>
+        <h1 class="mCh1">НАША РАЕВСКАЯ КЛИНИКА</h1>
+        <h3 class="mCh3">Качественная медицина доступна каждому!</h3>
+        <h4 class="mCh4">Высокопрофессиональные специалисты нашего центра готовы оказать пациентам комплекс медицинских
+            услуг.</h4>
         <img src="images/mobGirl.svg" alt="mobGirl">
-        <h4>Высокопрофессиональные специалисты нашего центра готовы оказать пациентам комплекс медицинских услуг.</h4>
-        <a href="">
+        <a class="mCa" href="">
             <span>Записаться на консультацию</span>
         </a>
     </div>
@@ -106,103 +168,117 @@
     <!-- Третий контейнер -->
     <div class="container-3" id="services">
         <h2>Услуги</h2>
-        <ul>
-            <li>
-                <div>
-                    <h4>Педиатрия</h4>
-                    <a href="mobileSquare_1.html">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="10" viewBox="0 0 17 10" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M8.45996 9.88916L16.8994 1.44971L15.4852 0.0354935L8.44956 7.07114L1.41401 0.0355919L-0.000202775 1.44981L8.44895 9.89895L8.45935 9.88855L8.45996 9.88916Z"
-                                fill="white" />
-                        </svg>
-                    </a>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <h4>Кардиология</h4>
-                    <a href="mobileSquare_2.html">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="10" viewBox="0 0 17 10" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M8.45996 9.88916L16.8994 1.44971L15.4852 0.0354935L8.44956 7.07114L1.41401 0.0355919L-0.000202775 1.44981L8.44895 9.89895L8.45935 9.88855L8.45996 9.88916Z"
-                                fill="white" />
-                        </svg>
-                    </a>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <h4>Терапия</h4>
-                    <a href="mobileSquare_3.html">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="10" viewBox="0 0 17 10" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M8.45996 9.88916L16.8994 1.44971L15.4852 0.0354935L8.44956 7.07114L1.41401 0.0355919L-0.000202775 1.44981L8.44895 9.89895L8.45935 9.88855L8.45996 9.88916Z"
-                                fill="white" />
-                        </svg>
-                    </a>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <h4>Гинекология</h4>
-                    <a href="mobileSquare_4.html">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="10" viewBox="0 0 17 10" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M8.45996 9.88916L16.8994 1.44971L15.4852 0.0354935L8.44956 7.07114L1.41401 0.0355919L-0.000202775 1.44981L8.44895 9.89895L8.45935 9.88855L8.45996 9.88916Z"
-                                fill="white" />
-                        </svg>
-                    </a>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <h4>УЗИ</h4>
-                    <a href="mobileSquare_5.html">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="10" viewBox="0 0 17 10" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M8.45996 9.88916L16.8994 1.44971L15.4852 0.0354935L8.44956 7.07114L1.41401 0.0355919L-0.000202775 1.44981L8.44895 9.89895L8.45935 9.88855L8.45996 9.88916Z"
-                                fill="white" />
-                        </svg>
-                    </a>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <h4>Больничные листы</h4>
-                    <a href="mobileSquare_6.html">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="10" viewBox="0 0 17 10" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M8.45996 9.88916L16.8994 1.44971L15.4852 0.0354935L8.44956 7.07114L1.41401 0.0355919L-0.000202775 1.44981L8.44895 9.89895L8.45935 9.88855L8.45996 9.88916Z"
-                                fill="white" />
-                        </svg>
-                    </a>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <h4>Неврология</h4>
-                    <a href="mobileSquare_7.html">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="10" viewBox="0 0 17 10" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M8.45996 9.88916L16.8994 1.44971L15.4852 0.0354935L8.44956 7.07114L1.41401 0.0355919L-0.000202775 1.44981L8.44895 9.89895L8.45935 9.88855L8.45996 9.88916Z"
-                                fill="white" />
-                        </svg>
-                    </a>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <h4>Лабораторная диагностика</h4>
-                    <a href="mobileSquare_8.html">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="10" viewBox="0 0 17 10" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M8.45996 9.88916L16.8994 1.44971L15.4852 0.0354935L8.44956 7.07114L1.41401 0.0355919L-0.000202775 1.44981L8.44895 9.89895L8.45935 9.88855L8.45996 9.88916Z"
-                                fill="white" />
-                        </svg>
-                    </a>
-                </div>
-            </li>
+        <div class="ul-wrapper">
+            <ul class="ul-1">
+                <li>
+                    <div>
+                        <h4>Педиатрия</h4>
+                        <a href="mobileSquare_1.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="10" viewBox="0 0 17 10"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M8.45996 9.88916L16.8994 1.44971L15.4852 0.0354935L8.44956 7.07114L1.41401 0.0355919L-0.000202775 1.44981L8.44895 9.89895L8.45935 9.88855L8.45996 9.88916Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h4>Кардиология</h4>
+                        <a href="mobileSquare_2.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="10" viewBox="0 0 17 10"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M8.45996 9.88916L16.8994 1.44971L15.4852 0.0354935L8.44956 7.07114L1.41401 0.0355919L-0.000202775 1.44981L8.44895 9.89895L8.45935 9.88855L8.45996 9.88916Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h4>Терапия</h4>
+                        <a href="mobileSquare_3.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="10" viewBox="0 0 17 10"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M8.45996 9.88916L16.8994 1.44971L15.4852 0.0354935L8.44956 7.07114L1.41401 0.0355919L-0.000202775 1.44981L8.44895 9.89895L8.45935 9.88855L8.45996 9.88916Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h4>Гинекология</h4>
+                        <a href="mobileSquare_4.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="10" viewBox="0 0 17 10"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M8.45996 9.88916L16.8994 1.44971L15.4852 0.0354935L8.44956 7.07114L1.41401 0.0355919L-0.000202775 1.44981L8.44895 9.89895L8.45935 9.88855L8.45996 9.88916Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="ul-2">
+                <li>
+                    <div>
+                        <h4>УЗИ</h4>
+                        <a href="mobileSquare_5.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="10" viewBox="0 0 17 10"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M8.45996 9.88916L16.8994 1.44971L15.4852 0.0354935L8.44956 7.07114L1.41401 0.0355919L-0.000202775 1.44981L8.44895 9.89895L8.45935 9.88855L8.45996 9.88916Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h4>Больничные листы</h4>
+                        <a href="mobileSquare_6.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="10" viewBox="0 0 17 10"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M8.45996 9.88916L16.8994 1.44971L15.4852 0.0354935L8.44956 7.07114L1.41401 0.0355919L-0.000202775 1.44981L8.44895 9.89895L8.45935 9.88855L8.45996 9.88916Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h4>Неврология</h4>
+                        <a href="mobileSquare_7.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="10" viewBox="0 0 17 10"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M8.45996 9.88916L16.8994 1.44971L15.4852 0.0354935L8.44956 7.07114L1.41401 0.0355919L-0.000202775 1.44981L8.44895 9.89895L8.45935 9.88855L8.45996 9.88916Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h4>Лабораторная диагностика</h4>
+                        <a href="mobileSquare_8.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="10" viewBox="0 0 17 10"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M8.45996 9.88916L16.8994 1.44971L15.4852 0.0354935L8.44956 7.07114L1.41401 0.0355919L-0.000202775 1.44981L8.44895 9.89895L8.45935 9.88855L8.45996 9.88916Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <ul class="ul-3">
             <li>
                 <div>
                     <h4>Психология</h4>
@@ -369,14 +445,14 @@
         <ul>
             <li><a href="#about">О клинике</a></li>
             <li><a href="#services">Услуги</a></li>
-            <li><a href="">Вакансии</a></li>
-            <li><a href="">Правовая информация</a></li>
+            <li><a href="text.html#vacancies">Вакансии</a></li>
+            <li><a href="text.html#legalInformation">Правовая информация</a></li>
         </ul>
         <ul>
             <li><a href="#privileges">Льготы</a></li>
             <li><a href="#reviews">Отзывы</a></li>
             <li><a href="#contacts">Контакты</a></li>
-            <li><a href="">Лицензии</a></li>
+            <li><a href="text.html#licenses">Лицензии</a></li>
         </ul>
         <a href="#"><img src="images/mobileLogo.svg" alt="logo"></a>
     </div>
