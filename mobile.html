@@ -89,21 +89,32 @@
         <h3 class="mCh3">Качественная медицина доступна каждому!</h3>
         <h4 class="mCh4">Высокопрофессиональные специалисты нашего центра готовы оказать пациентам комплекс медицинских
             услуг.</h4>
-        <img src="images/mobGirl.svg" alt="mobGirl">
+        <img class="mobGirl-img" src="images/mobGirl.svg" alt="mobGirl">
+        <img class="upMobGirl-img" src="images/Girl_768.svg" alt="768Girl">
         <a class="mCa" href="">
             <span>Записаться на консультацию</span>
         </a>
     </div>
 
     <!-- Второй контейнер -->
+    <h2>О клинике</h2>
     <div class="container-2" id="about">
-        <h2>О клинике</h2>
-        <ul class="not-arr">
-            <li class="img-1">
+        <ul class="without-arr">
+            <li class="without-arr-li">
                 <img src="images/m_doc_c2.png" alt="doc">
             </li>
-            <li class="img-2">
-                <img src="images/clinicPhotoFirst.png" alt="doc">
+            <li class="with-arr-li">
+                <ul>
+                    <li><svg id="prevButton" class="button" xmlns="http://www.w3.org/2000/svg" width="56" height="56"
+                            viewBox="14 0 56 56" fill="none">
+                            <path d="M56 28L14 52.2487L14 3.75129L56 28Z" fill="#034599" />
+                        </svg></li>
+                    <li><img class="image" src="images/m_doc_c2.png" alt="doc"></li>
+                    <li><svg id="nextButton" class="button" xmlns="http://www.w3.org/2000/svg" width="56" height="56"
+                            viewBox="0 0 28 56" fill="none">
+                            <path d="M1.22392e-06 28L42 52.2487L42 3.75129L1.22392e-06 28Z" fill="#034599" />
+                        </svg></li>
+                </ul>
             </li>
             <li>
                 <h4>
@@ -177,8 +188,8 @@
     </div>
 
     <!-- Третий контейнер -->
+    <h2>Услуги</h2>
     <div class="container-3" id="services">
-        <h2>Услуги</h2>
         <div class="ul-wrapper">
             <ul class="ul-1">
                 <li>
@@ -307,13 +318,14 @@
 
 
     <!-- Четвертый контейнер -->
+    <h2>Льготы</h2>
     <div class="container-4" id="privileges">
-        <h2>Льготы</h2>
         <div class="discount">
             <!-- Контейнер 1 -->
             <div class="container pensioner active">
                 <h4>Скидка пенсионерам 10%</h4>
                 <img class="mHeart" src="images/mHeart.svg" alt="mHeart">
+                <img src="images/Heart.svg" alt="dHeart" class="dHeart">
                 <svg class="c-4-svg" xmlns="http://www.w3.org/2000/svg" width="40" height="8" viewBox="0 0 40 8"
                     fill="none">
                     <circle cx="4" cy="4" r="4" fill="#02A1E3" />
@@ -324,7 +336,8 @@
             <!-- Контейнер 2 -->
             <div class="container military">
                 <h4>Скидка 20% военнослужащим и их семьям</h4>
-                <img class="mMil" src="images/mMil.svg" alt="mHeart">
+                <img class="mMil" src="images/mMil.svg" alt="mMil">
+                <img src="images/military.svg" alt="dMil" class="dMil">
                 <svg class="c-4-svg" xmlns="http://www.w3.org/2000/svg" width="40" height="8" viewBox="0 0 40 8"
                     fill="none">
                     <circle cx="4" cy="4" r="4" fill="#034599" />
@@ -336,6 +349,7 @@
             <div class="container children">
                 <h4>Скидка 10% при приеме двух и более детей из одной семьи</h4>
                 <img class="mChil" src="images/mChil.svg" alt="mHeart">
+                <img src="images/pyramid.svg" alt="dChil" class="dChil">
                 <svg class="c-4-svg" xmlns="http://www.w3.org/2000/svg" width="40" height="8" viewBox="0 0 40 8"
                     fill="none">
                     <circle cx="4" cy="4" r="4" fill="#034599" />
@@ -358,8 +372,8 @@
 
     <!-- Контейнер пятый -->
 
+    <h2>Отзывы</h2>
     <div class="container-5" id="reviews">
-        <h2>Отзывы</h2>
         <ul id="horizontal-scroller">
             <li>
                 <h3>Иван, 34 года</h3>
@@ -416,11 +430,19 @@
 
     <!-- Контейнер шестой -->
 
-    <div class="container-6" id="contacts">
-        <h2>Контакты</h2>
+    <h2 id="contacts">Контакты</h2>
+    <div class="container-6">
         <h4>Телефон: 8-800-101-37-20</h4>
         <h4>Электронная почта: rayevskaya.klinika@bk.ru</h4>
         <h4>Адрес: г. Новороссийск, станица Раевская, ул. Красная д. 26</h4>
+        <h4>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                <path
+                    d="M19.8984 2.99711C19.642 3.00883 19.4005 3.08208 19.1858 3.16411H19.1828C18.9652 3.24907 17.9306 3.6768 16.3594 4.32426C14.7882 4.97465 12.7489 5.8184 10.7245 6.65629C6.68161 8.32915 2.70734 9.97563 2.70734 9.97563L2.75504 9.95805C2.75504 9.95805 2.48075 10.0459 2.19453 10.2393C2.04844 10.3331 1.88744 10.462 1.74731 10.6641C1.60718 10.8663 1.49389 11.1768 1.53563 11.4961C1.6042 12.0381 1.96197 12.3633 2.21838 12.542C2.47776 12.7237 2.72522 12.8086 2.72522 12.8086H2.73119L6.458 14.042C6.62496 14.5694 7.59393 17.6983 7.82648 18.419C7.96363 18.8497 8.09779 19.1192 8.26476 19.3243C8.34525 19.4297 8.44066 19.5176 8.55396 19.5879C8.59868 19.6143 8.64638 19.6348 8.69408 19.6524C8.70899 19.6612 8.7239 19.6641 8.74179 19.667L8.70303 19.6582C8.71495 19.6612 8.7239 19.67 8.73284 19.6729C8.76266 19.6817 8.78353 19.6846 8.82229 19.6905C9.41261 19.8663 9.88666 19.5059 9.88666 19.5059L9.9135 19.4854L12.1138 17.5166L15.8019 20.2969L15.8853 20.3321C16.6546 20.6631 17.4327 20.4786 17.8442 20.1534C18.2586 19.8252 18.4196 19.4063 18.4196 19.4063L18.4464 19.3389L21.2967 4.99223C21.3772 4.63774 21.398 4.30669 21.3086 3.98442C21.2191 3.66215 20.9896 3.3604 20.7123 3.19926C20.432 3.0352 20.1548 2.9854 19.8984 2.99711ZM19.8209 4.5352C19.8179 4.58208 19.8268 4.57622 19.8059 4.66704V4.67583L16.9825 18.8731C16.9706 18.8936 16.9497 18.9375 16.8931 18.9815C16.8334 19.0284 16.7857 19.0577 16.5383 18.961L12.0273 15.5625L9.3023 18.003L9.87474 14.4112C9.87474 14.4112 16.9408 7.9395 17.2449 7.66118C17.549 7.38286 17.4476 7.32426 17.4476 7.32426C17.4685 6.98442 16.9885 7.22465 16.9885 7.22465L7.6953 12.8819L7.69232 12.8672L3.23803 11.3936V11.3907C3.23505 11.3907 3.22909 11.3877 3.22611 11.3877C3.22909 11.3877 3.24996 11.379 3.24996 11.379L3.27381 11.3672L3.29766 11.3584C3.29766 11.3584 7.27491 9.71196 11.3178 8.03911C13.3422 7.20122 15.3815 6.35747 16.9497 5.70708C18.518 5.05961 19.6777 4.585 19.7433 4.55864C19.8059 4.5352 19.7761 4.5352 19.8209 4.5352Z"
+                    fill="black" />
+            </svg>
+            Telegram
+        </h4>
         <h4>График работы:</h4>
         <div class="blue">
             <div class="bluebox">
@@ -441,8 +463,8 @@
 
     <!-- Контейнер 7 -->
 
+    <h2>Консультация</h2>
     <div class="container-7" id="consultation">
-        <h2>Консультация</h2>
         <div class="blueback">
             <h4>Знакомство, осмотр, составление плана лечения.</h4>
             <a href="">

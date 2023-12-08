@@ -32,6 +32,7 @@ h1 {
 }
 
 h2 {
+    padding-top: 56px;
     color: #000;
     font-family: Ukij;
     font-size: 20px;
@@ -70,6 +71,28 @@ h4 {
 
 a {
     text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 20px;
+    }
 }
 
 /* Хедер */
@@ -221,9 +244,14 @@ a {
     align-items: center;
 }
 
-.container-1 img {
+.container-1 .mobGirl-img {
     margin-bottom: 16px;
     margin-top: 16px;
+}
+
+.container-1 .upMobGirl-img {
+    position: absolute;
+    opacity: 0;
 }
 
 .container-1 h4 {
@@ -260,15 +288,20 @@ a {
 
 @media screen and (min-width: 768px) {
     .container-1 {
-        width: 606px;
+        width: 592px;
         transition: 0.2s ease;
         flex-direction: row;
     }
 
-    .container-1 img {
-        width: 450px;
-        margin: 0;
-        margin-top: 24px;
+    .container-1 .mobGirl-img {
+        position: absolute;
+        opacity: 0;
+    }
+
+    .container-1 .upMobGirl-img {
+        position: relative;
+        opacity: 1;
+        margin-top: 18px;
     }
 
     .container-1 .mCh1,
@@ -287,18 +320,30 @@ a {
         margin: 0;
     }
 
+    .container-1 ul li {
+        margin-top: -10px;
+    }
+
     .container-1 ul li h4,
     h3,
     h2 {
         max-width: 300px;
+    }
+
+    .container-1 ul a {
+        width: 264px;
+        margin-top: 46px;
+    }
+
+    .container-1 ul a span {
+        font-size: 18px;
     }
 }
 
 /* Второй контейнер */
 
 .container-2 {
-    max-width: 288px;
-    padding-top: 56px;
+    width: 288px;
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -314,7 +359,7 @@ a {
     margin: 0;
 }
 
-.img-2 {
+.with-arr-li {
     position: absolute;
     opacity: 0;
 }
@@ -323,7 +368,7 @@ a {
     max-width: 210px;
 }
 
-.container-2 ul li div {
+.arr div {
     width: 288px;
     height: 83px;
     flex-shrink: 0;
@@ -333,9 +378,6 @@ a {
 }
 
 .container-2 div {
-    width: 288px;
-    height: 83px;
-    flex-shrink: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -343,6 +385,63 @@ a {
 
 .container-2 div svg {
     padding-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .container-2 {
+        width: 592px;
+        transition: all 0.3s ease;
+    }
+
+    .without-arr-li {
+        position: absolute;
+        opacity: 0;
+    }
+
+    .with-arr-li {
+        position: relative;
+        opacity: 1;
+    }
+
+    .with-arr-li ul {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        margin-bottom: 24px;
+    }
+
+    .with-arr-li ul svg {
+        box-sizing: inherit;
+    }
+
+    .container-2 .arr {
+        width: 592px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .container-2 .arr div {
+        width: 288px;
+        height: 164px;
+        flex-shrink: 0;
+        background: #FFF;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .container-2 .arr div svg {
+        padding: 0;
+        margin-top: 16px;
+        margin-left: 16px;
+    }
+
+    .container-2 .arr div h4 {
+        padding: 0;
+        margin-top: 16px;
+        margin-left: 16px;
+        max-width: 272px;
+    }
+
 }
 
 .container-2 .blue {
@@ -367,6 +466,7 @@ a {
     height: 103px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .container-2 .light-blue {
@@ -400,59 +500,22 @@ h4 {
 }
 
 @media screen and (min-width: 768px) {
-    .container-2 {
-        max-width: 606px;
+    .container-2 .blue {
+        height: 205px;
+        transition: all 0.3s ease;
     }
 
-    .container-2 .not-arr {
-        flex-direction: column;
+    .container-2 .blue h4 {
+        max-width: 592px;
     }
 
-    .not-arr .img-1 {
-        position: absolute; 
-        opacity: 0;
+    .container-2 .light-blue {
+        width: 152px;
+        height: 103px;
     }
 
-    .not-arr h4 {
-        margin-top: 16px;
-        width: 524px;
-    }
-
-    .not-arr .img-2 {
-        position: relative; 
-        opacity: 1;
-        transition: all 0.3s ease   ;
-    }
-
-    .container-2 .arr {
-        width: 606px;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .container-2 .arr h4 {
-        max-width: 212px;
-    }
-
-    .container-2 .arr li {
-        margin-top: 32px;
-    }
-
-    .container-2 ul li div {
-        height: 176px;
-        background: #FFF;
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-    }
-
-    .container-2 svg {
-        width: 52px;
-        height: 68px;
-        padding: 0;
-        margin: 0;
-        justify-content: left;
-        margin-top: 16px;
+    .light-blue p {
+        width: 82px;
     }
 }
 
@@ -460,20 +523,13 @@ h4 {
 
 .container-3 {
     width: 288px;
-    padding-top: 56px;
     display: flex;
     flex-direction: column;
 }
 
 .container-3 ul {
-    padding: 0;
     list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.container-3 ul {
+    padding: 0;
     margin: 0;
 }
 
@@ -491,43 +547,54 @@ h4 {
     display: flex;
     flex-direction: row;
     text-align: center;
+    align-items: center;
     justify-content: space-between;
 }
 
 .container-3 h4 {
     color: #FFF;
-    padding-top: 24px;
-    padding-left: 16px;
 }
 
 .container-3 svg {
-    margin-top: 28px;
     margin-right: 16px;
 }
 
 @media screen and (min-width: 768px) {
     .container-3 {
         display: flex;
-        width: 606px;
-        transition: 0.2s ease;
+        width: 100vw;
+        background: #034599;
+        transition: all 0.3s ease;
     }
-
-    .container-3 h2 {
-        padding-left: 150px;
-    }
-
 
     .ul-wrapper {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        margin-top: 32px;
     }
 
-    .ul-1 {
-        margin-right: 10%;
+    .ul-wrapper .ul-1 li {
+        margin-top: 16px;
     }
 
-    .container-3 ul li {
-        padding-top: 10px;
+    .ul-wrapper .ul-2 li {
+        margin-top: 16px;
+        margin-left: 16px;
+    }
+
+    .ul-3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ul-3 li {
+        margin-top: 8px;
+        margin-bottom: 32px;
+    }
+
+    .container-3 ul li div {
+        width: 288px;
+        height: 98px;
     }
 }
 
@@ -555,38 +622,36 @@ h4 {
     width: 240px;
 }
 
+.dHeart,
+.dMil,
+.dChil {
+    position: absolute;
+    opacity: 0;
+}
+
 .discount div .mHeart {
     padding-top: 36px;
     display: flex;
     padding-left: 87px;
 }
 
-.discount div .mChil {
+.discount div .mChil,
+.mMil {
     padding-top: 33px;
 }
 
-.discount div .mMil {
-    padding-top: 33px;
-}
-
-.discount .pensioner svg {
+.discount .pensioner svg,
+.military svg,
+.children svg {
     display: flex;
     padding-top: 48px;
     padding-left: 124px;
 }
 
-.discount .military svg {
-    display: flex;
+.discount .military svg,
+.children svg {
     padding-top: 23px;
-    padding-left: 124px;
 }
-
-.discount .children svg {
-    display: flex;
-    padding-top: 23px;
-    padding-left: 124px;
-}
-
 
 .container-4 .container {
     display: none;
@@ -605,10 +670,77 @@ h4 {
     margin-top: -45px;
 }
 
+@media screen and (min-width: 768px) {
+    .discount {
+        width: 592px;
+        height: 357px;
+    }
+
+    .discount div {
+        width: 592px;
+        height: 357px;
+        border: 5px solid var(--main-dark-blue, #034599);
+        transition: all 0.3s ease;
+    }
+
+    .mHeart,
+    .mMil,
+    .mChil {
+        position: absolute;
+        opacity: 0;
+    }
+
+    .dHeart,
+    .dMil,
+    .dChil {
+        position: relative;
+        opacity: 1;
+        padding-left: 260px;
+    }
+
+    .dHeart {
+        margin-top: 30px;
+    }
+
+    .dChil {
+        margin-top: -30px;
+        margin-left: 40px;
+    }
+
+    .dMil {
+        margin-top: -20px;
+        margin-left: 40px;
+    }
+
+    .discount div h4 {
+        padding-top: 40px;
+        padding-left: 40px;
+        width: 290px;
+    }
+
+    .csvg {
+        margin-left: 236px;
+    }
+
+    .discount .pensioner svg,
+    .military svg,
+    .children svg {
+        display: flex;
+        padding-left: 268px;
+    }
+
+    .discount .pensioner svg {
+        margin-top: -23px;
+    }
+
+    .discount .children svg {
+        margin-top: -4px;
+    }
+}
+
 /* Отзывы */
 
 .container-5 {
-    padding-top: 56px;
     display: flex;
     flex-direction: column;
 }
@@ -644,10 +776,16 @@ h4 {
     padding-left: 16px;
 }
 
+@media screen and (min-width: 768px) {
+    .container-5 ul li {
+        width: 288px;
+    }
+}
+
 /* Контакты */
 
 .container-6 {
-    padding-top: 56px;
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 288px;
@@ -703,10 +841,39 @@ h4 {
     overflow: hidden;
 }
 
+@media screen and (min-width: 768px) {
+    .container-6 {
+        width: 592px;
+    }
+
+    .container-6 h4 {
+        max-width: 276px;
+    }
+
+    .container-6 .map {
+        position: absolute;
+        width: 304px;
+        height: 222px;
+        right: 0;
+        margin: 0;
+    }
+
+    .container-6 .blue {
+        width: 592px;
+    }
+
+    .container-6 .bluebox {
+        width: 288px;
+    }
+
+    .bluebox p {
+        width: 180px;
+    }
+}
+
 /* 777777777 */
 
 .container-7 {
-    padding-top: 56px;
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -749,6 +916,26 @@ h4 {
     line-height: normal;
 }
 
+@media screen and (min-width: 768px) {
+    .container-7 .blueback {
+        height: 141px;
+    }
+
+    .blueback h4 {
+        max-width: 456px;
+    }
+
+    .container-7 a {
+        margin-top: 24px;
+        display: flex;
+        width: 355px;
+    }
+
+    .container-7 a span {
+        font-size: 20px;
+    }
+}
+
 /* Футер */
 
 .footer {
@@ -756,6 +943,7 @@ h4 {
     height: 237px;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     text-align: left;
     margin-top: 56px;
     background: #BAD8FF;
