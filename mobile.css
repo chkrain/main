@@ -95,6 +95,17 @@ a {
     }
 }
 
+@media screen and (min-width: 1024px) {
+    h1 {
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+}
+
 /* Хедер */
 
 .header {
@@ -141,7 +152,7 @@ a {
     .header-desctop {
         opacity: 1;
         width: 100vw;
-        height: 82px;
+        height: 93px;
         position: fixed;
         box-sizing: border-box;
         background: #ECF4FF;
@@ -152,8 +163,8 @@ a {
 
     .header-desctop .header-logo {
         position: absolute;
-        margin-left: 16px;
         margin-top: 16px;
+        padding-left: 72px;
     }
 
     .header-desctop ul {
@@ -162,12 +173,13 @@ a {
         flex-direction: row;
         align-items: center;
         justify-content: right;
+        padding-top: 6px;
+        padding-right: 8px;
     }
 
     .header-desctop ul a {
-        text-decoration: none;
         color: #000;
-        font-family: 'Lato';
+        font-family: Lato;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
@@ -175,7 +187,7 @@ a {
     }
 
     .header-desctop .menu svg {
-        margin-left: 2px;
+        margin-left: 12px;
     }
 
     .header-desctop ul li {
@@ -213,6 +225,7 @@ a {
     .header-desctop .dropdown a {
         width: 111px;
         margin: 8px 8px 8px 8px;
+        font-size: 20px;
     }
 
     .header-desctop .left-column,
@@ -250,6 +263,11 @@ a {
 }
 
 .container-1 .upMobGirl-img {
+    position: absolute;
+    opacity: 0;
+}
+
+.container-1 .dMobGirl-img {
     position: absolute;
     opacity: 0;
 }
@@ -337,6 +355,39 @@ a {
 
     .container-1 ul a span {
         font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container-1 {
+        width: 893px;
+        align-items: flex-start;
+    }
+
+    .container-1 .upMobGirl-img {
+        position: absolute;
+        opacity: 0;
+    }
+
+    .container-1 .dMobGirl-img {
+        position: relative;
+        opacity: 1;
+        margin-top: 18px;
+    }
+
+    .container-1 ul li h4,
+    h3,
+    h2 {
+        max-width: 437px;
+    }
+
+    .container-1 ul a {
+        width: 355px;
+        margin-top: 203px;
+    }
+
+    .container-1 ul a span {
+        font-size: 20px;
     }
 }
 
@@ -444,6 +495,16 @@ a {
 
 }
 
+@media screen and (min-width: 1024px) {
+    .container-2 {
+        width: 893px;
+    }
+
+    .container-2 ul {
+        flex-direction: row-reverse;
+    }
+}
+
 .container-2 .blue {
     width: 100vw;
     height: 185px;
@@ -518,6 +579,21 @@ h4 {
         width: 82px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .container-2 .blue {
+        height: 204px;
+    }
+
+    .container-2 .blue h4 {
+        max-width: 678px;
+    }
+
+    .blue-container {
+        margin-top: 28px;
+    }
+}
+
 
 /* Контейнер третий */
 
@@ -735,6 +811,20 @@ h4 {
 
     .discount .children svg {
         margin-top: -4px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .csvg svg {
+        width: 56px;
+        height: 56px;
+    }
+
+    .csvg {
+        width: 682px;
+        margin-left: -40px;
+        margin-top: -198px;
+        transition: all 0.3s ease;
     }
 }
 
@@ -972,3 +1062,4 @@ h4 {
     padding-top: 184px;
     padding-right: 20px;
 }
+
