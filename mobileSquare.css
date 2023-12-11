@@ -1,4 +1,5 @@
 /* Шрифты */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Source+Sans+3:wght@300;400&display=swap');
 
 @font-face {
     font-family: 'Lato';
@@ -10,7 +11,6 @@
     src: url(fonts/UKIJInichkeb.ttf);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Source+Sans+3:wght@300;400&display=swap');
 
 /* ---------- */
 
@@ -62,8 +62,70 @@ h6 {
     line-height: 25px;
 }
 
+h5 {
+    margin: 0;
+    text-align: left;
+    justify-content: left;
+    color: #000;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+@media screen and (min-width: 1024px) {
+    h2 {
+        font-size: 36px;
+    }
+
+    h4,
+    h6 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    h6 {
+        width: 842px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    h2 {
+        font-size: 47px;
+    }
+
+    h4,
+    h6 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    h6 {
+        width: 770px;
+    }
+}
+
 a {
     text-decoration: none;
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 20px 0px rgba(255, 138, 30, 0.70);
+}
+
+.btn:active {
+    box-shadow: 0px 4px 4px 0px rgba(103, 56, 0, 0.25) inset;
 }
 
 .blue-stick {
@@ -72,6 +134,18 @@ a {
     background: #034599;
     position: absolute;
     opacity: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .blue-stick {
+        width: 824px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .blue-stick {
+        width: 770px;
+    }
 }
 
 /* Информация */
@@ -125,6 +199,18 @@ a {
     font-weight: 400;
     line-height: 25px;
     flex-shrink: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .container ul span {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container ul span {
+        font-size: 16px;
+    }
 }
 
 /*  doc  */
@@ -194,7 +280,7 @@ a {
     background-color: transparent;
 }
 
-@media screen and (min-width: 768px) {    
+@media screen and (min-width: 768px) {
     .head {
         width: 576px;
         transition: all 0.3s ease;
@@ -214,6 +300,7 @@ a {
 
     .container ul h4 {
         margin: 0;
+        max-width: 476px;
     }
 
     .container li {
@@ -238,6 +325,116 @@ a {
     }
 }
 
+@media screen and (min-width: 1024px) {
+    .head {
+        width: 824px;
+    }
+
+    .container {
+        width: 896px;
+        padding: 0 64px;
+        margin: 40px 0;
+    }
+
+    .container ul {
+        width: 824px;
+    }
+
+    .container ul h4 {
+        max-width: 724px;
+    }
+
+    .doc-nap {
+        width: 616px;
+    }
+
+    .doc {
+        width: 288px;
+        height: 561px;
+    }
+
+    .med {
+        width: 288px;
+        height: 436px;
+    }
+
+    .doc img,
+    .med img {
+        width: 240px;
+        height: 200px;
+        padding-top: 24px;
+        padding-left: 24px;
+    }
+
+    .doc p,
+    .med p {
+        padding-left: 24px;
+        max-width: 190px;
+    }
+
+    .doc h4,
+    .med h4 {
+        width: 241px;
+        max-height: 240px;
+        padding-left: 24px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .head {
+        width: 1106px;
+    }
+
+    .container {
+        width: 1170px;
+        padding: 0 64px;
+        margin: 40px 0;
+    }
+
+    .container ul {
+        width: 770px;
+    }
+
+    .container ul h4 {
+        max-width: 670px;
+    }
+
+    .doc-nap {
+        width: 770px;
+    }
+
+    .doc {
+        width: 370px;
+        height: 627px;
+    }
+
+    .med {
+        width: 370px;
+        height: 456px;
+    }
+
+    .doc img,
+    .med img {
+        width: 322px;
+        height: 269px;
+    }
+
+    .doc p,
+    .med p {
+        padding-left: 24px;
+        min-width: 100px;
+        max-width: 200px;
+    }
+
+    .doc h4,
+    .med h4 {
+        width: 322px;
+        max-height: 240px;
+        padding-left: 24px;
+    }
+
+}
+
 /* Кнопка */
 
 .btn {
@@ -260,4 +457,17 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+@media screen and (min-width: 1024px) {
+    .btn {
+        padding: 17px 53px;
+        margin-top: 91px;
+    }
+
+    .btn span {
+        font-family: Lato;
+        font-size: 20px;
+        line-height: 30px;
+    }
 }
