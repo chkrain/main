@@ -71,6 +71,7 @@ h4 {
 
 a {
     text-decoration: none;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
@@ -265,11 +266,13 @@ a {
 .container-1 .upMobGirl-img {
     position: absolute;
     opacity: 0;
+    z-index: -100;
 }
 
 .container-1 .dMobGirl-img {
     position: absolute;
     opacity: 0;
+    z-index: -100;
 }
 
 .container-1 h4 {
@@ -308,24 +311,26 @@ a {
     .container-1 {
         width: 592px;
         transition: 0.2s ease;
-        flex-direction: row;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
     }
 
     .container-1 .mobGirl-img {
         position: absolute;
         opacity: 0;
+        z-index: -100;
     }
 
     .container-1 .upMobGirl-img {
-        position: relative;
         opacity: 1;
         margin-top: 18px;
+        right: 0;
     }
 
     .container-1 .mCh1,
     .mCh3,
-    .mCh4,
-    .mCa {
+    .mCh4 {
         position: absolute;
         opacity: 0;
     }
@@ -336,24 +341,15 @@ a {
         z-index: none;
         padding: 0;
         margin: 0;
+        padding-bottom: 30px;
     }
 
     .container-1 ul li {
         margin-top: -10px;
-    }
-
-    .container-1 ul li h4,
-    h3,
-    h2 {
         max-width: 300px;
     }
 
-    .container-1 ul a {
-        width: 264px;
-        margin-top: 46px;
-    }
-
-    .container-1 ul a span {
+    .container-1 a span {
         font-size: 18px;
     }
 }
@@ -367,27 +363,35 @@ a {
     .container-1 .upMobGirl-img {
         position: absolute;
         opacity: 0;
+        z-index: -100;
     }
 
     .container-1 .dMobGirl-img {
-        position: relative;
         opacity: 1;
         margin-top: 18px;
+        right: 0;
     }
 
-    .container-1 ul li h4,
-    h3,
-    h2 {
-        max-width: 437px;
+    .container-1 ul {
+        padding-bottom: 200px;
     }
 
-    .container-1 ul a {
+    .container-1 ul li {
+        max-width: 440px;
+    }
+
+    .container-1 a {
         width: 355px;
-        margin-top: 203px;
     }
 
-    .container-1 ul a span {
+    .container-1 a span {
         font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container-1 {
+        width: 1149px;
     }
 }
 
@@ -502,6 +506,12 @@ a {
 
     .container-2 ul {
         flex-direction: row-reverse;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container-2 {
+        width: 1149px;
     }
 }
 
@@ -628,6 +638,7 @@ h4 {
 }
 
 .container-3 h4 {
+    padding-left: 16px;
     color: #FFF;
 }
 
@@ -862,13 +873,31 @@ h4 {
 }
 
 .container-5 li h3,
-h4 {
+.container-5 li h4 {
     padding-left: 16px;
 }
 
 @media screen and (min-width: 768px) {
     .container-5 ul li {
         width: 288px;
+        height: 273px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container-5 ul li {
+        width: 440px;
+        height: 430px;
+    }
+
+    .container-5 ul li h4 {
+        max-width: 336px;
+    }
+
+    .container-5 li h3,
+    .container-5 li h4 {
+        padding-left: 48px;
+        padding-top: 36px;
     }
 }
 
@@ -946,6 +975,7 @@ h4 {
         height: 222px;
         right: 0;
         margin: 0;
+        overflow: none;
     }
 
     .container-6 .blue {
@@ -958,6 +988,40 @@ h4 {
 
     .bluebox p {
         width: 180px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container-6 {
+        width: 896px;
+    }
+
+    .container-6 h4 {
+        max-width: 440px;
+    }
+
+    .container-6 .map {
+        width: 440px;
+        height: 320px;
+    }
+
+    .container-6 .map iframe {
+        width: 440px;
+        height: 320px;
+    }
+
+    .container-6 .blue {
+        width: 438px;
+    }
+
+    .container-6 .bluebox {
+        width: 212px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container-6 {
+        width: 1149px;
     }
 }
 
@@ -1062,4 +1126,3 @@ h4 {
     padding-top: 184px;
     padding-right: 20px;
 }
-
