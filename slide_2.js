@@ -1,7 +1,7 @@
 let currentSlide = 0;
-const slides = document.querySelectorAll('.slide');
-const prevButton = document.getElementById('prev-btn');
-const nextButton = document.getElementById('next-btn');
+const slides = document.querySelectorAll('.without-arr-li');
+const prevButton = document.getElementById('prevButton');
+const nextButton = document.getElementById('nextButton');
 
 function showSlide(n) {
     slides[currentSlide].style.display = 'none';

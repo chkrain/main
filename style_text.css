@@ -36,6 +36,10 @@ p {
     /* 187.5% */
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Хедер */
 
 .header {
